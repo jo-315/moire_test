@@ -61,33 +61,31 @@
 								);
 							?>
 
-							<!-- <nav id="site-navigation" class="main-navigation" role="navigation">
-								<?php
-									wp_nav_menu(
-										array(
-											'theme_location' => 'primary',
-											'menu_id' => 'primary-menu',
-										)
-									);
-								?>
-							</nav><!-- #site-navigation -->
-
 							<nav id='site-navigation' class='main-navigation' role='navigation'>
 								<div id='primary-menu' class='menu'>
 									<ul aria-expanded='false' class='nav-menu'>
 										<li class='page_item page-item-7'>
-											<a href="http://moiretest.local/">HOME</a>
+											<a href="/">HOME</a>
 										</li>
 										<li class='page_item page-item-7'>
-											<a href="http://moiretest.local/sample-page-2/">ABOUT</a>
+											<a href="/about/">ABOUT</a>
 										</li>
 										<li class='page_item page-item-8'>
-											<a href="http://moiretest.local/category/blog/">BLOG</a>
+											<a href="/category/blog/">BLOG</a>
 										</li>
+                      <li class='page_item page-item-8'>
+											<a href="/category/event/">EVENT</a>
+										</li>
+                    <li class='page_item page-item-8'>
+											<a href="/category/organization/">ORGANIZATION</a>
+										</li>
+                    <li class='page_item page-item-8'>
+											<a href="/corporation/">CORPORATION</a>
+										</li>
+
 									</ul>
 								</div>
 							</nav>
-
 
 							<div class="menu-toggle-button-wrap">
 								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
