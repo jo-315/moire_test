@@ -1532,7 +1532,7 @@ p.dropcap:first-letter {
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	/* margin: 0 0 1.5em; */
 }
 
 .byline,
@@ -1699,7 +1699,7 @@ p.dropcap:first-letter {
 .search-page .site-main > article {
 	border: 0px;
 	padding: 45px 0 45px 0;
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 	background: #fff;
 	float: left;
 	width: 100%;
@@ -3105,7 +3105,7 @@ div.sharedaddy h3.sd-title:before {
 @media screen and (min-width: 992px) {
 
 	body {
-		padding-top: 58px;
+		/* padding-top: 58px; */
 	}
 
 	/*-----------
@@ -3324,8 +3324,7 @@ div.sharedaddy h3.sd-title:before {
 
 	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		max-width: 740px;
-		margin: 0 auto;
+		max-width: 100%;
 	}
 
 	.content-area-with-sidebar {
@@ -3559,7 +3558,7 @@ div.sharedaddy h3.sd-title:before {
 
 	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		max-width: 840px;
+		max-width: 100%;
 	}
 
 }

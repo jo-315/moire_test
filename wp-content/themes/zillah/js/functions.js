@@ -122,9 +122,9 @@
 			_this.find( '.dropdown-toggle-inner' ).html( _this.html() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand );
 		});
     }
-    
+
     initMainNavigation( $( '.main-navigation' ) );
-    
+
     var masthead = $( '#masthead' ),
 	    menuToggle       = masthead.find( '#menu-toggle' ),
 	    siteHeaderMenu   = masthead.find( '#site-header-menu' ),
@@ -189,7 +189,7 @@
 			menuToggle.removeAttr( 'aria-controls' );
 		}
 	}
-    
+
     $( document ).ready( function() {
 		$( window ).on( 'load.parallax-one', onResizeARIA );
 
@@ -215,10 +215,10 @@
 		$sidebarButton.click(function() {
 			$( this ).parent().toggleClass( 'widget-area-mobile-open' );
 		} );
-        
+
 	} )();
 
-    
+
 } )( jQuery );
 
 
@@ -253,7 +253,7 @@
                 headerHeight = $( '.header-inner-top' ).height();
                 initTop = isAdminBar && window.innerWidth > 768 ? 32 : 0;
             }
-            $( 'body' ).css('padding-top', headerHeight);
+            // $( 'body' ).css('padding-top', headerHeight);
         },
 
         'handleWindowResize': function () {
