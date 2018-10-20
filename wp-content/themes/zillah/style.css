@@ -3590,3 +3590,39 @@ div.sharedaddy h3.sd-title:before {
 		clear: both;
 	}
 }
+
+/*  Original */
+/* pc向け */
+.original_content_wrap {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.original_content_inner_wrap {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/*  狭いブラウザとタブレット向け */
+@media (max-width: 1020px) and (min-width: 768px) {
+	.original_content_wrap {
+		width: 90%;
+	}
+
+	.original_content_inner_wrap {
+		width: 70%;
+	}
+}
+
+/* スマホ向け */
+@media (max-width: 767px) {
+	.original_content_wrap {
+		width: 100%;
+	}
+
+	.original_content_inner_wrap {
+		width: 100%;
+	}
+}
