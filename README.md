@@ -7,11 +7,7 @@ root/
 
 |
 
-├ wp-content - themes - zillah(基本いじるのはこの中)-
-
-                                            |
-                                            
-                                            ├ style.css(この中にclassを足していきましょう)
+├ wp-content - themes - zillah(基本いじるのはこの中)- style.css(この中にclassを足していきましょう)
 
 
 
