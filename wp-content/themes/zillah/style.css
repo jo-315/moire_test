@@ -3626,3 +3626,204 @@ div.sharedaddy h3.sd-title:before {
 		width: 100%;
 	}
 }
+
+/* --------- 固定ページ -------------- */
+
+/* ----- static page ----- */
+.static_center {
+  text-align: center;
+}
+
+.static_left {
+  float: left;
+}
+
+.static_right {
+  float:right;
+}
+
+a {
+  text-decoration: none;
+  color:#f969a0;
+}
+
+.Head_img {
+  width:100%;
+  height:300px;
+  background-color: #f6f6f6;
+}
+
+/* ---- main title ---- */
+
+.static_maintitle {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.static_maintitle_text {
+  color:#505151;
+  font-size: 30pt;
+  font-weight: 500;
+}
+
+.static_maintitle_01 {
+  font-size: 24pt;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* --- main content --- */
+
+.static_maincontent_wrap {
+  width: 100%;
+  height: auto;
+}
+
+.static_main_content{
+  height: 280px;
+}
+
+.static_main_content__01 {
+  /* 灰色 */
+}
+
+.static_main_content__02 {
+  /* 白色 */
+}
+
+.static_main_content__03 {
+  /* 灰色 */
+}
+
+.static_maintext {
+  width: 80%;
+  margin: auto;
+  font-size: 14pt;
+}
+
+.static_clearfix::after {
+  content:"";
+  clear: both;
+  display: block;
+}
+
+.static_mainicon {
+  height: 60px;
+  display: inline-block;
+  width: 15%
+}
+
+.static_main_text {
+  display: inline-block;
+  text-align: center;
+}
+
+.static_maintext_title{
+  padding-top:15px;
+  padding-bottom:15px;
+  font-size: 25pt;
+  margin:0;
+  font-weight: 550;
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+  .static_maintext {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .static_maintext {
+    width: 100%;
+  }
+}
+
+/* -- main content angle div要素間を埋める対角線  */
+.angle-wrapper {
+
+}
+
+.angle__01 {
+
+}
+
+.angle__02 {
+
+}
+
+/* --- sub content --- */
+.static_subcontents {
+  font-size: 14pt;
+}
+
+.pinkborder{
+  border-left: 7px solid #f969a0;
+  padding-right: 20px;
+}
+
+.static_sub_title{
+  margin-top: 90px;
+  padding-bottom: 50px;
+}
+
+.static_subtitle__01{
+  margin-bottom: 20px;
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.static_sub_contetnt_activity{
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  background-color: #fff;
+  border-bottom: 11px solid #7fcaad;
+  border-right: 11px solid #7fcaad;
+  padding: 35px 50px 25px 60px;
+}
+
+.static_activity_text__title {
+  margin-bottom: 30px;
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.static-activity_text__content {
+  margin-bottom: 13px;
+  line-height: 2.3;
+  text-align: left;
+}
+
+.static_btn {
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  margin: 0 auto;
+  color: #505151;
+  border-bottom: 3px solid #f969a0;
+  border-right: 3px solid #f969a0;
+}
+
+.static_Btn:hover {
+  opacity: 0.5;
+  color: white;
+  background-color: #f969a0;
+}
+
+.static_Btn span:hover {
+  color: #fff;
+}
+
+.static_Btn span {
+  padding: 14px 59px;
+}
+
+.static_conclude {
+  width: 500px;
+  margin: 0 auto;
+  border-bottom: 2px solid #f969a0;
+}
+
+.static_conclude p{
+  color: #505151;
+}
