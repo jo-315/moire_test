@@ -2229,7 +2229,7 @@ object {
 
 .header-inner-site-branding {
 	width: 100%;
-	padding: 94px 0;
+	padding: 0;
 	text-align: center;
 	background: #f6f6f6;
 	background-size: cover;
@@ -2896,7 +2896,7 @@ div.sharedaddy h3.sd-title:before {
 	}
 
 	.header-inner-site-branding.header-logo-wrap-single {
-		padding: 94px 0;
+		padding: 50px 0 20px;
 	}
 
 	.header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
