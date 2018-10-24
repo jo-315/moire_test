@@ -17,10 +17,11 @@ root/
 # 環境開発
 1. local by flywheel をインストール
 
-ローカル環境でwordpressを動かせる便利なやつ
-https://local.getflywheel.com/
-
-生成されたファイルはLocal Sites内に配置される
+　　ローカル環境でwordpressを動かせる便利なやつ
+  
+　　https://local.getflywheel.com/
+  
+　　生成されたファイルはLocal Sites内に配置される
 
 
 2.　`Local Sites/自分で決めたディレクトリ名/app/public`　　以下のファイルを削除する
