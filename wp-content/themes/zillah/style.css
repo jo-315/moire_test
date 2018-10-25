@@ -3642,11 +3642,6 @@ div.sharedaddy h3.sd-title:before {
   float:right;
 }
 
-a {
-  text-decoration: none;
-  color:#f969a0;
-}
-
 .Head_img {
   width:100%;
   height:300px;
@@ -3665,12 +3660,6 @@ a {
   font-weight: 500;
 }
 
-.static_maintitle_01 {
-  font-size: 24pt;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
 /* --- main content --- */
 
 .static_maincontent_wrap {
@@ -3682,56 +3671,20 @@ a {
   box-shadow: 2px 2px 4px;
 }
 
-
-.static_maintext_wrap {
-  width: 100%;
-  margin: auto;
-  font-size: 14pt;
-}
-
 .static_clearfix::after {
   content:"";
   clear: both;
   display: block;
 }
 
-.static_mainicon {
-  height: 60px;
-  display: inline-block;
-  width: 100px;
-  margin-left: 20%;
-}
-
-.static_main_text {
-  display: inline-block;
-  text-align: center;
-  width: 60%;
-  float: left;
-}
-
-.static_maintext_title{
-  padding-top:15px;
-  padding-bottom:15px;
-  font-size: 25pt;
-  margin:0;
-  font-weight: 550;
-}
-
-.static_maintext_sub_text {
-  width: 80%;
-  margin: 10px auto 0px;
-  text-align: left;
-  font-size: 14pt;
-}
-
 @media (max-width: 1020px) and (min-width: 768px) {
-  .static_maintext .static_maincontent_wrap {
+ .static_maincontent_wrap {
     width: 80%;
   }
 }
 
 @media (max-width: 767px) {
-  .static_maintext .static_maincontent_wrap {
+ .static_maincontent_wrap {
     width: 100%;
   }
 }
@@ -3802,14 +3755,4 @@ a {
 
 .static_Btn span {
   padding: 14px 59px;
-}
-
-.static_conclude {
-  width: 500px;
-  margin: 0 auto;
-  border-bottom: 2px solid #f969a0;
-}
-
-.static_conclude p{
-  color: #505151;
 }
