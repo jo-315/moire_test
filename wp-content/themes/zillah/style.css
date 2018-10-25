@@ -1698,7 +1698,7 @@ p.dropcap:first-letter {
 .site-main > article.article,
 .search-page .site-main > article {
 	border: 0px;
-	padding: 45px 0 45px 0;
+	padding: 45px 0 0px 0;
 	/* margin-bottom: 60px; */
 	background: #fff;
 	float: left;
@@ -3649,13 +3649,7 @@ div.sharedaddy h3.sd-title:before {
 }
 
 /* ---- main title ---- */
-
-.static_maintitle {
-  padding-top: 40px;
-}
-
 .static_maintitle_text {
-  color:#505151;
   font-size: 30pt;
   font-weight: 500;
 }
@@ -3666,9 +3660,18 @@ div.sharedaddy h3.sd-title:before {
   margin: 0 auto 30px;
   width: 80%;
   background: #f6f6f6;
-  height: 200px;
   border: solid;
   box-shadow: 2px 2px 4px;
+	font-size: 18pt;
+	font-weight: bold;
+	padding: 20px 20px;
+	text-align: left;
+}
+
+.static_maincontent_text {
+	margin: 0;
+	font-size: 18pt;
+	font-weight: bold;
 }
 
 .static_clearfix::after {
@@ -3693,21 +3696,14 @@ div.sharedaddy h3.sd-title:before {
 /* --- sub content --- */
 .static_subcontents {
   font-size: 14pt;
-}
-
-.pinkborder{
-  border-left: 7px solid #f969a0;
-  padding-right: 20px;
-}
-
-.static_sub_title{
-  margin-top: 90px;
-  padding-bottom: 50px;
+	width: 120%;
+	margin-left: -10%;
+  padding: 10px 0;
 }
 
 .static_subtitle__01{
   margin-bottom: 20px;
-  font-size: 21pt;
+  font-size: 25pt;
   font-weight: bold;
 }
 
@@ -3715,7 +3711,7 @@ div.sharedaddy h3.sd-title:before {
   width: 55%;
   margin: 0 auto;
   margin-bottom: 60px;
-  background-color: #fff;
+  background-color: #f6f6f6;
   border-bottom: 11px solid #7fcaad;
   border-right: 11px solid #7fcaad;
   padding: 35px 50px 25px 60px;
@@ -3739,20 +3735,35 @@ div.sharedaddy h3.sd-title:before {
   padding-top: 10px;
   margin: 0 auto;
   color: #505151;
-  border-bottom: 3px solid #f969a0;
-  border-right: 3px solid #f969a0;
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
+	font-size: 14pt;
 }
 
-.static_Btn:hover {
+.static_btn:hover {
   opacity: 0.5;
   color: white;
-  background-color: #f969a0;
+  background-color: red;
 }
 
-.static_Btn span:hover {
+.static_btn span:hover {
   color: #fff;
 }
 
 .static_Btn span {
   padding: 14px 59px;
+}
+
+@media (max-width: 1020px) and (min-width: 768px) {
+ .static_sub_contetnt_activity {
+	 width: 75%;
+	 padding: 35px 30px 60px;
+  }
+}
+
+@media (max-width: 767px) {
+ .static_sub_contetnt_activity {
+    width: 88%;
+		padding: 35px 30px 60px;
+  }
 }
