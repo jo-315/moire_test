@@ -3657,7 +3657,6 @@ a {
 
 .static_maintitle {
   padding-top: 40px;
-  padding-bottom: 80px;
 }
 
 .static_maintitle_text {
@@ -3675,28 +3674,17 @@ a {
 /* --- main content --- */
 
 .static_maincontent_wrap {
-  width: 100%;
-  height: auto;
-}
-
-.static_main_content{
-  height: 280px;
-}
-
-.static_main_content__01 {
-  /* 灰色 */
-}
-
-.static_main_content__02 {
-  /* 白色 */
-}
-
-.static_main_content__03 {
-  /* 灰色 */
-}
-
-.static_maintext {
+  margin: 0 auto 30px;
   width: 80%;
+  background: #f6f6f6;
+  height: 200px;
+  border: solid;
+  box-shadow: 2px 2px 4px;
+}
+
+
+.static_maintext_wrap {
+  width: 100%;
   margin: auto;
   font-size: 14pt;
 }
@@ -3710,12 +3698,15 @@ a {
 .static_mainicon {
   height: 60px;
   display: inline-block;
-  width: 15%
+  width: 100px;
+  margin-left: 20%;
 }
 
 .static_main_text {
   display: inline-block;
   text-align: center;
+  width: 60%;
+  float: left;
 }
 
 .static_maintext_title{
@@ -3726,30 +3717,25 @@ a {
   font-weight: 550;
 }
 
+.static_maintext_sub_text {
+  width: 80%;
+  margin: 10px auto 0px;
+  text-align: left;
+  font-size: 14pt;
+}
+
 @media (max-width: 1020px) and (min-width: 768px) {
-  .static_maintext {
+  .static_maintext .static_maincontent_wrap {
     width: 80%;
   }
 }
 
 @media (max-width: 767px) {
-  .static_maintext {
+  .static_maintext .static_maincontent_wrap {
     width: 100%;
   }
 }
 
-/* -- main content angle div要素間を埋める対角線  */
-.angle-wrapper {
-
-}
-
-.angle__01 {
-
-}
-
-.angle__02 {
-
-}
 
 /* --- sub content --- */
 .static_subcontents {
@@ -3795,7 +3781,7 @@ a {
 }
 
 .static_btn {
-  width: 200px;
+  width: 300px;
   height: 50px;
   padding-top: 10px;
   margin: 0 auto;
