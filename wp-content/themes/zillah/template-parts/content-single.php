@@ -21,13 +21,13 @@
 		</div>
 	</header><!-- .entry-header -->
 
-	<?php
+	<!-- <?php
 	if ( has_post_thumbnail() ) {
 		echo '<div class="post-thumbnail-wrap">';
 		the_post_thumbnail();
 		echo '</div>';
 	}
-	?>
+	?> -->
 
 	<?php zillah_hook_entry_before(); ?>
 	<div class="entry-content">
