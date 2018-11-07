@@ -3783,3 +3783,12 @@ div.sharedaddy h3.sd-title:before {
 		padding: 35px 30px 60px;
   }
 }
+
+/* plugin パンくず */
+.breadcrumbs {
+	width: 100%;
+	padding: 1px 0px 1px 30px;
+  width: 100%;
+  background: #373735;
+  font-size: 12pt;
+}
