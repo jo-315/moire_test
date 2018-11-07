@@ -15,7 +15,7 @@ $zillah_alternative_layout = get_theme_mod( 'zillah_alt_layout', false );
 
 	<div class="content-wrap">
 
-		<div id="primary" class="content-area">
+		<div id="primary" class="content-area content-area-with-sidebar">
 			<main id="main" class="site-main" role="main">
 
 			<?php
@@ -44,6 +44,10 @@ $zillah_alternative_layout = get_theme_mod( 'zillah_alt_layout', false );
 
 			</main><!-- #main -->
 		</div><!-- #primary -->
+
+		<?php get_sidebar(); ?>
+    <!-- 投稿にもサイドページをつける -->
+
 
 	</div><!-- .content-wrap -->
 
