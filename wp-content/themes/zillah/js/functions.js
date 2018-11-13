@@ -253,7 +253,7 @@
                 headerHeight = $( '.header-inner-top' ).height();
                 initTop = isAdminBar && window.innerWidth > 768 ? 32 : 0;
             }
-            // $( 'body' ).css('padding-top', headerHeight);
+            $( 'body' ).css('padding-top', headerHeight);
         },
 
         'handleWindowResize': function () {
