@@ -1698,7 +1698,7 @@ p.dropcap:first-letter {
 .site-main > article.article,
 .search-page .site-main > article {
 	border: 0px;
-	padding: 45px 0 0px 0;
+	padding: 45px 0 45px 0;
 	/* margin-bottom: 60px; */
 	background: #fff;
 	float: left;
@@ -2238,7 +2238,7 @@ object {
 
 .header-inner-site-branding.header-logo-wrap-single {
 	padding: 50px 0;
-	height: 130px;
+        height: 130px;
 }
 
 .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
@@ -3280,19 +3280,20 @@ div.sharedaddy h3.sd-title:before {
 	/*-----------
      * Header
      -----------*/
-	 .header-inner-site-branding.header-logo-wrap-single {
-		 padding: 50px 0 20px;
-		 height: 160px;
-	 }
 
-	 .header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
-		 max-height: 145px;
-	 }
 
-	 .header-inner-site-branding.header-logo-wrap-single .site-description {
-		 font-size: 0.9375em;
-	 }
+.header-inner-site-branding.header-logo-wrap-single {
+		padding: 50px 0 20px;
+                height: 160px;
+	}
 
+	.header-inner-site-branding.header-logo-wrap-single .header-logo-wrap img {
+		max-height: 145px;
+	}
+
+	.header-inner-site-branding.header-logo-wrap-single .site-description {
+		font-size: 0.9375em;
+	}
 
 	/*-----------
      * Footer
@@ -3335,7 +3336,9 @@ div.sharedaddy h3.sd-title:before {
 
 	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		max-width: 100%;
+		/* max-width: 740px;
+		margin: 0 auto; */
+                max-width: 100%;
 	}
 
 	.content-area-with-sidebar {
@@ -3547,6 +3550,7 @@ div.sharedaddy h3.sd-title:before {
 		height: 185px;
 	}
 
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -3574,7 +3578,8 @@ div.sharedaddy h3.sd-title:before {
 
 	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		max-width: 100%;
+		/* max-width: 840px; */
+                max-width: 100%;
 	}
 
 }
@@ -3607,8 +3612,21 @@ div.sharedaddy h3.sd-title:before {
 	}
 }
 
+/*yTable of Contents Plus’†‰›•\Ž¦z*/
+
+#toc_container {
+margin-left: auto;
+margin-right: auto;
+}
+
+/* WordPress Related Posts */
+.wp_rp_content {
+margin-top: 40px;
+}
+
+
 /*  Original */
-/* pcå‘ã‘ */
+/* pcŒü‚¯ */
 .original_content_wrap {
 	width: 80%;
 	text-align: center;
@@ -3621,7 +3639,7 @@ div.sharedaddy h3.sd-title:before {
 	text-align: left;
 }
 
-/*  ç‹­ã„ãƒ–ãƒ©ã‚¦ã‚¶ã¨ã‚¿ãƒ–ãƒ¬ãƒƒãƒˆå‘ã‘ */
+/*  ‹·‚¢ƒuƒ‰ƒEƒU‚Æƒ^ƒuƒŒƒbƒgŒü‚¯ */
 @media (max-width: 1020px) and (min-width: 768px) {
 	.original_content_wrap {
 		width: 90%;
@@ -3632,7 +3650,7 @@ div.sharedaddy h3.sd-title:before {
 	}
 }
 
-/* ã‚¹ãƒžãƒ›å‘ã‘ */
+/* ƒXƒ}ƒzŒü‚¯ */
 @media (max-width: 767px) {
 	.original_content_wrap {
 		width: 100%;
@@ -3643,7 +3661,7 @@ div.sharedaddy h3.sd-title:before {
 	}
 }
 
-/* --------- å›ºå®šãƒšãƒ¼ã‚¸ -------------- */
+/* --------- ŒÅ’èƒy[ƒW(HOME) -------------- */
 
 /* ----- static page ----- */
 .static_center {
@@ -3730,8 +3748,33 @@ div.sharedaddy h3.sd-title:before {
   background-color: #f6f6f6;
   border-bottom: 11px solid #7fcaad;
   border-right: 11px solid #7fcaad;
+}
+
+.static_sub_contetnt_wrap_1{
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-bottom: 11px solid #7fcaad;
+  border-right: 11px solid #7fcaad;
+  background-image: url(http://moire.xsrv.jp/wp-content/uploads/2018/11/S__191602697.jpg);
+  background-size: cover;
+}
+
+.static_sub_contetnt_wrap_2{
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  border-bottom: 11px solid #7fcaad;
+  border-right: 11px solid #7fcaad;
+  background-image: url(http://moire.xsrv.jp/wp-content/uploads/2018/10/IMG_5306.jpg);
+  background-size: cover;
+}
+
+.static_sub_contetnt_innner{
+  background-color: rgba(255,255,255,0.5);
   padding: 35px 50px 25px 60px;
 }
+
 
 .static_activity_text__title {
   margin-bottom: 30px;
@@ -3753,7 +3796,8 @@ div.sharedaddy h3.sd-title:before {
   color: #505151;
   border-bottom: 3px solid red;
   border-right: 3px solid red;
-	font-size: 14pt;
+  font-size: 14pt;
+  padding: 10px;
 }
 
 .static_btn:hover {
@@ -3775,6 +3819,15 @@ div.sharedaddy h3.sd-title:before {
 	 width: 75%;
 	 padding: 35px 30px 60px;
   }
+
+.static_sub_contetnt_wrap_1, .static_sub_contetnt_wrap_2 {
+width: 75%;
+}
+
+.static_sub_contetnt_innner{
+  background-color: rgba(255,255,255,0.5);
+  padding:  35px 30px 60px;
+}
 }
 
 @media (max-width: 767px) {
@@ -3782,12 +3835,60 @@ div.sharedaddy h3.sd-title:before {
     width: 88%;
 		padding: 35px 30px 60px;
   }
+.static_sub_contetnt_wrap_1, .static_sub_contetnt_wrap_2 {
+width: 88%;
+}
+.static_sub_contetnt_innner{
+  background-color: rgba(255,255,255,0.5);
+  padding: 35px 30px 60px;
+}
 }
 
-/* plugin ãƒ‘ãƒ³ããš */
+
+/* --------- ŒÅ’èƒy[ƒW(HOME) -------------- */
+.profile_photo_wrap{
+float: left;
+height: 600px;
+}
+
+.profile_photo{
+margin-right: 40px;
+}
+
+.profile_content_wrap{
+ width: 95%;
+}
+
+
+@media (max-width: 1020px) and (min-width: 768px) {
+.profile_photo_wrap{
+height: auto;
+}
+}
+
+
+@media (max-width: 767px) {
+.profile_photo_wrap{
+    width: 100%;
+    text-align: center;
+height: auto;
+}
+
+.profile_photo{
+margin-right: 0px;
+}
+
+.profile_content_wrap{
+ width: 100%;
+}
+
+}
+
+/* “Šeƒy[ƒW*/
+
+/* plugin ƒpƒ“‚­‚¸ */
 .breadcrumbs {
-	width: 100%;
-	padding: 1px 0px 1px 30px;
+  padding: 1px 0px 1px 30px;
   width: 100%;
   background: #373735;
   font-size: 12pt;
