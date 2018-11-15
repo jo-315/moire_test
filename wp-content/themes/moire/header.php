@@ -1,32 +1,28 @@
 <?php
-/**
- * The header for our theme.
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package zillah
- */
-
+// ヘッダー
 ?><!DOCTYPE html>
-<?php zillah_hook_html_before(); ?>
 <html <?php language_attributes(); ?>>
 <head>
-	<?php zillah_hook_head_top(); ?>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
-	<?php zillah_hook_head_bottom(); ?>
+  <!-- 共通設定 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
+  <!-- 個別投稿 -->
+	<?php if(is_single()) :
+    // stylesheet読み込み
+    ?>
+  <!-- 固定ページ -->
+  <?php elseif(is_page()) :
+    // stylesheet読み込み
+    ?>
+  <!-- カテゴリ一覧 -->
+  <?php elseif(is_category()) :
+    // stylesheet読み込み
+    ?>
+	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<?php zillah_hook_body_top(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'zillah' ); ?></a>
-	<?php zillah_hook_header_before(); ?>
 	<header id="masthead" class="site-header" role="banner">
 
 		<div class="header-inner-top">
@@ -82,7 +78,6 @@
                     <li class='page_item page-item-8'>
 											<a href="/corporation/">CORPORATION</a>
 										</li>
-
 									</ul>
 								</div>
 							</nav>
@@ -101,16 +96,9 @@
 			</div>
 		</div>
 
-		<div class="header-inner-site-branding<?php echo ! is_home() || ! is_front_page() ? ' header-logo-wrap-single' : ''; ?>">
-			<div class="container container-header-logo">
-				<?php zillah_hook_header_top(); ?>
-				<div class="site-branding-wrap">
-					<div class="site-branding">
-						<?php zillah_brand(); ?>
-					</div><!-- .site-branding -->
-				</div>
-				<?php zillah_hook_header_bottom(); ?>
-			</div><!-- .container-header-logo -->
+    <!-- header画像 -->
+		<div class="header-inner-site-branding header-logo-wrap-single">
+      <!-- header画像挿入のfunction -->
 		</div>
 
 		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
@@ -122,11 +110,5 @@
 
 
 	</header><!-- #masthead -->
-	<?php zillah_hook_header_after(); ?>
-
-	<?php zillah_slider(); ?>
-
-	<?php zillah_hook_content_before(); ?>
 	<div id="content" class="site-content">
 		<div class="container">
-			<?php zillah_hook_content_top(); ?>
