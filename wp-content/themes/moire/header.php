@@ -21,78 +21,46 @@
 	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<header id="masthead" class="site-header" role="banner">
 
+<body>
+  <?php //TODO toggle ?>
+	<header role="banner">
 		<div class="header-inner-top">
-			<div class="container container-header">
-				<div class="header-inner">
+			<div class="header-main-navigation-wrap">
+  			<nav class="header-main-navigation">
+					<ul class='header-main-navigation-items-wrap'>
+						<li class='header-main-navigation-item nav_default_underline'>
+							<a href="/">HOME</a>
+						</li>
+						<li class='header-main-navigation-item'>
+							<a href="/about/">ABOUT</a>
+						</li>
+						<li class='header-main-navigation-item'>
+							<a href="/category/blog/">BLOG</a>
+						</li>
+              <li class='header-main-navigation-item'>
+							<a href="/category/event/">イベント一覧</a>
+						</li>
+            <li class='header-main-navigation-item'>
+							<a href="/category/organization/">団体一覧</a>
+						</li>
+            <li class='header-main-navigation-item'>
+							<a href="/corporation/">団体様へ</a>
+						</li>
+            <li class='header-main-navigation-item'>
+							<a href="/about/recruit/">リクルート</a>
+						</li>
+            <span id='header-nav-underline'></span>
+					</ul>
+  			</nav>
+      </div>
 
-					<div class="main-navigation-wrap">
+			<div class="header-menu-toggle-button-wrap">
+				<button class="header-menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
+			</div>
 
-						<div class="main-navigation-wrap-inner
-						<?php
-						echo wp_nav_menu(
-							array(
-								'theme_location' => 'social',
-								'fallback_cb'    => false,
-								'echo'           => false,
-							)
-						) !== false ? '' : ' no-social-menu';
-						?>
-						">
-
-							<?php
-								wp_nav_menu(
-									array(
-										'theme_location'  => 'social',
-										'menu_id'         => 'social-icons-menu',
-										'menu_class'      => 'social-navigation',
-										'link_before'     => '<span class="screen-reader-text">',
-										'link_after'      => '</span>',
-										'container_class' => 'header-social-icons',
-										'fallback_cb'     => false,
-									)
-								);
-							?>
-
-							<nav id='site-navigation' class='main-navigation' role='navigation'>
-								<div id='primary-menu' class='menu'>
-									<ul aria-expanded='false' class='nav-menu'>
-										<li class='page_item page-item-7'>
-											<a href="/">HOME</a>
-										</li>
-										<li class='page_item page-item-7'>
-											<a href="/about/">ABOUT</a>
-										</li>
-										<li class='page_item page-item-8'>
-											<a href="/category/blog/">BLOG</a>
-										</li>
-                      <li class='page_item page-item-8'>
-											<a href="/category/event/">EVENT</a>
-										</li>
-                    <li class='page_item page-item-8'>
-											<a href="/category/organization/">ORGANIZATION</a>
-										</li>
-                    <li class='page_item page-item-8'>
-											<a href="/corporation/">CORPORATION</a>
-										</li>
-									</ul>
-								</div>
-							</nav>
-
-							<div class="menu-toggle-button-wrap">
-								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
-							</div>
-
-							<div class="header-search">
-								<?php get_search_form(); ?>
-							</div>
-
-						</div>
-					</div>
-				</div><!-- .container-header -->
+			<div class="header-search">
+				<?php get_search_form(); ?>
 			</div>
 		</div>
 
@@ -101,6 +69,7 @@
       <!-- header画像挿入のfunction -->
 		</div>
 
+    <!-- パンくず -->
 		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
 			<?php if(function_exists('bcn_display'))
 			{
@@ -109,6 +78,6 @@
 		</div>
 
 
-	</header><!-- #masthead -->
+	</header>
 	<div id="content" class="site-content">
 		<div class="container">

@@ -1,15 +1,60 @@
 <?php
 
+/**
+ * Common ----------------------------------------------------------------------
+ */
+
+/**
+ * Register widget area.
+ */
+function moire_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'サイドバー' ),
+			'id'            => 'moire-sidebar-1',
+			'description'   => esc_html__( 'ここにウィジェットを追加します。' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebars(
+		3, array(
+			/* translators: d: Sidebar number */
+			'name'          => esc_html__( 'フッターウィジェットエリア%d' ),
+			'id'            => 'moire-footer-widget-area',
+			'class'         => 'col-sm-4',
+			'description'   => esc_html__( 'ここにウィジェットを追加します。' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+}
+
+add_action( 'widgets_init', 'moire_widgets_init' );
+
+
 /*
-### Header ###
+### Header ### -----------------------------------------------------------------
 */
 function moire_scripts() {
 	// style.cssの読み込み
 	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
 	// header.cssの読み込み
-	// wp_enqueue_style( 'moire-style', get_stylesheet_uri());
+	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
 	// footer.cssの読み込み
 	// wp_enqueue_style( 'moire-style', get_stylesheet_uri());
+	// FontAwesomeの読み込み
+	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
+
+	// jqueryの読み込み
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery-moire',get_template_directory_uri() . '/js/functions.js', array('jquery'));
+
 }
 
 function add_header_image() {
@@ -38,7 +83,7 @@ add_action( 'wp_enqueue_scripts', 'moire_scripts' );
 
 
 /*
-### Archeive ###
+### Archeive ### ---------------------------------------------------------------
 */
 
 // 投稿一覧で投稿日時を表示

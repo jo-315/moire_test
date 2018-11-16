@@ -665,14 +665,6 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 
-.main-navigation {
-	position: absolute;
-	z-index: 999;
-	top: 100%;
-	left: 0;
-	right: 0;
-	background: #7FCAAD;
-}
 
 .main-navigation ul {
 	display: none;
@@ -957,9 +949,6 @@ a:active {
 	display: none;
 }
 
-.zillah-only-customizer {
-	display: none !important;
-}
 
 .author-details-wrap {
 	margin-top: -59px;
@@ -2211,9 +2200,6 @@ object {
 	vertical-align: middle;
 }
 
-.header-inner-top {
-	background: #373735;
-}
 
 .header-inner {
 	display: table;
@@ -3062,14 +3048,6 @@ div.sharedaddy h3.sd-title:before {
 	/*-----------
      * Header
      -----------*/
-	.header-inner-top {
-		position: fixed;
-		width: 100%;
-		z-index: 9999;
-		top: 0;
-		-webkit-transition: all 0.3s;
-		transition: all 0.3s;
-	}
 
 	.admin-bar .header-inner-top {
 		top: 32px;
@@ -3104,13 +3082,6 @@ div.sharedaddy h3.sd-title:before {
 	/*-----------
      * Menus
      -----------*/
-	.main-navigation {
-		position: relative;
-		top: 0;
-		background: none;
-		display: table-cell;
-		vertical-align: middle;
-	}
 
 	.main-navigation ul {
 		max-height: initial;
@@ -3163,9 +3134,6 @@ div.sharedaddy h3.sd-title:before {
 		margin-top: 1px;
 	}
 
-	.menu-toggle {
-		display: none;
-	}
 
 	.main-navigation ul {
 		display: block;
@@ -3855,7 +3823,7 @@ margin-right: 0px;
 body {
 	color: #6f6e6b;
   background: #f6f6f6;
-	font-family: 'Merriweather', Georgia, serif;
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 	font-size: 16px;
 	line-height: 1.75;
 	text-align: left;

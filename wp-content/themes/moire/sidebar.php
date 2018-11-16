@@ -1,26 +1,15 @@
 <?php
 /**
- * The sidebar containing the main widget area.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package zillah
+ * Sidebar
  */
-
-$zillah_sidebar_show = get_theme_mod( 'zillah_sidebar_show', false );
-
-if ( ! is_active_sidebar( 'zillah-sidebar-1' ) ) {
-	return;
-}
 ?>
 
-<aside id="secondary" class="widget-area<?php echo $zillah_sidebar_show === false && is_customize_preview() ? ' zillah-only-customizer' : ''; ?><?php echo $zillah_sidebar_show ? ' widget-area-mobile' : ''; ?>" role="complementary">
-	<?php
-	if ( $zillah_sidebar_show ) {
-		echo '<span class="sidebar-mobile-title"><span>' . esc_html__( 'Sidebar', 'zillah' ) . '</span></span>';
-	}
-	?>
+<aside id="secondary" class="widget-area" role="complementary">
+	<span class="sidebar-mobile-title">
+		<?php esc_html__( 'サイドバー' ) . ''; ?>
+	</span>
 	<div class="sidebar-inner-wrap">
-		<?php dynamic_sidebar( 'zillah-sidebar-1' ); ?>
+		<?php
+		dynamic_sidebar('moire-sidebar-1'); ?>
 	</div>
 </aside><!-- #secondary -->
