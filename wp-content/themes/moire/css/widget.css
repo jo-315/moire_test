@@ -10,29 +10,31 @@ Sidebar
   line-height: 21px;
 }
 
-@media screen and (min-width: 792px) {
+.widget-area {
+  width: 100%;
+  max-width: 100%;
+}
+
+.widget-area .sidebar-inner-wrap .widget {
+  margin: auto;
+  width: 300px;
+  padding: 0;
+}
+
+@media screen and (min-width: 400px) {
   .widget-area .sidebar-inner-wrap .widget {
-  	padding: 0 5px 0 0;
-  	margin: 0px;
-  	margin-bottom: 5px;
+  	width: 80%;
+  }
+}
+
+@media screen and (min-width: 792px) {
+  .widget-area {
   	width: 300px;
   }
 
   .widget-area {
     display: block;
     float: right;
-  }
-
-  .sidebar-mobile-title {
-    display: none;
-  }
-
-  .widget-area.widget-area-mobile {
-    width: auto;
-  }
-
-  .widget-area.widget-area-mobile .widget {
-    padding: 30px 0 30px 30px;
   }
 
   .sidebar-inner-wrap {
@@ -46,5 +48,26 @@ Sidebar
   	margin: 0px;
   	margin-bottom: 5px;
   	width: 300px;
+  }
+}
+
+/*
+### 団体紹介
+ */
+.sidebar-log-wrap {
+  text-align: center;
+}
+
+.sidebar-log-wrap p {
+  margin: 0;
+}
+
+.sidebar-logo-text {
+  text-align: center;
+}
+
+@media screen and (min-width: 792px) {
+  .sidebar-logo-text {
+    text-align: left;
   }
 }

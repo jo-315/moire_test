@@ -1091,13 +1091,6 @@ a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-.widget-area {
-	display: none;
-}
-
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
 .widget {
 	margin: 0 0 1.5em;
 }
@@ -1110,8 +1103,7 @@ a:active {
 	max-width: 100%;
 }
 
-.widget-area,
-.widget-area..sidebar-mobile-title {
+.widget-area{
 	max-width: 300px;
 	letter-spacing: 0.25px;
 }
@@ -1305,48 +1297,6 @@ a:active {
 
 .widget-area.widget-area-mobile .widget {
 	padding: 30px 0 30px;
-}
-
-.sidebar-mobile-title {
-	width: 100%;
-	background: #fff;
-	display: block;
-	padding: 15px 45px;
-}
-
-.sidebar-mobile-title > span {
-	line-height: 20px;
-	display: inline-block;
-}
-
-.sidebar-mobile-title:before {
-	content: "\f107";
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	text-decoration: inherit;
-	width: 25px;
-	height: 25px;
-	display: inline-block;
-	vertical-align: middle;
-	color: #aaaaaa;
-	font-size: 18px;
-	font-size: 1.125em;
-	text-align: left;
-	line-height: 24px;
-}
-
-.widget-area-mobile-open .sidebar-mobile-title:before {
-	content: "\f106";
-}
-
-.sidebar-inner-wrap {
-	height: 1px;
-	overflow: hidden;
-}
-
-.widget-area-mobile-open .sidebar-inner-wrap {
-	height: auto;
 }
 
 .widget-area.widget-area-mobile .widget {
