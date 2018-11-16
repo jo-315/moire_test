@@ -60,6 +60,8 @@ function moire_scripts() {
 	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
 	// plugin-style.cssの読み込み
 	wp_enqueue_style( 'moire-plugin-style', get_template_directory_uri() . '/css/plugin-style.css');
+	// widget.cssの読み込み
+	wp_enqueue_style( 'moire-widget-style', get_template_directory_uri() . '/css/widget.css');
 	// header.cssの読み込み
 	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
 	// footer.cssの読み込み
