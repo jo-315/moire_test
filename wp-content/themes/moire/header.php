@@ -62,8 +62,7 @@
 		</div>
 
     <!-- header画像 -->
-		<div class="header-inner-site-branding header-logo-wrap-single">
-      <!-- header画像挿入のfunction -->
+		<div class="header-img">
 		</div>
 
     <!-- パンくず -->

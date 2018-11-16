@@ -4,6 +4,19 @@
  * Common ----------------------------------------------------------------------
  */
 
+function moire_setup() {
+	add_theme_support(
+		'custom-header', apply_filters(
+			'moire_custom_header_args', array(
+				'default-image' => '',
+				'width'         => 1020,
+				'height'        => 250,
+				'flex-height'   => true,
+				'flex-width'    => true,
+			)
+		)
+	);
+}
 /**
  * Register widget area.
  */
@@ -35,6 +48,7 @@ function moire_widgets_init() {
 	);
 }
 
+add_action( 'after_setup_theme', 'moire_setup' );
 add_action( 'widgets_init', 'moire_widgets_init' );
 
 
@@ -58,12 +72,12 @@ function moire_scripts() {
 }
 
 function add_header_image() {
-	// $header_image = get_header_image();
-	// $custom_header_css .= '
-	//   .header-inner-site-branding {
-	//       background-image: url(' . esc_url( $header_image ) . ');
-	//   }';
-	// wp_add_inline_style( 'moire-style', $custom_header_css );
+	$header_image = get_header_image();
+	$custom_header_css = '
+	  .header-img {
+	    background-image: url(' . esc_url( $header_image ) .');
+	  }';
+	wp_add_inline_style( 'moire-header-style', $custom_header_css );
 }
 
 // headerの不要タグを削除
@@ -79,7 +93,7 @@ remove_action('wp_head', 'feed_links_extra', 3);
 // スタイルの追加
 add_action( 'wp_enqueue_scripts', 'moire_scripts' );
 // header画像の追加
-// add_action( '', 'add_header_image' );
+add_action( 'wp_enqueue_scripts', 'add_header_image' );
 
 
 /*
