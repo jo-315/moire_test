@@ -1,6 +1,6 @@
 @charset "utf-8";
 /*
-Theme Name:     moire
+Theme Name: moire
 Author: Kenjo Shunsuke
 */
 
@@ -295,7 +295,7 @@ input,
 select,
 textarea {
 	color: #6f6e6b;
-	font-family: 'Merriweather', Georgia, serif;
+	font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
 	font-size: 16px;
 	line-height: 1.75;
 	text-align: left;
@@ -1459,11 +1459,6 @@ p.dropcap:first-letter {
 	padding-left: 3px;
 }
 
-.content-area-arch .entry-content {
-	font-size: 15px;
-	font-size: 0.9375em;
-}
-
 .content-area-arch p.dropcap:first-letter {
 	font-size: 45px;
 	font-size: 2.8125em;
@@ -1587,269 +1582,6 @@ p.dropcap:first-letter {
 	text-align: center;
 	margin-top: 50px;
 }
-
-/*--------------------------------------------------------------
-## Blog
---------------------------------------------------------------*/
-.post-thumbnail {
-	display: block;
-}
-
-.post-thumbnail-wrap {
-	text-align: center;
-	width: 100%;
-	margin-bottom: 50px;
-}
-
-.post-thumbnail-wrap iframe {
-	width: 100%;
-}
-
-#carousel-post-gallery img {
-	width: 100%;
-}
-
-.post-thumbnail-wrap img {
-	width: 100%;
-}
-
-.entry-title-blog {
-	margin-bottom: 0;
-}
-
-.entry-title {
-	font-family: 'Cabin', Helvetica, sans-serif;
-	font-size: 20px;
-	font-size: 1.2em;
-	line-height: 25px;
-	color: #575756;
-	letter-spacing: 2px;
-	font-weight: 600;
-	margin: 0;
-	text-transform: none;
-}
-
-.entry-title-blog a {
-	font-size: 24px;
-	font-size: 1em;
-	color: #575756;
-	margin: 0;
-}
-
-.entry-title-blog a:hover {
-	color: #628d7c;
-}
-
-.blog-post,
-.site-main > article.article,
-.search-page .site-main > article {
-	border: 0px;
-	padding: 45px 0 45px 0;
-	/* margin-bottom: 60px; */
-	background: #fff;
-	float: left;
-	width: 100%;
-}
-
-.site-main > article.blog-post,
-.site-main > article.search-post {
-	margin-bottom: 60px;
-}
-
-.categories-links a {
-	color: #aaaaaa;
-	font-family: 'Cabin', Helvetica, sans-serif;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-}
-
-.categories-links a:hover {
-	color: #628d7c;
-}
-
-.entry-header {
-	padding-bottom: 40px;
-}
-
-.entry-header .content-inner-wrap {
-	text-align: center;
-}
-
-.entry-header .posted-on {
-	color: #aaaaaa;
-	font-size: 15px;
-	font-size: 0.9375em;
-	padding-bottom: 10px;
-	display: block;
-}
-
-.entry-header .posted-on a {
-	color: #aaaaaa;
-}
-
-.entry-header .posted-on a:hover {
-	color: #575756;
-}
-
-.entry-header .cat-links {
-	font-family: 'Cabin', Helvetica, sans-serif;
-	font-size: 15px;
-	font-size: 0.8375em;;
-	font-weight: 400;
-	color: #7fcaad;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	padding-top: 10px;
-	display: block;
-}
-
-.more-link {
-	margin-top: 45px;
-	float: left;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 15px;
-	font-size: 1em;
-	font-family: 'Cabin', Helvetica, sans-serif;
-}
-
-.content-inner-wrap > .more-link {
-	margin-top: 20px;
-}
-
-.post-edit-link {
-	font-style: italic;
-}
-
-/*--------------------------------------------------------------
-## Alternative layout
---------------------------------------------------------------*/
-.blog-post-alt-inner {
-	background: #FFF;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.blog-post-alt .content-inner-wrap {
-	padding: 0;
-}
-
-.blog-post-alt .posted-on {
-	font-family: 'Merriweather', Georgia, serif;
-	font-size: 15px;
-	font-size: 1em;
-	text-transform: none;
-	letter-spacing: 1px;
-	padding: 23px 0 0;
-	width: 100%;
-	display: block;
-}
-
-.blog-post-alt .entry-title-blog a {
-	font-family: 'Cabin', sans-serif;
-	font-size: 18px;
-	font-size: 0.75em;
-	margin: 0;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	width: 100%;
-	letter-spacing: 1.5px;
-	display: block;
-	padding: 0 10px;
-}
-
-.blog-post-alt .entry-title-blog {
-	padding: 20px 0;
-}
-
-.blog-post-alt .entry-header {
-	padding-bottom: 0;
-}
-
-.blog-post-alt .post-thumbnail-wrap {
-	margin-bottom: 0;
-	padding-top: 23px;
-}
-
-.blog-post-alt .content-inner-wrap {
-	padding: 0;
-}
-
-.blog-post-alt .entry-content .content-inner-wrap {
-	border-top: 1px solid #f6f6f6;
-	padding: 15px 0;
-	float: left;
-	width: 100%;
-}
-
-.blog-post-alt .content-inner-wrap > .more-link {
-	font-family: 'Cabin', sans-serif;
-	font-weight: 600;
-	margin-top: 0;
-	width: 100%;
-	text-align: center;
-}
-
-.blog-post-alt .meta-nav {
-	display: none;
-}
-
-.container-alt-layout {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.single-post-alt {
-	font-family: 'Merriweather', Georgia, serif;
-	letter-spacing: 1px;
-}
-
-.single-post-alt .entry-header .cat-links {
-	font-weight: 600;
-}
-
-.single-post-alt .content-inner-wrap-alt {
-	margin-bottom: -60px;
-}
-
-.alt-comments-number {
-	background: #7fcaad;
-	font-size: 13px;
-	line-height: 16px;
-	color: #FFF;
-	font-family: 'Cabin';
-	font-weight: 600;
-	letter-spacing: 1.5px;
-	padding: 12px 35px;
-	display: inline-block;
-	position: relative;
-	z-index: 9;
-	margin-top: 30px;
-}
-
-.single-post-alt .entry-header {
-	padding-bottom: 35px;
-}
-
-.blog-post-alt .page-links {
-	margin: 0;
-	text-align: center;
-}
-
-.content-area-with-sidebar .content-inner-wrap.content-inner-wrap-blog-alt {
-	padding: 0;
-}
-
-.single-post-alt .post-thumbnail-wrap {
-	margin-bottom: 0;
-}
-
-.single-post-alt .entry-content {
-	margin-top: 50px;
-}
-
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
@@ -3252,7 +2984,7 @@ div.sharedaddy h3.sd-title:before {
 	}
 
 	.content-wrap {
-		padding: 90px 0 30px;
+		padding: 60px 0 30px;
 	}
 
 	.contact-block-item-wrap .contact-block-item {
@@ -3509,7 +3241,7 @@ div.sharedaddy h3.sd-title:before {
 
 }
 
-
+/******************************************************************************/
 @media screen and (max-width: 600px) {
 
 	body {
@@ -3809,15 +3541,6 @@ margin-right: 0px;
 
 }
 
-/* ���e�y�[�W*/
-
-/* plugin �p������ */
-.breadcrumbs {
-  padding: 1px 0px 1px 30px;
-  width: 100%;
-  background: #373735;
-  font-size: 12pt;
-}
 
 /* 下に移行していく */
 body {

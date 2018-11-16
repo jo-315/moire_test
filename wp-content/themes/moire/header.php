@@ -6,19 +6,6 @@
   <!-- 共通設定 -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <!-- 個別投稿 -->
-	<?php if(is_single()) :
-    // stylesheet読み込み
-    ?>
-  <!-- 固定ページ -->
-  <?php elseif(is_page()) :
-    // stylesheet読み込み
-    ?>
-  <!-- カテゴリ一覧 -->
-  <?php elseif(is_category()) :
-    // stylesheet読み込み
-    ?>
-	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
 

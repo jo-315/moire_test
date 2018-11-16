@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/*
+###### 投稿ページ・アーカイブページのスタイルは合わせる ####################
+ */
+
+/*
+### Wrapper ###########################
+ */
+.site-main > article.article,
+.blog-post {
+  border: 0px;
+  padding: 25px 0 30px 0;
+  background: #fff;
+  float: left;
+  width: 100%;
+  margin-left: 25px;
+  margin-bottom: 60px;
+}
+
+.site-main > article.search-post {
+	margin-bottom: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .site-main > article.article,
+  .blog-post {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .site-main > article.article,
+  .blog-post {
+    padding: 5px 0 45px 0;
+    margin-bottom: 30px;
+  }
+}
+
+/*
+### Header #############################
+ */
+
+/*
+## Title
+ */
+
+.entry-title {
+	font-family: 'Cabin', Helvetica, sans-serif;
+	font-size: 20px;
+	font-size: 1.2em;
+	line-height: 25px;
+	color: #575756;
+	letter-spacing: 2px;
+	font-weight: 600;
+	margin: 0;
+	text-transform: none;
+}
+
+.entry-title-blog {
+	margin-bottom: 0;
+}
+
+.entry-title-blog a {
+	font-size: 24px;
+	font-size: 1em;
+	color: #575756;
+	margin: 0;
+  text-decoration: none;
+}
+
+.entry-title-blog a:hover {
+	color: #628d7c;
+}
+
+.entry-header {
+	padding-bottom: 30px;
+}
+
+.entry-header .content-inner-wrap {
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .entry-header{
+    padding-bottom: 10px;
+  }
+}
+
+/*
+## 投稿日
+ */
+
+.entry-header .posted-on {
+	color: #aaaaaa;
+	font-size: 15px;
+	font-size: 0.9375em;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.entry-header .posted-on a {
+	color: #aaaaaa;
+}
+
+.entry-header .posted-on a:hover {
+	color: #575756;
+}
+
+.entry-header .cat-links {
+	font-family: 'Cabin', Helvetica, sans-serif;
+	font-size: 15px;
+	font-size: 0.8375em;;
+	font-weight: 400;
+	color: #7fcaad;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	display: block;
+}
+
+/*
+## Category
+*/
+
+.categories-links a {
+	color: #aaaaaa;
+	font-family: 'Cabin', Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+.categories-links a:hover {
+	color: #628d7c;
+}
+
+/*
+アーカイブのみ ##########################################
+ */
+
+.more-link {
+	margin-top: 20px;
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-size: 1em;
+	font-family: 'Cabin', Helvetica, sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+
+.post-thumbnail {
+	display: block;
+}
+
+.post-thumbnail-wrap {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.post-thumbnail-wrap img {
+	width: 100%;
+  object-fit: cover;
+  height: 300px;
+}

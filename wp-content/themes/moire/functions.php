@@ -58,12 +58,25 @@ add_action( 'widgets_init', 'moire_widgets_init' );
 function moire_scripts() {
 	// style.cssの読み込み
 	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
+	// plugin-style.cssの読み込み
+	wp_enqueue_style( 'moire-plugin-style', get_template_directory_uri() . '/css/plugin-style.css');
 	// header.cssの読み込み
 	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
 	// footer.cssの読み込み
 	// wp_enqueue_style( 'moire-style', get_stylesheet_uri());
 	// FontAwesomeの読み込み
 	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
+
+	// 個別投稿 && カテゴリ一覧
+	if(is_single() || is_category()) :
+		// stylesheet読み込み
+		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/contents.css');
+
+	// 固定ページ
+	elseif(is_page()) :
+		// stylesheet読み込み
+	endif;
+
 
 	// jqueryの読み込み
 	wp_enqueue_script( 'jquery' );
@@ -179,7 +192,7 @@ function moire_post_thumbnail() {
  */
 function moire_excerpt_more() {
 	/* translators: s: The post title */
-	return '...<span class="clearfix clearfix-post"></span><a href="' . esc_url( get_permalink( get_the_ID() ) ) . '" class="more-link">' . sprintf( '続きを読む %s', the_title( '<span class="screen-reader-text">"', '"</span>', false ) . ' <span class="meta-nav">&rarr;</span>' ) . '</a>';
+	return '...<span class="clearfix"></span><a href="' . esc_url( get_permalink( get_the_ID() ) ) . '" class="more-link">' . sprintf( '続きを読む %s', the_title( '<span class="screen-reader-text">"', '"</span>', false ) . ' <span class="meta-nav">&rarr;</span>' ) . '</a>';
 }
 
 //read more link
