@@ -80,13 +80,18 @@
 	}
 
   /* opened menue */
+	.header-main-navigation-items-wrap span {
+	  display: none;
+	}
+
 	.header-main-navigation {
 		position: absolute;
 		z-index: 999;
 		top: 100%;
 		left: 0;
 		right: 0;
-		background: #7FCAAD;
+		opacity: 0.9;
+		background: #464646;
 	}
 
 	.header-main-navigation ul {
