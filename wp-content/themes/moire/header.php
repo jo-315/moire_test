@@ -51,9 +51,7 @@
     <!-- header画像 -->
 		<div class="header-img-wrap">
   		<div class="header-img">
-        <div class="header-effect-wrap">
-      		<div id="header-effect">
-          </div>
+    		<div id="header-effect">
         </div>
   		</div>
     </div>

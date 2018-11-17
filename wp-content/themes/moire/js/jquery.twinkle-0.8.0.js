@@ -435,7 +435,8 @@ function DropsEffect() {
                 top: event.position.top,
                 width: 0,
                 height: 0,
-                opacity: 0.4
+                opacity: 0.4,
+                overflow: 'hidden'
             };
 
         function setTimer(delay, callback) {
@@ -969,4 +970,3 @@ $.twinkle.add(new OrbitEffect());
 }());
 
 }());
-
