@@ -161,6 +161,12 @@ Contents #############################################
   }
 }
 
+@media screen and (max-width: 792px) {
+  .content-wrap{
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 790px) {
   .content-area-with-sidebar {
    float: left;
