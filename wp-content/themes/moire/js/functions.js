@@ -31,6 +31,31 @@ jQuery(function($) {
     }  });
 });
 
+jQuery(function($) {
+  add_circle = function() {
+    const options = {
+    	widthRatio: Math.random(),
+    	heightRatio: Math.random(),
+      delay: 10,
+      gap: 10,
+    	effect: "drops-css",
+    	effectOptions: {
+    		radius: 200,
+        width: Math.random() * 10,
+    		duration: 1e3 + Math.random() * 1e3,
+    		color: '#f6f6f6',
+        opacity: 0.3
+    	}
+    }
+  	$("#header-effect").twinkle(options);
+  }
+
+  return setInterval(add_circle, 1000);
+});
+
+/*
+### Footer
+ */
 // scroll to top
 jQuery(function($) {
   $('.site-info').click(() => {

@@ -82,8 +82,8 @@ function moire_scripts() {
 
 	// jqueryの読み込み
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'jquery-moire',get_template_directory_uri() . '/js/functions.js', array('jquery'));
-
+	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
+	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.js');
 }
 
 function add_header_image() {

@@ -49,8 +49,14 @@
 		</div>
 
     <!-- header画像 -->
-		<div class="header-img">
-		</div>
+		<div class="header-img-wrap">
+  		<div class="header-img">
+        <div class="header-effect-wrap">
+      		<div id="header-effect">
+          </div>
+        </div>
+  		</div>
+    </div>
 
     <!-- パンくず -->
 		<div class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">

@@ -73,6 +73,8 @@ Sidebar ########################################################################
 ### 団体紹介
  */
 .sidebar-log-wrap {
+  position: relative;
+  z-index: 100;
   text-align: center;
 }
 

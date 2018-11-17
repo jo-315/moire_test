@@ -129,8 +129,29 @@
 }
 
 /* img */
+.header-img-wrap {
+	position: relative;
+	z-index: -2;
+	width: 100%;
+	margin-top: 60px;
+	height: 250px;
+	background: #7fcaad;
+	z-index: -1;
+}
+
+.header-effect-wrap {
+	width: calc(100% - 200px);
+	height: 100%;
+	margin: auto;
+}
+
+#header-effect {
+	height: 100%;
+}
+
 .header-img {
-  margin-top: 58px;
+	position: relative;
+	z-index: -1;
 	height: 250px; /* ヘッダー画像の高さ */
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -139,8 +160,12 @@
   background-color: #464646;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 1280px) {
+	.header-img-wrap {
+		height: 300px;
+	}
+
 	.header-img {
-		height: 150px;
+		height: 300px;
 	}
 }
