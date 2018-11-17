@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /*
-Sidebar
+Sidebar #########################################################################
  */
-.widget-title {
+.sidebar-inner-wrap .widget-title {
   color: #575756;
   font-size: 18px;
   margin: 20px 0 10px;
@@ -71,3 +71,53 @@ Sidebar
     text-align: left;
   }
 }
+
+/*
+Footer #####################################################################
+ */
+
+ .footer-widget-wrap {
+   float: left;
+   position: relative;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   width: 33.33333333%;
+ }
+
+ .site-footer .widget-title {
+   background: #575756;
+   font-size: 16px;
+ }
+
+ .footer-inner:before,
+ .footer-inner:after {
+   display: table;
+   content: " ";
+   clear: both;
+ }
+
+ .site-info {
+ 	text-align: center;
+ 	font-size: 12px;
+ 	font-size: 0.857em;
+ 	letter-spacing: 1px;
+ 	padding: 30px 0;
+ 	background: #373735;
+ }
+
+ .site-info:hover {
+ 	opacity: 0.5;
+ }
+
+ .site-info a {
+ 	letter-spacing: 0;
+ 	text-transform: none;
+ 	letter-spacing: 1px;
+ }
+
+ .footer-back-top {
+   /* ここにjquery */
+ 	width: 100%;
+  margin-top: -10px;
+ }

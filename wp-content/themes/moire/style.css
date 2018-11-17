@@ -2123,41 +2123,12 @@ object {
 }
 
 .site-footer .widget-title {
-	color: #dfdfdf;
+	/* color: #dfdfdf; */
 	font-family: 'Cabin', Helvetica, sans-serif;
 	font-size: 14px;
 	font-size: 0.875em;
 	margin: 0 0 20px;
 	line-height: 21px;
-}
-
-.site-info {
-	text-align: center;
-	font-size: 12px;
-	font-size: 0.857em;
-	letter-spacing: 1px;
-	padding: 15px 0;
-	background: #373735;
-}
-
-.site-info a {
-	letter-spacing: 0;
-	text-transform: none;
-	letter-spacing: 1px;
-	font-family: 'Merriweather', Georgia, serif;
-}
-
-.footer-copyright {
-	float: left;
-	text-align: center;
-	width: 100%;
-}
-
-.footer-back-top {
-	float: right;
-	text-align: center;
-	width: 100%;
-	margin-top: 15px;
 }
 
 .footer-video-wrap {
@@ -2205,14 +2176,6 @@ object {
 
 .quick-contact .fa {
 	margin: 0px 20px 15px 0px;
-}
-
-.footer-widget-wrap {
-	display: none;
-}
-
-.footer-widget-wrap .widget:last-child {
-	margin-bottom: 0;
 }
 
 .footer-social-icons {
