@@ -154,7 +154,11 @@ Contents #############################################
  padding: 0 15px 0 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 1140px) {
+  .content-wrap{
+    width: 1140px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 790px) {
