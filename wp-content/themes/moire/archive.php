@@ -6,7 +6,7 @@ blog,event,orgで同じもの
 ?>
 
 <?php
-get_header(); ?>
+get_header('archive'); ?>
 
 	</div><!-- .container -->
 
@@ -27,8 +27,6 @@ get_header(); ?>
 			?>
 			</main><!-- #main -->
 		</div><!-- #primary -->
-
-		<?php get_sidebar(); ?>
 
 	</div><!-- .content-wrap -->
 <?php
