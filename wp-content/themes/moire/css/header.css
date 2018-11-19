@@ -9,15 +9,45 @@
   z-index: 9999;
   top: 0;
 	display: table;
-  /* -webkit-transition: all 0.3s;
-  transition: all 0.3s; */
 }
+
+.header-logo-wrap {
+  display: table-cell;
+	width: 90px;
+	vertical-align: middle;
+}
+
+.header-logo {
+	width: 90px;
+}
+
+.header-title-wrap {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header-title {
+	font-family: 'klee',sans-serif;
+  font-size: 30pt;
+  margin: 0 auto;
+  color: white;
+}
+
+@media screen and (max-width: 849px) {
+	.header-title-wrap {
+    width: 100%;
+	}
+}
+
+/* navigation */
 
 .header-main-navigation {
   background: none;
   vertical-align: middle;
 	padding: 12px 25px;
 	display: table-cell;
+	float: right;
 }
 
 .header-main-navigation-items-wrap {
@@ -37,7 +67,7 @@
 }
 
 .header-main-navigation-item {
-  padding: 5px 17px;
+  padding: 12px 17px 5px;
   float: none;
   position: relative;
   display: inline-block;
@@ -45,7 +75,7 @@
 }
 
 .header-main-navigation-item a {
-  font-size: 13px;
+  font-size: 15px;
   text-decoration: none;
   color: #aaaaaa;
 }
@@ -58,23 +88,22 @@
 	display: none;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 948px) {
 	.header-main-navigation-item {
-		padding: 5px 10px;
+		padding: 12px 10px 5px;
 	}
 }
 
-@media screen and (max-width: 790px) {
-	/* このサイズからtoggleボランに変更 */
+@media screen and (max-width: 849px) {
+	/* このサイズからtoggleボタンに変更 */
 	.header-menu-toggle {
 		display: block;
-		height: 60px;
+		height: 70px;
+		width: 90px;
+		float: right;
 	}
 
-	.header-main-navigation {
-		display: none;
-	}
-
+	.header-main-navigation,
 	.header-main-navigation-items-wrap {
 		display: none;
 	}
@@ -125,7 +154,6 @@
 		font-size: 1em;
 		line-height: 20px;
 	}
-
 }
 
 /* img */

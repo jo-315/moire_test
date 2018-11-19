@@ -1,5 +1,5 @@
 <?php // 最初のHOMEページ ?>
-<?php get_header(); //headerの読み込み ?>
+<?php get_header('front'); //headerの読み込み ?>
 
 <div class="original_content_wrap">
   <div class="static_maintitle_text">

@@ -2,6 +2,14 @@
 // ヘッダーのナビゲーション
 ?>
 <div class="header-inner-top">
+  <div class="header-logo-wrap">
+    <span class="header-logo">logo</span>
+  </div>
+
+  <div class='header-title-wrap'>
+    <span class="header-title">moire</span>
+  </div>
+
   <nav class="header-main-navigation">
     <ul class='header-main-navigation-items-wrap'>
       <li class='header-main-navigation-item nav_default_underline'>
