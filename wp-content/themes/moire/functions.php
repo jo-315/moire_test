@@ -78,21 +78,23 @@ function moire_scripts() {
 	// FontAwesomeの読み込み
 	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
 
+	// jqueryの読み込み
+	wp_enqueue_script( 'jquery' );
+	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
+	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.min.js');
+
 	// 個別投稿 && カテゴリ一覧
 	if(is_single() || is_category()) :
 		// stylesheet読み込み
 		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/contents.css');
-
+	elseif(is_front_page()) :
+		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
+		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
 	// 固定ページ
 	elseif(is_page()) :
 		// stylesheet読み込み
+	// frontページ
 	endif;
-
-
-	// jqueryの読み込み
-	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
-	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.js');
 }
 
 function add_header_image() {
