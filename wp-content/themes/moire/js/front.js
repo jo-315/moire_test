@@ -15,5 +15,11 @@ jQuery(function($) {
   	$(".front-page-wrapper").twinkle(options);
   }
 
-  add_circle()
+  return new Promise((resolve, reject) => {
+    resolve(add_circle())
+  }).then(() => {
+    return $(".moire-title").fadeIn(7000)
+  }).then(() => {
+    return $(".moire-sub-title").fadeIn(9000)
+  })
 });

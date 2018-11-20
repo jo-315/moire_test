@@ -9,6 +9,7 @@
   z-index: 9999;
   top: 0;
 	display: table;
+	box-sizing: border-box;
 }
 
 .header-logo-wrap {
@@ -17,8 +18,10 @@
 	vertical-align: middle;
 }
 
-.header-logo {
-	width: 90px;
+.moire-logo {
+	padding: 3px;
+  height: 60px;
+	margin-left: 20px;
 }
 
 .header-title-wrap {

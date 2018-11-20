@@ -3,7 +3,12 @@
 ?>
 <div class="header-inner-top">
   <div class="header-logo-wrap">
-    <span class="header-logo">logo</span>
+    <a href="/">
+      <img
+        src="<?php echo get_stylesheet_directory_uri(); ?>/images/moire_logo.svg"
+        class="moire-logo"
+      >
+    </a>
   </div>
 
   <div class='header-title-wrap'>
