@@ -10,10 +10,6 @@ html {
 	-ms-text-size-adjust:     100%;
 }
 
-body {
-	margin: 0;
-}
-
 article,
 aside,
 details,
@@ -2560,11 +2556,6 @@ div.sharedaddy h3.sd-title:before {
 }
 
 @media screen and (min-width: 992px) {
-
-	body {
-		/* padding-top: 58px; */
-	}
-
 	/*-----------
      * Header
      -----------*/
@@ -3281,4 +3272,5 @@ body {
 	text-align: left;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
+	margin: 0;
 }

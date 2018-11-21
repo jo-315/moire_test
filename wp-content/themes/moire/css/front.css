@@ -1,11 +1,21 @@
 @charset "utf-8";
 
+/*
+最初の要素
+ */
 .front-page-wrapper {
   width: 100%;
   height: 100vh;
   background: #2fcbb2;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-effect {
+  width: 100%;
+  height: 100%;
 }
 
 .main-content {
@@ -34,7 +44,7 @@
 
 .moire-sub-title {
   font-family: 'klee',sans-serif;
-  font-size: 40pt;
+  font-size: 35pt;
   color: white;
   position: absolute;
   width: 1000px;
@@ -42,4 +52,19 @@
   top: calc(50% + 50px);
   left: calc(50% - 500px);
   display: none;
+}
+
+/*
+スクロールしたら出てくる右側の部分
+ */
+.right-top-column {
+  display: none;
+  background: #f6f6f6f6;
+  width: 0;
+  height: 100%;
+  float: right;
+  opacity: 0.8;
+  transition: 0.3s;
+  float: right;
+  overflow: scroll;
 }
