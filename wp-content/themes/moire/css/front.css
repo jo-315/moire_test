@@ -62,9 +62,35 @@
   background: #f6f6f6f6;
   width: 0;
   height: 100%;
-  float: right;
   opacity: 0.8;
   transition: 0.3s;
   float: right;
   overflow: scroll;
+  margin-top: 70px;
+  text-align: center;
+  padding: 70px 5px 0;
+  line-height: 50px;
+}
+
+.right-top-column span {
+  font-size: 18pt;
+  color: #202223;
+}
+
+.mission-button {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #202223;
+  margin: 40px auto;
+}
+
+.mission-button a {
+  text-decoration: none;
+  color: #202223;
+  padding: 15px 5px;
+}
+
+.mission-button a:hover {
+  background: #2fcbb2;
+  color: #f6f6f6;
 }

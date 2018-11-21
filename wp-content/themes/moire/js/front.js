@@ -52,14 +52,13 @@ jQuery(function($) {
     setTimeout(() => {
       setInterval(add_random_circle, 1000);
 
-      $('.main-content').css({
-        'width': '50%',
-        'float': 'left'
-      })
+      $('.main-content')
+        .animate({ 'width': '60%' })
+        .css('float', 'left')
       $('.moire-sub-title').css('font-size', '25pt')
       $('.right-top-column')
         .css('display', 'block')
-        .animate({'width':'50%'})
+        .animate({'width':'40%'})
     }, 3500);
     return
   })
