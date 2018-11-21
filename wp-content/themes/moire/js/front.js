@@ -13,7 +13,7 @@ jQuery(function($) {
         opacity: 0.3
     	}
     }
-  	$(".front-page-wrapper").twinkle(options);
+  	$(".front-page-head-wrapper").twinkle(options);
   }
 
   add_random_circle = function() {
