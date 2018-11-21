@@ -32,14 +32,7 @@ jQuery(function($) {
       }
     }
     $(".content-effect").twinkle(options);
-  }
-
-  function sleep(time) {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve();
-        }, time);
-    });
+    $(".between_block_effect").twinkle(options);
   }
 
   return new Promise((resolve, reject) => {
@@ -52,10 +45,9 @@ jQuery(function($) {
     setTimeout(() => {
       setInterval(add_random_circle, 1000);
 
-      $('.main-content')
+      $('.content-effect-wrapper')
         .animate({ 'width': '60%' })
         .css('float', 'left')
-      $('.moire-sub-title').css('font-size', '25pt')
       $('.right-top-column')
         .css('display', 'block')
         .animate({'width':'40%'})
