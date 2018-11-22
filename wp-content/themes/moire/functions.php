@@ -82,10 +82,10 @@ function moire_scripts() {
   // ページごと
 	if(is_single()) : // 個別投稿
 		wp_enqueue_style( 'moire-single-style', get_template_directory_uri() . '/css/single.css');
-		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post.css');
+		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post-header.css');
 	elseif(is_category()) : // カテゴリ一覧
 		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/archive.css');
-		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post.css');
+		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post-header.css');
 	elseif(is_front_page()) : // フロントページ
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
 		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
@@ -142,21 +142,7 @@ function moire_posted_date() {
 		'Posted:'
 	);
 
-	$posted_on = '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>';
-
-	echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
-}
-
-// カテゴリーの表示
-function moire_category() {
-	$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'zillah' ) );
-	if ( $categories_list ) {
-		printf(
-			'<span class="cat-links"><span class="screen-reader-text">%1$s </span>%2$s</span>',
-			_x( 'Categories', 'Used before category names.', 'zillah' ),
-			$categories_list
-		);
-	}
+	echo '<span class="posted-on">' . $time_string . '</span>'; // WPCS: XSS OK.
 }
 
 // Get the first image from post
@@ -179,18 +165,14 @@ function moire_post_thumbnail() {
 	$post_format = get_post_format();
 	if ( has_post_thumbnail() ) {
 		echo '<div class="post-thumbnail-wrap">';
-		echo '<a ' . ( $post_format !== 'quote' ? 'href="' . esc_url( get_permalink() ) . '"' : '' ) . ' class="post-thumbnail" rel="bookmark">';
 		the_post_thumbnail();
-		echo '</a>';
 		echo '</div>';
 	} else {
 		$post_image_link           = moire_catch_that_image();
 		$zillah_image_as_thumbnail = get_theme_mod( 'zillah_image_as_thumbnail', false );
 		if ( $post_image_link && $zillah_image_as_thumbnail ) {
 			echo '<div class="post-thumbnail-wrap">';
-			echo '<a ' . ( $post_format !== 'quote' ? 'href="' . esc_url( get_permalink() ) . '"' : '' ) . ' class="post-thumbnail" rel="bookmark">';
 			echo '<img width="1170" height="545" src="' . esc_attr( $post_image_link ) . '" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="' . esc_attr( get_the_title() ) . '">';
-			echo '</a>';
 			echo '</div>';
 		}
 	}

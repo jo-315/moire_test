@@ -844,20 +844,14 @@ a:active {
 	color: #fFf;
 }
 
-.posts-navigation .nav-previous a {
-	float: right;
-	margin-left: 10px;
-}
-
+.posts-navigation .nav-previous a,
 .posts-navigation .nav-next a {
-	float: left;
-	margin-left: 10px;
+  text-decoration: none;
 }
 
 .posts-navigation .nav-previous a:hover,
 .posts-navigation .nav-next a:hover {
-	color: #fff;
-	background: #628d7c;
+	opacity: 0.8;
 }
 
 .post-navigation .nav-previous,
@@ -1298,19 +1292,6 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-.content-wrap {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-			flex-flow: row wrap;
-	padding: 60px 0;
-}
-
 .page-header {
 	text-align: center;
 	color: #575756;
@@ -1350,11 +1331,6 @@ a:active {
 
 .content-area {
 	width: 100%;
-}
-
-.content-inner-wrap,
-.content-area-with-sidebar .content-inner-wrap {
-	padding: 0 20px;
 }
 
 .not-found .page-header,
@@ -2097,15 +2073,6 @@ object {
 /*--------------------------------------------------------------
 ## Pirate Forms
 --------------------------------------------------------------*/
-.content-wrap-contact input:not([type="submit"]) {
-	padding: 20px;
-	width: 100%;
-}
-
-.content-wrap-contact .pirate_forms_three_inputs {
-	width: 100%;
-}
-
 .contact_submit_wrap {
 	width: 100%;
 }
@@ -2352,10 +2319,6 @@ div.sharedaddy h3.sd-title:before {
 		text-transform: uppercase;
 	}
 
-	.entry-header .cat-links {
-		font-size: 0.9375em;
-	}
-
 	.page-header {
 		margin: 90px 0 0;
 	}
@@ -2471,10 +2434,6 @@ div.sharedaddy h3.sd-title:before {
 		padding-bottom: 15px;
 	}
 
-	.single-post-alt .entry-header .cat-links {
-		padding-top: 15px;
-	}
-
 	.widget-area.widget-area-mobile .widget {
 		padding: 30px 0;
 	}
@@ -2523,18 +2482,6 @@ div.sharedaddy h3.sd-title:before {
 
 	.content-area-left-sidebar .content-area {
 		padding: 40px 0 0 60px;
-	}
-
-	.content-wrap {
-		display: -webkit-box;
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-flex-flow: row wrap;
-		-ms-flex-flow: row wrap;
-			-webkit-box-orient: horizontal;
-			-webkit-box-direction: normal;
-				flex-flow: row wrap;
 	}
 
 	/*-----------
@@ -2746,19 +2693,13 @@ div.sharedaddy h3.sd-title:before {
 		float: none;
 	}
 
-	.content-wrap {
-		padding: 60px 0 30px;
-	}
-
 	.contact-block-item-wrap .contact-block-item {
 		margin-top: 0;
 	}
 
 	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		/* max-width: 740px;
-		margin: 0 auto; */
-                max-width: 100%;
+    max-width: 100%;
 	}
 
 	/*-----------

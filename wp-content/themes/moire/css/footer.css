@@ -4,7 +4,7 @@ SNSブロック
 
 .sns-block-wrapper {
   position: relative;
-  background: #f6f6f6;
+  background: #ffffff;
   box-shadow: 3px 0px 5px 2px;
   z-index: 999;
   padding-bottom: 20px;
@@ -42,7 +42,7 @@ SNSブロック
 .sns-block-content-column {
   display: table-cell;
   width: 400px;
-  background-color: white;
+  background-color: #f6f6f6;
   box-shadow: 1px 1px 1px 1px;
   text-align: center;
   padding-bottom: 15px;

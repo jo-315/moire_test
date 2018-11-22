@@ -15,18 +15,166 @@
   content: " ";
 }
 
-.post-thumbnail {
+/*
+Content
+ */
+.post-content {
+  background: #ffffff;
+}
+
+.archive-content-wrap {
+	padding: 70px 70px;
+  box-shadow: 0px 0px 3px 5px;
+  position: relative;
+  z-index: 2;
+	overflow: hidden;
+}
+
+/*
+Content > Item
+ */
+.archive-site-main > article.article,
+.blog-post {
+	background: #ffffff;
+	float: left;
+	width: calc((100% - 240px) / 3);
+	height: 520px;
+	margin: 0 40px 50px;
+	box-shadow: 3px 3px 3px 1px;
+	position: relative;
+}
+
+.blog-post:hover {
+	opacity: 0.5;
+	top: 3px;
+}
+
+.blog-post a {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.entry-header-top {
+	height: 20px;
+  background: #2fcdb4
+}
+
+/*
+## Title
+ */
+
+.archive-item-title {
+	font-family: 'Cabin', Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	color: #575756;
+	letter-spacing: 2px;
+	font-weight: 600;
+	margin: auto;
+	text-transform: none;
+}
+
+.archive-item-title a {
+	font-size: 24px;
+	font-size: 1em;
+	color: #575756;
+	margin: 0;
+  text-decoration: none;
+}
+
+.entry-header {
+	padding-bottom: 30px;
+}
+
+.entry-header .archive-content-inner-wrap {
+	text-align: center;
+	padding: 20px 20px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .entry-header{
+    padding-bottom: 10px;
+  }
+}
+
+/*
+## 投稿日
+ */
+
+.entry-header .posted-on {
+	color: #aaaaaa;
+	font-size: 15px;
+	padding-bottom: 10px;
 	display: block;
 }
+
+/*
+Tag
+ */
+.archive-item-tag {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.archive-item-tag span {
+	margin: 0 5px;
+}
+
+/*
+Image
+ */
 
 .post-thumbnail-wrap {
 	text-align: center;
 	width: 100%;
-	margin-bottom: 10px;
+	height: 300px;
+	position: absolute;
+	bottom: 0;
 }
 
 .post-thumbnail-wrap img {
 	width: 100%;
   object-fit: cover;
   height: 300px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .archive-site-main > article.article,
+  .blog-post {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .archive-site-main > article.article,
+  .blog-post {
+    padding: 5px 0 45px 0;
+    margin-bottom: 30px;
+  }
+}
+
+/*
+else
+ */
+ .scrollFadein {
+   opacity : 0;
+   transform: translateY(20px);
+   transition: all 2s;
+ }
+
+.between_content {
+  background: #2fcbb2;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.between_content_effect {
+  width: 100%;
+  height: 100%;
 }

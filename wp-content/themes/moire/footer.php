@@ -2,10 +2,6 @@
 // 全ページ共通フッター
 ?>
 
-			</div>
-		</div>
-	</div>
-
 	<div class="sns-block-wrapper">
 		<div class="sns-block-header">
 			<span>SNS</span>
@@ -16,7 +12,7 @@
 		</div>
 
 		<div class="sns-block-content">
-			<div class="sns-block-content-column fadein">
+			<div class="sns-block-content-column scrollFadein">
 				<div class="sns-block-content-column-top">
 				</div>
 
@@ -40,7 +36,7 @@
 				</div>
 			</div>
 
-			<div class="sns-block-content-column fadein">
+			<div class="sns-block-content-column scrollFadein">
 				<div class="sns-block-content-column-top">
 				</div>
 

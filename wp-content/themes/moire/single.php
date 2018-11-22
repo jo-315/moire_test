@@ -3,7 +3,7 @@
 ?>
 
 <?php
-get_header();
+get_header('post');
 ?>
 
 	<div class="content-wrap">

@@ -48,6 +48,7 @@ jQuery(function($) {
     	}
     }
   	$("#content-effect").twinkle(options);
+  	$(".between_content_effect").twinkle(options);
   }
 
   setInterval(add_circle, 1000);
@@ -58,7 +59,7 @@ Content
  */
 jQuery(function($) {
   $(window).scroll(function (){
-    $('.fadein').each(function(){
+    $('.scrollFadein').each(function(){
         var targetElement = $(this).offset().top;
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();

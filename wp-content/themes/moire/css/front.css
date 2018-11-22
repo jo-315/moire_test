@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.fadein {
+.scrollFadein {
   opacity : 0;
   transform: translateY(40px);
   transition: all 3s;
@@ -74,7 +74,7 @@
  */
 .right-top-column {
   display: none;
-  background: #f6f6f6f6;
+  background: #ffffff;
   width: 0;
   opacity: 0.9;
   transition: 0.3s;
@@ -117,14 +117,14 @@
 
  .block-wrapper {
    position: relative;
-   background: #f6f6f6;
+   background: #ffffff;
    box-shadow: 3px 0px 5px 2px;
    z-index: 999;
  }
 
  .block_header {
    background: #373735;
-   color: #f6f6f6;
+   color: #ffffff;
    text-align: center;
  }
 
@@ -173,7 +173,7 @@ HPブロック
 .HP-content-column-button a {
   text-decoration: none;
   background: #2fcbb2;
-  color: #f6f6f6;
+  color: #ffffff;
   padding: 15px 15px;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #202223;
