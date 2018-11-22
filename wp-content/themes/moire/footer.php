@@ -5,9 +5,80 @@
 		</div>
 	</div><!-- #content -->
 
+	<div class="sns-block-wrapper">
+		<div class="sns-block-header">
+			<span>SNS</span>
+		</div>
+
+		<div class="sns-block-desc">
+			日々更新しています。こちらもチェック！！
+		</div>
+
+		<div class="sns-block-content">
+			<div class="sns-block-content-column fadein">
+				<div class="sns-block-content-column-top">
+				</div>
+
+				<div class="sns-block-content-column-header">
+					<span>Twitter</span>
+				</div>
+
+				<div class="sns-block-content-column-content">
+					<a
+					  class="twitter-timeline"
+						href="https://twitter.com/moire45522311?ref_src=twsrc%5Etfw"
+						data-theme="light"
+						data-border-color="#7fcaad"
+						height='400px'
+						width='300px'
+					>
+					  Tweets by moire
+					</a>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+					</script>
+				</div>
+			</div>
+
+			<div class="sns-block-content-column fadein">
+				<div class="sns-block-content-column-top">
+				</div>
+
+				<div class="sns-block-content-column-header">
+					<span>Facebook</span>
+				</div>
+
+				<div class="sns-block-content-column-content">
+					<div
+						class="fb-page"
+						data-href="https://www.facebook.com/moire12"
+						data-tabs="timeline"
+						data-height="400px"
+						data-small-header="true"
+						data-adapt-container-width="true"
+						data-hide-cover="false"
+						data-show-facepile="true"
+					>
+						<blockquote
+							cite="https://www.facebook.com/moire12"
+							class="fb-xfbml-parse-ignore"
+						>
+							<a href="https://www.facebook.com/moire12">
+								moire 〜阪大生と社会活動を繋げる広報団体〜
+							</a>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container container-footer">
 			<div class="footer-inner">
+				<div class="footer-moire-intro">
+					moire
+				</div>
+
 				<div class="footer-widget-wrap">
 					<?php
 					if ( is_active_sidebar( 'moire-footer-widget-area' ) ) {

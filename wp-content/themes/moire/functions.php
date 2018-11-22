@@ -74,6 +74,7 @@ function moire_scripts() {
 	// header.cssの読み込み
 	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
 	// footer.cssの読み込み
+	wp_enqueue_style( 'moire-footer-style', get_template_directory_uri() . '/css/footer.css');
 	// wp_enqueue_style( 'moire-style', get_stylesheet_uri());
 	// FontAwesomeの読み込み
 	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
