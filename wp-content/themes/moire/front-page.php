@@ -46,7 +46,7 @@
     </div>
 
     <div class="HP-content-wrapper">
-      <div class="HP-content-column">
+      <div class="HP-content-column fadein">
         <div class="HP-content-column-header">
           団体情報一覧
         </div>
@@ -69,7 +69,7 @@
         </div>
       </div>
 
-      <div class="HP-content-column">
+      <div class="HP-content-column fadein">
         <div class="HP-content-column-header">
           イベント情報一覧
         </div>
@@ -93,7 +93,7 @@
 
       </div>
 
-      <div class="HP-content-column">
+      <div class="HP-content-column fadein">
         <div class="HP-content-column-header">
           ブログ
         </div>
@@ -106,7 +106,7 @@
         </div>
 
         <div class="HP-content-column-content">
-          ブログでは様々な分野について書くことで社会団体に興味のない人にもmoireを知ってもらえるきっかけを作ります。
+          ブログでは様々な分野について書くことで、社会活動に興味のない人にもmoireを知ってもらえるきっかけを作ります。
         </div>
 
         <div class="HP-content-column-button">
@@ -128,16 +128,17 @@
       <span>2.イベント</span>
     </div>
 
-    <div class="event_block_content">
+    <div class="event_block_content fadein">
       <span>
         定期的にイベントを行い各社会団体の活動を知ってもらいます。</br>
-        しかもただ知ってもらうでけでなく、活動の楽しさ・良さをも知ってもらい、</br>
+        さらにただ知ってもらうでけでなく、</br>
+        活動の楽しさ・良さをも知ってもらい、</br>
         社会団体に対する参加の敷居下げていきます。</br>
         このイベントは社会的活動に関心のない人たちをも大規模に巻き込んでいきます。</br>
       </span>
     </div>
 
-    <div class="event_block_img_wrap">
+    <div class="event_block_img_wrap fadein">
       <img
         src="<?php echo get_stylesheet_directory_uri(); ?>/images/NICE.JPG"
         class="event_block_img"
