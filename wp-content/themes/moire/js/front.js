@@ -43,7 +43,7 @@ jQuery(function($) {
     $(".moire-sub-title").fadeIn(5000)
   }).then(() => {
     setTimeout(() => {
-      // setInterval(add_random_circle, 1000);
+      setInterval(add_random_circle, 1000);
 
       $('.content-effect-wrapper')
         .animate({ 'width': '60%' })

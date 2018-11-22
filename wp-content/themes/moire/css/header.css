@@ -30,6 +30,10 @@
 	vertical-align: middle;
 }
 
+.header-title-wrap a {
+	text-decoration: none;
+}
+
 .header-title {
 	font-family: 'klee',sans-serif;
   font-size: 30pt;

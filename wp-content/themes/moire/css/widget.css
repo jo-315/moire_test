@@ -94,31 +94,6 @@ Sidebar ########################################################################
   }
 }
 
-/*
-Footer #####################################################################
- */
-
- .footer-widget-wrap {
-   float: left;
-   position: relative;
-   min-height: 1px;
-   padding-right: 40px;
-   padding-left: 40px;
-   width: 33.33333333%;
- }
-
- .site-footer .widget-title {
-   background: #575756;
-   font-size: 16px;
- }
-
- .footer-inner:before,
- .footer-inner:after {
-   display: table;
-   content: " ";
-   clear: both;
- }
-
  .site-info {
  	text-align: center;
  	font-size: 12px;
@@ -137,29 +112,3 @@ Footer #####################################################################
  	text-transform: none;
  	letter-spacing: 1px;
  }
-
- .footer-back-top {
-   /* ここにjquery */
- 	width: 100%;
-  margin-top: -10px;
- }
-
-@media screen and (min-width: 1140px) {
- .footer-widget-wrap {
-   padding-right: 60px;
-   padding-left: 60px;
- }
-}
-
-@media screen and (max-width: 992px) {
-  .footer-widget-wrap {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
-
-@media screen and (max-width: 792px) {
-  .footer-inner {
-  	display: none;
-  }
-}

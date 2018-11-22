@@ -1981,6 +1981,7 @@ object {
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-family: 'Cabin', Helvetica, sans-serif;
+	text-decoration: none;
 }
 
 .site-footer a:hover {
@@ -2396,10 +2397,11 @@ div.sharedaddy h3.sd-title:before {
 	.footer-inner {
 		display: block;
 		letter-spacing: 0.25px;
+    padding: 0 30px;
 	}
 
 	.container-footer {
-		padding-top: 80px;
+		padding-top: 60px;
 	}
 
 	.site-footer .widget_nav_menu .widget-title {

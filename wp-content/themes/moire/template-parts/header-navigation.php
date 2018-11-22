@@ -12,7 +12,9 @@
   </div>
 
   <div class='header-title-wrap'>
-    <span class="header-title">moire</span>
+    <a href="/">
+      <span class="header-title">moire</span>
+    </a>
   </div>
 
   <nav class="header-main-navigation">

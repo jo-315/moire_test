@@ -75,10 +75,6 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container container-footer">
 			<div class="footer-inner">
-				<div class="footer-moire-intro">
-					moire
-				</div>
-
 				<div class="footer-widget-wrap">
 					<?php
 					if ( is_active_sidebar( 'moire-footer-widget-area' ) ) {
@@ -101,6 +97,22 @@
 						dynamic_sidebar( 'moire-footer-widget-area-3' );
 					}
 					?>
+				</div>
+
+				<div class="footer-widget-wrap">
+					<img
+						src="<?php echo get_stylesheet_directory_uri(); ?>/images/moire_logo.svg"
+						class="footer-moire-logo"
+					>
+					<div class="footer-moire-desc">
+						<div class="footer-moire-desc-header">
+							moire</br>
+							阪大生と社会活動を繋げる広報団体
+						</div>
+						<div class="footer-moire-desc-body">
+							イベントとwebサイトを通して阪大生の社会活動を知る・関わるを支援する。
+						</div>
+					</div>
 				</div>
 			</div>
 		</div> <!-- .container-footer -->
