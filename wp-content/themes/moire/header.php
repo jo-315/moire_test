@@ -16,7 +16,7 @@
     <!-- header画像 -->
 		<div class="header-img-wrap">
   		<!-- <div class="header-img"> -->
-    		<div id="header-effect">
+    		<div id="content-effect">
         <!-- </div> -->
   		</div>
     </div>

@@ -8,7 +8,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body>
+<body class="moire-body">
 	<header role="banner">
     <?php get_template_part( 'template-parts/header', 'navigation' ); ?>
 	</header>

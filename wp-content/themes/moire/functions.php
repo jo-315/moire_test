@@ -65,17 +65,12 @@ add_action( 'widgets_init', 'moire_widgets_init' );
 ### Header ### -----------------------------------------------------------------
 */
 function moire_scripts() {
-	// style.cssの読み込み
 	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
-	// plugin-style.cssの読み込み
 	wp_enqueue_style( 'moire-plugin-style', get_template_directory_uri() . '/css/plugin-style.css');
-	// widget.cssの読み込み
 	wp_enqueue_style( 'moire-widget-style', get_template_directory_uri() . '/css/widget.css');
-	// header.cssの読み込み
-	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
-	// footer.cssの読み込み
+	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header_nav.css');
 	wp_enqueue_style( 'moire-footer-style', get_template_directory_uri() . '/css/footer.css');
-	// wp_enqueue_style( 'moire-style', get_stylesheet_uri());
+
 	// FontAwesomeの読み込み
 	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
 
@@ -84,17 +79,17 @@ function moire_scripts() {
 	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
 	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.min.js');
 
-	// 個別投稿 && カテゴリ一覧
-	if(is_single() || is_category()) :
-		// stylesheet読み込み
-		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/contents.css');
-	elseif(is_front_page()) :
+  // ページごと
+	if(is_single()) : // 個別投稿
+		wp_enqueue_style( 'moire-single-style', get_template_directory_uri() . '/css/single.css');
+		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post.css');
+	elseif(is_category()) : // カテゴリ一覧
+		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/archive.css');
+		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post.css');
+	elseif(is_front_page()) : // フロントページ
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
 		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
-	// 固定ページ
-	elseif(is_page()) :
-		// stylesheet読み込み
-	// frontページ
+	elseif(is_page()) : // 固定ページ
 	endif;
 }
 

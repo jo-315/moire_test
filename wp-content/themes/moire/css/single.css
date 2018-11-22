@@ -1,0 +1,54 @@
+/*
+Contents #############################################
+ */
+.content-area-with-sidebar {
+ float: left;
+ padding-top: 0;
+ width: 100%;
+ max-width: 100%;
+ margin-left: -300px;
+ padding-left: 300px;
+}
+
+.content-area-with-sidebar .site-main {
+ padding: 0 15px 0 0;
+}
+
+.content-wrap {
+  position: relative;
+  z-index: 9000;
+}
+
+@media screen and (min-width: 1140px) {
+  .content-wrap{
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .content-wrap{
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .content-area-with-sidebar {
+   float: left;
+   padding-top: 0;
+   width: 100%;
+   max-width: 100%;
+   margin-left: 0px;
+   padding-left: 0px;
+  }
+
+  .content-area-with-sidebar .site-main {
+   padding: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+ .content-area-with-sidebar .content-inner-wrap {
+   padding: 0 45px;
+ }
+}

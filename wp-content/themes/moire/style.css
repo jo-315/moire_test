@@ -3276,3 +3276,7 @@ body {
 	word-wrap: break-word;
 	margin: 0;
 }
+
+.moire-body {
+  background: #2fcdb4;
+}

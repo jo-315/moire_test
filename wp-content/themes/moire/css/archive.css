@@ -1,0 +1,32 @@
+
+.more-link {
+	margin-top: 20px;
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-size: 1em;
+	font-family: 'Cabin', Helvetica, sans-serif;
+}
+
+.clearfix:before,
+.clearfix:after{
+  display: table;
+  content: " ";
+}
+
+.post-thumbnail {
+	display: block;
+}
+
+.post-thumbnail-wrap {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.post-thumbnail-wrap img {
+	width: 100%;
+  object-fit: cover;
+  height: 300px;
+}

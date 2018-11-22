@@ -1,9 +1,10 @@
 <?php
-// フッター
+// 全ページ共通フッター
 ?>
-			</div><!-- .container -->
+
+			</div>
 		</div>
-	</div><!-- #content -->
+	</div>
 
 	<div class="sns-block-wrapper">
 		<div class="sns-block-header">
@@ -115,18 +116,16 @@
 					</div>
 				</div>
 			</div>
-		</div> <!-- .container-footer -->
+		</div>
 
 		<div class="site-info">
 			<div class="footer-back-top">
 					トップへ戻る<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 			</div>
-		</div><!-- .site-info -->
+		</div>
 
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	</footer>
 
 <?php wp_footer(); ?>
-
 </body>
 </html>

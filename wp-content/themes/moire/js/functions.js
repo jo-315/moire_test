@@ -47,7 +47,7 @@ jQuery(function($) {
         opacity: 0.3
     	}
     }
-  	$("#header-effect").twinkle(options);
+  	$("#content-effect").twinkle(options);
   }
 
   return setInterval(add_circle, 1000);

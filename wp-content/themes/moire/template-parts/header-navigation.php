@@ -25,14 +25,14 @@
       <li class='header-main-navigation-item'>
         <a href="/about/">ABOUT</a>
       </li>
-      <li class='header-main-navigation-item'>
-        <a href="/category/blog/">BLOG</a>
-      </li>
         <li class='header-main-navigation-item'>
         <a href="/category/event/">イベント一覧</a>
       </li>
       <li class='header-main-navigation-item'>
         <a href="/category/organization/">団体一覧</a>
+      </li>
+      <li class='header-main-navigation-item'>
+        <a href="/category/blog/">BLOG</a>
       </li>
       <li class='header-main-navigation-item'>
         <a href="/corporation/">団体様へ</a>
