@@ -5,27 +5,36 @@
  */
 
 /*
-header
+Header
  */
 .header-img-wrapper {
   margin-top: 70px;
 }
 
-.content-effect-wrap {
-  position: relative;
-  overflow: hidden;
+.header-effect-wrap {
   width: 100%;
   height: 100%;
 }
 
-#content-effect {
+#header-effect {
   width: 100%;
   height: 100%;
 }
-
 /*
 ### Wrapper ###########################
  */
+ .content-effect-wrap {
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+   height: 100%;
+ }
+
+ #content-effect {
+   width: 100%;
+   height: 100%;
+ }
+
 .site-main > article.article,
 .blog-post {
   border: 0px;
@@ -56,7 +65,7 @@ header
 }
 
 /*
-### Header #############################
+### contents > Header ###
  */
 
 /*

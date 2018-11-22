@@ -1,6 +1,10 @@
 <?php
 // ヘッダー
 ?><!DOCTYPE html>
+<?php
+  $category = get_the_category();
+  $cat_name = $category[0]->cat_name;
+?>
 <html <?php language_attributes(); ?>>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,9 +18,7 @@
       <header role="banner">
         <?php get_template_part( 'template-parts/header', 'navigation' ); ?>
         <div class="header-img-wrapper">
-          <img
-            src="<?php echo get_stylesheet_directory_uri(); ?>/images/BLOG_header.svg"
-          >
+          <div id="header-effect">
         </div>
     	</header>
 

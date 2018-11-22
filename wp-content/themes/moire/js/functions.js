@@ -50,7 +50,7 @@ jQuery(function($) {
   	$("#content-effect").twinkle(options);
   }
 
-  return setInterval(add_circle, 1000);
+  setInterval(add_circle, 1000);
 });
 
 /*
