@@ -23,13 +23,14 @@ topのナビゲーション
 .moire-logo {
 	padding: 3px;
   height: 60px;
-	margin-left: 20px;
+	margin: 10px 0px 0px 20px;
 }
 
 .header-title-wrap {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
+  width: 20px;
 }
 
 .header-title-wrap a {

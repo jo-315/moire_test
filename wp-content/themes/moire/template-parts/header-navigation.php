@@ -19,13 +19,7 @@
 
   <nav class="header-main-navigation">
     <ul class='header-main-navigation-items-wrap'>
-      <li class='header-main-navigation-item nav_default_underline'>
-        <a href="/">HOME</a>
-      </li>
       <li class='header-main-navigation-item'>
-        <a href="/about/">ABOUT</a>
-      </li>
-        <li class='header-main-navigation-item'>
         <a href="/category/event/">イベント一覧</a>
       </li>
       <li class='header-main-navigation-item'>
@@ -38,9 +32,17 @@
         <a href="/corporation/">団体様へ</a>
       </li>
       <li class='header-main-navigation-item'>
-        <a href="/about/recruit/">リクルート</a>
+        <a href="/recruit/">メンバー募集</a>
       </li>
-      <span id='header-nav-underline'></span>
+      <li class='header-main-navigation-item'>
+        <a href="/about-us/">ABOUT US</a>
+      </li>
+      <li class='header-main-navigation-item'>
+        <a href="/member/">MEMBER</a>
+      </li>
+      <li class='header-main-navigation-item'>
+        <a href="/contact-us/">お問い合わせ</a>
+      </li>
     </ul>
   </nav>
 
