@@ -70,7 +70,7 @@ function moire_scripts() {
 	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
 	wp_enqueue_style( 'moire-plugin-style', get_template_directory_uri() . '/css/plugin-style.css');
 	wp_enqueue_style( 'moire-widget-style', get_template_directory_uri() . '/css/widget.css');
-	wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header_nav.css');
+	wp_enqueue_style( 'moire-header-nav-style', get_template_directory_uri() . '/css/header_nav.css');
 	wp_enqueue_style( 'moire-footer-style', get_template_directory_uri() . '/css/footer.css');
 
 	// FontAwesomeの読み込み
@@ -81,13 +81,15 @@ function moire_scripts() {
 	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
 	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.min.js');
 
+	if(!is_front_page()) :
+		wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
+	endif;
+
   // ページごと
 	if(is_single()) : // 個別投稿
 		wp_enqueue_style( 'moire-single-style', get_template_directory_uri() . '/css/single.css');
-		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post-header.css');
 	elseif(is_category()) : // カテゴリ一覧
 		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/archive.css');
-		wp_enqueue_style( 'moire-post-style', get_template_directory_uri() . '/css/post-header.css');
 	elseif(is_front_page()) : // フロントページ
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
 		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
