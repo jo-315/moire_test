@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*
+###### 投稿ページ・アーカイブページの共通 Header ####################
+ */
+
+.header-img-wrapper {
+  margin-top: 70px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.post-header-title {
+  height: 200px;
+  text-align: center;
+}
+
+.post-header-title span {
+  color: #f6f6f6;
+  font-size: 60px;
+  font-family: 'klee',sans-serif;
+  line-height: 200px;
+}
+
+.content-effect-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#content-effect {
+  width: 100%;
+  height: 100%;
+}
