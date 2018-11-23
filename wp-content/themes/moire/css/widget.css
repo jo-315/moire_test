@@ -26,6 +26,7 @@
 
  .site-info:hover {
  	opacity: 0.5;
+  cursor: pointer;
  }
 
  .site-info a {
