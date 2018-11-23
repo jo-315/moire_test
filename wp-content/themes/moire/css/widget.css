@@ -1,39 +1,8 @@
 @charset "utf-8";
 
-/*
-Sidebar #########################################################################
- */
-.sidebar-inner-wrap {
-  background: #6f6e6b;
-  padding-bottom: 20px;
-}
-
-.sidebar-inner-wrap a{
-  color: #aaaaaa;
-}
-
-.sidebar-inner-wrap .widget-title {
-  color: #628d7c;
-  font-size: 18px;
-  margin: 20px 0 10px;
-  line-height: 21px;
-}
-
 .widget-area {
   width: 100%;
   max-width: 100%;
-}
-
-.widget-area .sidebar-inner-wrap .widget {
-  margin: auto;
-  width: 300px;
-  padding: 0;
-}
-
-@media screen and (min-width: 400px) {
-  .widget-area .sidebar-inner-wrap .widget {
-  	width: 80%;
-  }
 }
 
 @media screen and (min-width: 792px) {
@@ -45,55 +14,7 @@ Sidebar ########################################################################
     display: block;
     float: right;
   }
-
-  .sidebar-inner-wrap {
-    height: auto !important;
-    background: #f6f6f6;
-    padding-bottom: 0;
-  }
-
-  .sidebar-inner-wrap .widget-title {
-    color: #575756;
-  }
-  .sidebar-inner-wrap a{
-    color: #7fcaad;
-  }
-}
-
 @media screen and (min-width: 992px) {
-  .widget-area .sidebar-inner-wrap .widget {
-  	padding: 0 25px 5px 30px;
-  	margin: 0px;
-  	margin-bottom: 5px;
-  	width: 300px;
-  }
-}
-
-/*
-### 団体紹介
- */
-.sidebar-log-wrap {
-  position: relative;
-  z-index: 100;
-  text-align: center;
-}
-
-.sidebar-log-wrap p {
-  margin: 0;
-}
-
-.sidebar-logo-text {
-  color: #aaaaaa;
-  text-align: center;
-}
-
-@media screen and (min-width: 792px) {
-  .sidebar-logo-text {
-    color: #6f6e6b;
-    text-align: left;
-  }
-}
-
  .site-info {
  	text-align: center;
  	font-size: 12px;

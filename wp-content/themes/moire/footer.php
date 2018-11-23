@@ -2,6 +2,11 @@
 // 全ページ共通フッター
 ?>
 
+	<div class="between_content">
+		<div class="between_content_effect">
+		</div>
+	</div>
+
 	<div class="sns-block-wrapper">
 		<div class="sns-block-header">
 			<span>SNS</span>

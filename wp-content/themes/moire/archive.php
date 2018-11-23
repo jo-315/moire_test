@@ -11,7 +11,7 @@ get_header('post');
 
   <div id="content" class="site-content post-content">
     <div class="archive-content-wrap">
-			<div id="primary" class="content-area content-area-arch content-area-with-sidebar">
+			<div id="primary">
 				<main id="main" role="main">
 					<?php
 					/* 投稿記事をloopで表示 */
@@ -28,11 +28,6 @@ get_header('post');
 				</main>
 			</div>
 		</div>
-  </div>
-
-  <div class="between_content">
-    <div class="between_content_effect">
-    </div>
   </div>
 
 <?php

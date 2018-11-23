@@ -158,6 +158,17 @@ function moire_catch_that_image() {
 	return $first_img;
 }
 
+// カテゴリーの表示
+function moire_category() {
+	$categories_list = get_the_category_list( ' ', '' );
+	if ( $categories_list ) {
+		printf(
+			'<div class="cat-links-wrap">%1$s</span>',
+			$categories_list
+		);
+	}
+}
+
 /**
  * Post thumbnail
  */

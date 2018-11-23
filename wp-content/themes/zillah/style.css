@@ -1041,10 +1041,6 @@ a:active {
 # Post format
 --------------------------------------------------------------*/
 /* quote */
-.post_format-post-format-quote .content-inner-wrap p {
-	margin-bottom: 0;
-}
-
 .post_format-post-format-quote blockquote {
 	margin: 0;
 }
@@ -1464,11 +1460,6 @@ a:active {
 	width: 100%;
 }
 
-.content-inner-wrap,
-.content-area-with-sidebar .content-inner-wrap {
-	padding: 0 20px;
-}
-
 .not-found .page-header,
 .not-found .page-title {
 	margin-top: 0;
@@ -1726,10 +1717,6 @@ p.dropcap:first-letter {
 	padding-bottom: 40px;
 }
 
-.entry-header .content-inner-wrap {
-	text-align: center;
-}
-
 .entry-header .posted-on {
 	color: #aaaaaa;
 	font-size: 15px;
@@ -1768,10 +1755,6 @@ p.dropcap:first-letter {
 	font-family: 'Cabin', Helvetica, sans-serif;
 }
 
-.content-inner-wrap > .more-link {
-	margin-top: 20px;
-}
-
 .post-edit-link {
 	font-style: italic;
 }
@@ -1783,10 +1766,6 @@ p.dropcap:first-letter {
 	background: #FFF;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-}
-
-.blog-post-alt .content-inner-wrap {
-	padding: 0;
 }
 
 .blog-post-alt .posted-on {
@@ -1827,25 +1806,6 @@ p.dropcap:first-letter {
 	padding-top: 23px;
 }
 
-.blog-post-alt .content-inner-wrap {
-	padding: 0;
-}
-
-.blog-post-alt .entry-content .content-inner-wrap {
-	border-top: 1px solid #f6f6f6;
-	padding: 15px 0;
-	float: left;
-	width: 100%;
-}
-
-.blog-post-alt .content-inner-wrap > .more-link {
-	font-family: 'Cabin', sans-serif;
-	font-weight: 600;
-	margin-top: 0;
-	width: 100%;
-	text-align: center;
-}
-
 .blog-post-alt .meta-nav {
 	display: none;
 }
@@ -1862,10 +1822,6 @@ p.dropcap:first-letter {
 
 .single-post-alt .entry-header .cat-links {
 	font-weight: 600;
-}
-
-.single-post-alt .content-inner-wrap-alt {
-	margin-bottom: -60px;
 }
 
 .alt-comments-number {
@@ -1890,10 +1846,6 @@ p.dropcap:first-letter {
 .blog-post-alt .page-links {
 	margin: 0;
 	text-align: center;
-}
-
-.content-area-with-sidebar .content-inner-wrap.content-inner-wrap-blog-alt {
-	padding: 0;
 }
 
 .single-post-alt .post-thumbnail-wrap {
@@ -2882,9 +2834,6 @@ div.sharedaddy h3.sd-title:before {
 		margin: 10px 0 30px 30px;
 	}
 
-	.content-area-with-sidebar .content-inner-wrap {
-		padding: 0 45px;
-	}
 	.entry-title {
 		font-size: 24px;
 		font-size: 1.5em;
@@ -3334,11 +3283,8 @@ div.sharedaddy h3.sd-title:before {
 		margin-top: 0;
 	}
 
-	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		/* max-width: 740px;
-		margin: 0 auto; */
-                max-width: 100%;
+    max-width: 100%;
 	}
 
 	.content-area-with-sidebar {
@@ -3576,10 +3522,8 @@ div.sharedaddy h3.sd-title:before {
 		padding: 124px 0;
 	}
 
-	.content-inner-wrap,
 	.comments-area-wrap .comments-area {
-		/* max-width: 840px; */
-                max-width: 100%;
+    max-width: 100%;
 	}
 
 }
@@ -3612,21 +3556,8 @@ div.sharedaddy h3.sd-title:before {
 	}
 }
 
-/*yTable of Contents Plus’†‰›•\¦z*/
-
-#toc_container {
-margin-left: auto;
-margin-right: auto;
-}
-
-/* WordPress Related Posts */
-.wp_rp_content {
-margin-top: 40px;
-}
-
-
 /*  Original */
-/* pcŒü‚¯ */
+/* pcï¿½ï¿½ï¿½ï¿½ */
 .original_content_wrap {
 	width: 80%;
 	text-align: center;
@@ -3639,7 +3570,7 @@ margin-top: 40px;
 	text-align: left;
 }
 
-/*  ‹·‚¢ƒuƒ‰ƒEƒU‚Æƒ^ƒuƒŒƒbƒgŒü‚¯ */
+/*  ï¿½ï¿½ï¿½ï¿½ï¿½uï¿½ï¿½ï¿½Eï¿½Uï¿½Æƒ^ï¿½uï¿½ï¿½ï¿½bï¿½gï¿½ï¿½ï¿½ï¿½ */
 @media (max-width: 1020px) and (min-width: 768px) {
 	.original_content_wrap {
 		width: 90%;
@@ -3650,7 +3581,7 @@ margin-top: 40px;
 	}
 }
 
-/* ƒXƒ}ƒzŒü‚¯ */
+/* ï¿½Xï¿½}ï¿½zï¿½ï¿½ï¿½ï¿½ */
 @media (max-width: 767px) {
 	.original_content_wrap {
 		width: 100%;
@@ -3661,7 +3592,7 @@ margin-top: 40px;
 	}
 }
 
-/* --------- ŒÅ’èƒy[ƒW(HOME) -------------- */
+/* --------- ï¿½Å’ï¿½ï¿½yï¿½[ï¿½W(HOME) -------------- */
 
 /* ----- static page ----- */
 .static_center {
@@ -3845,7 +3776,7 @@ width: 88%;
 }
 
 
-/* --------- ŒÅ’èƒy[ƒW(HOME) -------------- */
+/* --------- ï¿½Å’ï¿½ï¿½yï¿½[ï¿½W(HOME) -------------- */
 .profile_photo_wrap{
 float: left;
 height: 600px;
@@ -3884,9 +3815,9 @@ margin-right: 0px;
 
 }
 
-/* “Šeƒy[ƒW*/
+/* ï¿½ï¿½ï¿½eï¿½yï¿½[ï¿½W*/
 
-/* plugin ƒpƒ“‚­‚¸ */
+/* plugin ï¿½pï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
 .breadcrumbs {
   padding: 1px 0px 1px 30px;
   width: 100%;
