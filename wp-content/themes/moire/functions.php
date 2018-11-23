@@ -16,6 +16,8 @@ function moire_setup() {
 			)
 		)
 	);
+
+	add_theme_support( 'post-thumbnails' );
 }
 /**
  * Register widget area.

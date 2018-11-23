@@ -9,3 +9,11 @@
 .wp_rp_content {
   margin-top: 40px;
 }
+
+/*
+目次
+ */
+
+#ez-toc-container {
+  margin: 30px auto;
+}
