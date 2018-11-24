@@ -20,6 +20,9 @@
   <nav class="header-main-navigation">
     <ul class='header-main-navigation-items-wrap'>
       <li class='header-main-navigation-item'>
+        <a href="/">HOME</a>
+      </li>
+      <li class='header-main-navigation-item'>
         <a href="/category/event/">イベント一覧</a>
       </li>
       <li class='header-main-navigation-item'>

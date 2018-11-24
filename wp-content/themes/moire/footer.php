@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="sns-block-desc">
-			日々更新しています。こちらもチェック！！
+			日々社会団体およびそのイベントを中心に更新しています。こちらもチェック！！
 		</div>
 
 		<div class="sns-block-content">

@@ -14,6 +14,8 @@
     display: block;
     float: right;
   }
+}
+
 @media screen and (min-width: 992px) {
  .site-info {
  	text-align: center;

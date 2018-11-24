@@ -22,16 +22,15 @@
       <div class="right-top-column">
         <span>
           私たちmoireは、</br>
-          社会活動を促進することで</br>
-          世の中を良い方向へ進めていくことを</br>
-          目標としています。</br>
+          社会活動を「広報」という手段によって支援することで</br>
+          世の中を良い方向へ進めていきます。</br>
           </br>
 
           そのために、</br>
-          イベントとwebサイトを通して</br>
+          イベントとHPを通して</br>
           阪大生の社会活動の</br>
           <span style='font-weight: bold;'>知る・関わる</span></br>
-          を支援していきます。
+          を活発にします。
         </span>
 
         <div class="mission-button">
@@ -146,11 +145,6 @@
           src="<?php echo get_stylesheet_directory_uri(); ?>/images/ASANTA.jpg"
           class="event_block_img"
         >
-      </div>
-    </div>
-
-    <div class="between_block">
-      <div class="between_block_effect">
       </div>
     </div>
   </div>
