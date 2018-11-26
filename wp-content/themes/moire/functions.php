@@ -94,6 +94,7 @@ function moire_scripts() {
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
 		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
 	elseif(is_page()) : // 固定ページ
+		wp_enqueue_style( 'moire-page-style', get_template_directory_uri() . '/css/page.css');
 	endif;
 }
 
