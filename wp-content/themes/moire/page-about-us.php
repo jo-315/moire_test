@@ -14,7 +14,7 @@ get_header('about-us');
       <h1>moireのMISSION</h1>
     </div>
     <div class="mission_content_wrap">
-      <div class="mission_sub_title mission_sub_title--1">
+      <div class="about_sub_title mission_sub_title--1">
         <h2>社会活動を「広報」という形で支援し、活発にする</h2>
       </div>
       <div class="mission_content">
@@ -24,7 +24,7 @@ get_header('about-us');
         世の中は少しづつ今より良い方向へと進んで行くと信じています。
       </div>
 
-      <div class="mission_sub_title mission_sub_title--2">
+      <div class="about_sub_title mission_sub_title--2">
         <h2>どうやって社会活動を活発にするのか</h2>
       </div>
       <div class="mission_content">
