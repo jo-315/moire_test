@@ -110,3 +110,37 @@
   border: solid 0.5px #2fcbb2;
   width: 600px;
 }
+
+/* Member */
+.member_content_wrap {
+  height: 200px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.member_content {
+  width: 50%;
+  float: left;
+  border-bottom: solid 0.5px #2fcbb2;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.profile_img {
+  width: 100px;
+  float: left;
+}
+
+.profile_text {
+  width: calc(100% - 120px);
+  float: left;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.profile_text_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
