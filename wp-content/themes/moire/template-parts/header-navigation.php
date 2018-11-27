@@ -32,16 +32,16 @@
         <a href="/category/blog/">BLOG</a>
       </li>
       <li class='header-main-navigation-item'>
-        <a href="/corporation/">団体様へ</a>
-      </li>
-      <li class='header-main-navigation-item'>
-        <a href="/recruit/">メンバー募集</a>
-      </li>
-      <li class='header-main-navigation-item'>
         <a href="/about-us/">ABOUT US</a>
       </li>
       <li class='header-main-navigation-item'>
         <a href="/member/">MEMBER</a>
+      </li>
+      <!-- <li class='header-main-navigation-item'>
+        <a href="/corporation/">団体様へ</a>
+      </li> -->
+      <li class='header-main-navigation-item'>
+        <a href="/recruit/">メンバー募集</a>
       </li>
       <li class='header-main-navigation-item'>
         <a href="/contact-us/">お問い合わせ</a>

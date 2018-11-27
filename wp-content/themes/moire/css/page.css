@@ -1,0 +1,112 @@
+/* 固定pageのcss */
+
+.about_content_block {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 50px 0;
+}
+
+.about_content_block h1 {
+  font-family: 'klee',sans-serif;
+}
+
+.about_sub_title {
+  width: 550px;
+  margin: 0 auto;
+  border-bottom: solid #2fcbb2;
+}
+
+.about_sub_title h2 {
+  font-weight: bold;
+  margin: 0;
+}
+
+
+/* MISSION */
+
+.mission_sub_title--1 h2 {
+  font-size: 22px;
+}
+
+.mission_sub_title--2 h2 {
+  font-size: 20px;
+}
+
+.mission_content {
+  margin: 30px 0 50px;
+  line-height: 35px;
+}
+
+/* 団体概要 */
+.desc_table {
+  width: 550px;
+  margin: 20px auto;
+  border: solid 2px #2fcdb4;
+}
+
+.desc_table--key {
+  background: #2fcbb2;
+  color: #f6f6f6;
+}
+
+/* Recruit */
+.recruit_title {
+  margin-bottom: 50px;
+}
+
+.recruit_title h1 {
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  font-size: 24px;
+}
+
+.recruit_content {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.recruit_text {
+  font-size: 17px;
+  text-align: left;
+}
+
+.recruit_detail {
+  margin-top: 70px;
+}
+
+.recruit_detail ul {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.recruit_detail li {
+  list-style: none;
+}
+
+.recruit_detail li:nth-child(odd) {
+  font-weight: bold;
+  width: 200px;
+  margin: 0 auto;
+  border-bottom: solid #2fcbb2;
+}
+
+.recruit_detail li:nth-child(even) {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.recruit_detail .last{
+  text-align: center !important;
+}
+
+.recruit_between {
+  height: 40px;
+}
+
+/* Contact */
+.wpcf7-form .wpcf7-text,
+.wpcf7-form  .wpcf7-textarea {
+  border: solid 0.5px #2fcbb2;
+  width: 600px;
+}
