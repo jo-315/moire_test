@@ -143,8 +143,8 @@ function moire_posted_date() {
 		esc_html( get_the_date() ),
 		esc_attr( get_the_modified_date( 'c' ) ),
 		esc_html( get_the_modified_date() ),
-		'Last Updated:',
-		'Posted:'
+		null,
+		null
 	);
 
 	echo '<span class="posted-on">' . $time_string . '</span>'; // WPCS: XSS OK.

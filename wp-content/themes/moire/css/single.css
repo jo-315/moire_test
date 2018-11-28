@@ -5,10 +5,10 @@ Content
 */
 .post-content {
   background: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   position: relative;
   box-shadow: 0px 0px 3px 3px;
-  padding: 0 0 50px;
+  padding: 0 0 10px;
 }
 
 .single-content-area {
@@ -26,27 +26,40 @@ Content
   font-size: 17px;
 }
 
-@media screen and (min-width: 1140px) {
-  .content-wrap{
-    width: 1140px;
-    margin: 0 auto;
-  }
+.single-content h2,
+.related-post-title {
+  font-weight: bold;
+  background: linear-gradient(transparent 70%, #2fcdb4 70%);
 }
 
-@media screen and (max-width: 792px) {
-  .content-wrap{
-    padding: 0;
-  }
+.single-content h3, h4 {
+  font-weight: bold;
+  position: relative;
+  padding-left: 35px;/*アイコン分のスペース*/
+  line-height: 1.4;
 }
 
-@media screen and (max-width: 790px) {
+.single-content h3:before, h4:before {
+  font-family: "FontAwesome";
+  content: "\f00c";/*アイコンのユニコード*/
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #2fcdb4; /*アイコン色*/
+}
+
+.single-content h3 {
+  font-size: 21px;
+}
+.single-content h4 {
+  font-size: 19px;
+}
+
+@media screen and (max-width: 650px) {
   .single-content-area {
-   float: left;
-   padding-top: 0;
-   width: 100%;
-   max-width: 100%;
-   margin-left: 0px;
-   padding-left: 0px;
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
@@ -74,11 +87,17 @@ header
   text-decoration: none;
 }
 
+@media screen and (max-width: 450px) {
+  .single-title {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
 /*
 関連記事
  */
 .related-post-wrap {
-  width: 700px;
   margin: 0 auto;
 }
 
@@ -86,9 +105,17 @@ header
   list-style: none;
   width: 300px;
   float: left;
-  margin: 0 25px 50px;
+  margin-bottom: 50px;
   box-shadow: 3px 3px 3px 1px;
   position: relative;
+}
+
+.related-post-item-wrap:nth-child(odd){
+  margin-right: 25px;
+}
+
+.related-post-item-wrap:nth-child(even){
+  margin-left: 25px;
 }
 
 .related-post-item-wrap:hover {
@@ -130,7 +157,7 @@ header
 }
 
 .related-post-item-desc .title-wrap {
-  height: 90px;
+  height: 80px;
 }
 
 .related-post-item-desc .title-wrap .title{
@@ -144,7 +171,8 @@ header
 
 .related-post-title {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .related-post-title span {
@@ -154,4 +182,35 @@ header
 .related-post-content {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .related-post-item-wrap {
+    width: calc((100% - 30px)/2)
+  }
+
+  .related-post-item-wrap:nth-child(odd){
+    margin-right: 15px;
+  }
+
+  .related-post-item-wrap:nth-child(even){
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .related-post-item-wrap {
+    float: none;
+    margin: 0 auto 50px;
+    width: 100%;
+  }
+
+  .related-post-item-wrap:nth-child(odd){
+    margin-right: 0px;
+  }
+
+  .related-post-item-wrap:nth-child(even){
+    margin-left: 0px;
+  }
+
 }
