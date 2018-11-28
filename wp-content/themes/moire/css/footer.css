@@ -97,7 +97,7 @@ SNSブロック
 
 @media screen and (max-width: 380px) {
   .sns-block-content-column {
-    width: 100%;
+    width: 300px;
     margin: 0 auto 40px;
   }
 }
@@ -131,6 +131,16 @@ widget
    font-size: 16px;
  }
 
+ .footer-inner {
+   display: block;
+   letter-spacing: 0.25px;
+    padding: 0 30px;
+ }
+
+ .container-footer {
+   padding-top: 60px;
+ }
+
  .footer-inner:before,
  .footer-inner:after {
    display: table;
@@ -141,7 +151,8 @@ widget
   .footer-back-top {
     /* ここにjquery */
   	width: 100%;
-   margin-top: -10px;
+    margin-top: -10px;
+    text-align: center;
   }
 
  @media screen and (min-width: 1140px) {
@@ -158,8 +169,50 @@ widget
    }
  }
 
- @media screen and (max-width: 792px) {
-   .footer-inner {
-   	display: none;
+ @media screen and (max-width: 700px) {
+   .footer-widget-wrap {
+     padding-right: 40px;
+     padding-left: 40px;
+   }
+
+   .footer-widget-wrap {
+     width: 50%;
+     height: 450px;
+   }
+
+   .footer-widget-img {
+     width: 200px;
+     margin: 0 auto;
    }
  }
+
+ @media screen and (max-width: 500px) {
+   .footer-inner {
+     padding: 0px 0px 35px;
+   }
+
+   .footer-widget-wrap {
+     padding-right: 0px;
+     padding-left: 0px;
+   }
+
+   .footer-widget-img {
+     width: 150px;
+     margin: 0 auto;
+   }
+
+   .footer-widget-wrap {
+     width: 350px;
+     height: auto;
+     float: none;
+     margin: 0 auto;
+   }
+
+}
+
+@media screen and (max-width: 380px) {
+  .footer-widget-wrap {
+    width: 300px;
+    height: auto;
+  }
+}

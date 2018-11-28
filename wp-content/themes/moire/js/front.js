@@ -31,7 +31,10 @@ jQuery(function($) {
         opacity: 0.3
       }
     }
-    $(".content-effect").twinkle(options);
+
+    if (window.matchMedia( "(min-width: 480px)" ).matches) {
+      $(".content-effect").twinkle(options);
+    }
     $(".between_block_effect").twinkle(options);
   }
 
@@ -43,9 +46,9 @@ jQuery(function($) {
     $(".moire-sub-title").fadeIn(5000)
   }).then(() => {
     setTimeout(() => {
-      if (window.matchMedia( "(min-width: 480px)" ).matches) {
-        setInterval(add_random_circle, 1000);
+      setInterval(add_random_circle, 1000);
 
+      if (window.matchMedia( "(min-width: 480px)" ).matches) {
         $('.content-effect-wrapper')
           .animate({ 'width': '60%' })
           .css('float', 'left')

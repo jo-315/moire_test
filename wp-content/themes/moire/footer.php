@@ -102,10 +102,12 @@
 				</div>
 
 				<div class="footer-widget-wrap">
-					<img
-						src="<?php echo get_stylesheet_directory_uri(); ?>/images/moire_logo.svg"
-						class="footer-moire-logo"
-					>
+					<div class="footer-widget-img">
+						<img
+							src="<?php echo get_stylesheet_directory_uri(); ?>/images/moire_logo.svg"
+							class="footer-moire-logo"
+						>
+					</div>
 					<div class="footer-moire-desc">
 						<div class="footer-moire-desc-header">
 							moire</br>
@@ -124,7 +126,6 @@
 					トップへ戻る<i class="fa fa-angle-double-up" aria-hidden="true"></i>
 			</div>
 		</div>
-
 	</footer>
 
 <?php wp_footer(); ?>

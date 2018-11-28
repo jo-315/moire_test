@@ -283,11 +283,7 @@ HPブロック
   }
 }
 
-@media screen and (max-width: 380px){
-  .event_block_content{
-    padding: 30px 5px;
-  }
-
+@media screen and (max-width: 450px){
   .event_block_img {
     width: 100%;
   }
@@ -299,5 +295,11 @@ HPブロック
   .event_block_img:nth-child(2) {
     height: 170px;
     object-position: center;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .event_block_content{
+    padding: 30px 5px;
   }
 }

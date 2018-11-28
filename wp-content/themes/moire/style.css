@@ -2133,16 +2133,6 @@ div.sharedaddy h3.sd-title:before {
 	/*-----------
      * Footer
      -----------*/
-	.footer-inner {
-		display: block;
-		letter-spacing: 0.25px;
-    padding: 0 30px;
-	}
-
-	.container-footer {
-		padding-top: 60px;
-	}
-
 	.site-footer .widget_nav_menu .widget-title {
 		margin-bottom: 15px;
 	}

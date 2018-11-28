@@ -16,23 +16,22 @@
   }
 }
 
-@media screen and (min-width: 992px) {
- .site-info {
- 	text-align: center;
- 	font-size: 12px;
- 	font-size: 0.857em;
- 	letter-spacing: 1px;
- 	padding: 30px 0;
- 	background: #373735;
- }
+.site-info {
+	text-align: center;
+	font-size: 12px;
+	font-size: 0.857em;
+	letter-spacing: 1px;
+	padding: 30px 0;
+	background: #373735;
+}
 
- .site-info:hover {
- 	opacity: 0.5;
-  cursor: pointer;
- }
+.site-info:hover {
+	opacity: 0.5;
+cursor: pointer;
+}
 
- .site-info a {
- 	letter-spacing: 0;
- 	text-transform: none;
- 	letter-spacing: 1px;
- }
+.site-info a {
+	letter-spacing: 0;
+	text-transform: none;
+	letter-spacing: 1px;
+}

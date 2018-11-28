@@ -54,7 +54,7 @@ jQuery(function($) {
               $(this).css('transform','translateY(0)');
           }
         } else {
-          if (scroll > targetElement - windowHeight - 500){
+          if (scroll > targetElement - windowHeight - 200){
               $(this).css('opacity','1');
               $(this).css('transform','translateY(0)');
           }
