@@ -43,14 +43,20 @@ jQuery(function($) {
     $(".moire-sub-title").fadeIn(5000)
   }).then(() => {
     setTimeout(() => {
-      setInterval(add_random_circle, 1000);
+      if (window.matchMedia( "(min-width: 480px)" ).matches) {
+        setInterval(add_random_circle, 1000);
 
-      $('.content-effect-wrapper')
-        .animate({ 'width': '60%' })
-        .css('float', 'left')
-      $('.right-top-column')
-        .css('display', 'block')
-        .animate({'width':'40%'})
+        $('.content-effect-wrapper')
+          .animate({ 'width': '60%' })
+          .css('float', 'left')
+        $('.right-top-column')
+          .css('display', 'block')
+          .animate({'width':'40%'})
+      } else {
+        $('.right-top-column')
+          .animate({'width':'100%'})
+          .css('display', 'block')
+      }
     }, 3500);
     return
   })

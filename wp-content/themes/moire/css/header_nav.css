@@ -14,9 +14,10 @@ topのナビゲーション
 	box-sizing: border-box;
 }
 
+/* Logo */
+
 .header-logo-wrap {
   display: table-cell;
-	width: 90px;
 	vertical-align: middle;
 }
 
@@ -25,6 +26,8 @@ topのナビゲーション
   height: 60px;
 	margin: 10px 0px 0px 20px;
 }
+
+/* Title  */
 
 .header-title-wrap {
 	display: table-cell;
@@ -44,18 +47,12 @@ topのナビゲーション
   color: white;
 }
 
-@media screen and (max-width: 849px) {
-	.header-title-wrap {
-    width: 100%;
-	}
-}
-
 /* navigation */
 
 .header-main-navigation {
   background: none;
   vertical-align: middle;
-	padding: 12px 25px;
+	padding: 18px 25px 0px;
 	display: table-cell;
 	float: right;
 }
@@ -96,19 +93,26 @@ topのナビゲーション
 
 .header-menu-toggle {
 	display: none;
+	height: 80px;
+}
+
+@media screen and (max-width: 1120px) {
+	.header-main-navigation-item {
+		padding: 12px 6px 5px;
+	}
+
 }
 
 @media screen and (max-width: 948px) {
 	.header-main-navigation-item {
-		padding: 12px 10px 5px;
+		padding: 12px 3px 5px;
 	}
 }
 
-@media screen and (max-width: 849px) {
+@media screen and (max-width: 890px) {
 	/* このサイズからtoggleボタンに変更 */
 	.header-menu-toggle {
 		display: block;
-		height: 70px;
 		width: 90px;
 		float: right;
 	}
@@ -163,43 +167,5 @@ topのナビゲーション
 		font-size: 16px;
 		font-size: 1em;
 		line-height: 20px;
-	}
-}
-
-/* img */
-.header-img-wrap {
-	position: relative;
-	z-index: -2;
-  width: calc(100% + 5px);
-	margin-top: 60px;
-	height: 700px;
-	background: #2fcdb4;
-	z-index: -1;
-	margin-left: -5px;
-	overflow: hidden;
-}
-
-#header-effect {
-	height: 100%;
-}
-
-.header-img {
-	position: relative;
-	z-index: -1;
-	height: 250px; /* ヘッダー画像の高さ */
-	background-position: center center;
-	background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
-  background-color: #464646;
-}
-
-@media screen and (min-width: 1280px) {
-	.header-img-wrap {
-		height: 300px;
-	}
-
-	.header-img {
-		height: 300px;
 	}
 }
