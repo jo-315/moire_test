@@ -287,4 +287,17 @@ HPブロック
   .event_block_content{
     padding: 30px 5px;
   }
+
+  .event_block_img {
+    width: 100%;
+  }
+
+  .event_block_img:first-child {
+    height: 130px;
+  }
+
+  .event_block_img:nth-child(2) {
+    height: 170px;
+    object-position: center;
+  }
 }
