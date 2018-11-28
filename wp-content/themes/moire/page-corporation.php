@@ -1,33 +1,13 @@
 <?php
 /*
-カテゴリー毎、投稿一覧
-blog,event,orgで同じもの
+現状は使わない
 */
 ?>
-fdsdddsssssssssssss
 <?php
 get_header('corporation');
 ?>
 
   <div id="content" class="site-content post-content">
-    <div class="archive-content-wrap">
-			<div id="primary">
-				<main id="main" role="main">
-					<?php
-					/* 投稿記事をloopで表示 */
-					while ( have_posts() ) :
-						the_post();
-
-	          // 投稿記事のアイテム
-						get_template_part( 'template-parts/content' );
-
-					endwhile;
-
-					the_posts_navigation(); // 2ページ目へ
-				?>
-				</main>
-			</div>
-		</div>
   </div>
 
 <?php

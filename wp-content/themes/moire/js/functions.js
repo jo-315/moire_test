@@ -36,7 +36,7 @@ jQuery(function($) {
   	$(".between_content_effect").twinkle(options);
   }
 
-  // setInterval(add_circle, 1000);
+  setInterval(add_circle, 1000);
 });
 
 /*

@@ -138,6 +138,14 @@
   width: 600px;
 }
 
+@media screen and (max-width: 600px) {
+  .wpcf7-form .wpcf7-text,
+  .wpcf7-form  .wpcf7-textarea {
+    width: 96%;
+  }
+}
+
+
 /* Member */
 .member_content_wrap {
   width: 900px;
