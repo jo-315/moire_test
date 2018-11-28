@@ -14,11 +14,11 @@ get_header('recruit');
     <h1>共に活動してくれるメンバーを募集しています。</h1>
   </div>
   <div class="recruit_content_wrap">
-    <div class="about_sub_title recruit_sub_title--1">
-       <h2>HPでの情報発信</h2>
-    </div>
-
     <div class="recruit_content">
+      <div class="about_sub_title recruit_sub_title--1">
+         <h2>HPでの情報発信</h2>
+      </div>
+
       <h3>現在行っている活動を、</br>moireを通して共に発信していきませんか？</h3>
       <div class="recruit_text">
         団体情報一覧・イベント一覧・ブログに記事を載せて、発信していただける方を探しています。</br>
@@ -72,11 +72,11 @@ get_header('recruit');
 
 <div class="about_content_block">
   <div class="recruit_content_wrap">
-    <div class="about_sub_title recruit_sub_title--1">
-      <h2>学生団体・NPO・NGO団体の支援</h2>
-    </div>
-
     <div class="recruit_content">
+      <div class="about_sub_title recruit_sub_title--1">
+        <h2>学生団体・NPO・NGO団体の支援</h2>
+      </div>
+
       <h3>学生団体・NPO・NGOといった団体の支援を共に行いませんか？</h3>
       <div class="recruit_text">
         私たちは、</br>
@@ -126,10 +126,11 @@ get_header('recruit');
 
 <div class="about_content_block">
   <div class="recruit_content_wrap">
-    <div class="about_sub_title recruit_sub_title--1">
-      <h2>イベントの開催</h2>
-    </div>
     <div class="recruit_content">
+      <div class="about_sub_title recruit_sub_title--1">
+        <h2>イベントの開催</h2>
+      </div>
+
       <h3>学生団体・NPO・NGOといった団体の活動を広げれるような素敵なイベントを共に行いませんか？</h3>
       <div class="recruit_text">
         私たちは、</br>

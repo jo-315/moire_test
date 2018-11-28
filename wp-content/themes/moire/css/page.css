@@ -5,7 +5,7 @@
   background: #ffffff;
   text-align: center;
   font-size: 17px;
-  padding: 50px 0;
+  padding: 50px 10px;
 }
 
 .about_content_block h1 {
@@ -23,6 +23,15 @@
   margin: 0;
 }
 
+@media screen and (max-width: 550px) {
+  .about_content_block {
+    padding: 10px;
+  }
+
+  .about_sub_title {
+    width: 96%;
+  }
+}
 
 /* MISSION */
 
@@ -49,6 +58,17 @@
 .desc_table--key {
   background: #2fcbb2;
   color: #f6f6f6;
+}
+
+@media screen and (max-width: 550px) {
+  .desc_table {
+    width: 96%;
+  }
+
+  .desc_title h1 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
 }
 
 /* Recruit */
@@ -104,6 +124,13 @@
   height: 40px;
 }
 
+@media screen and (max-width: 550px) {
+  .recruit_content {
+    width: 96%;
+  }
+}
+
+
 /* Contact */
 .wpcf7-form .wpcf7-text,
 .wpcf7-form  .wpcf7-textarea {
@@ -113,9 +140,9 @@
 
 /* Member */
 .member_content_wrap {
-  height: 200px;
   width: 900px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .member_content {
@@ -143,4 +170,16 @@
   font-weight: bold;
   font-size: 17px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .member_content_wrap {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 626px) {
+  .member_content {
+    width: 100%;
+  }
 }

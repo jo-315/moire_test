@@ -13,7 +13,7 @@ get_header('member');
   <div class="member_content_wrap">
     <div class="member_content">
       <div class="profile_text_title">
-        代表   見城 俊介
+        <span>代表   見城 俊介</span>
       </div>
 
       <div class="member_img">
