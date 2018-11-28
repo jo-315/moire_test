@@ -2927,7 +2927,6 @@ margin-right: 0px;
 
 }
 
-
 /* 下に移行していく */
 body {
 	color: #6f6e6b;
@@ -2943,4 +2942,13 @@ body {
 
 .moire-body {
   background: #2fcdb4;
+}
+
+/* 404 Not Found */
+.no_page_content_block {
+  width: 100%;
+  background: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px 10px;
 }

@@ -1,11 +1,4 @@
 <?php
-/*
-カテゴリー毎、投稿一覧
-blog,event,orgで同じもの
-*/
-?>
-
-<?php
 get_header('contact-us');
 ?>
 
