@@ -25,7 +25,7 @@ get_header('member');
 
       <div class="profile_text">
         <div class="profile_text_content">
-          大学に入ってすぐ勧誘されNICE、ひいてはボランティアに関わるように。
+          大学に入ってすぐNICE、ひいてはボランティアに関わるように。
           二回生の冬からはBaseconnect Incでエンジニアインターンに参加。
           現在はmoireやNICEの活動を行いつつインターンしてます。
         </div>

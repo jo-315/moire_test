@@ -34,7 +34,7 @@
         </span>
 
         <div class="mission-button">
-          <a href="/about/mission">moireの基本理念</a>
+          <a href="/about-us">moireの基本理念</a>
         </div>
       </div>
     </div>
