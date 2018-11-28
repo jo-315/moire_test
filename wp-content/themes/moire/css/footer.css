@@ -74,6 +74,35 @@ SNSブロック
   letter-spacing: 3px;
 }
 
+@media screen and (max-width: 740px) {
+  .sns-block-content {
+    display: block;
+  }
+
+  .sns-block-content-column {
+    display: block;
+    margin: 0 auto 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sns-block-desc {
+    padding: 0 5px;
+  }
+
+  .sns-block-content-column {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .sns-block-content-column {
+    width: 100%;
+    margin: 0 auto 40px;
+  }
+}
+
+
 /*
 main footer
  */

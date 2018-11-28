@@ -48,9 +48,16 @@ jQuery(function($) {
         var targetElement = $(this).offset().top;
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
-        if (scroll > targetElement - windowHeight + 200){
-            $(this).css('opacity','1');
-            $(this).css('transform','translateY(0)');
+        if (window.matchMedia( "(min-width: 480px)" ).matches) {
+          if (scroll > targetElement - windowHeight + 200){
+              $(this).css('opacity','1');
+              $(this).css('transform','translateY(0)');
+          }
+        } else {
+          if (scroll > targetElement - windowHeight - 500){
+              $(this).css('opacity','1');
+              $(this).css('transform','translateY(0)');
+          }
         }
     });
   });

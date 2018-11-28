@@ -217,6 +217,22 @@ HPブロック
   box-shadow: 2px 2px 4px #202223;
 }
 
+@media screen and (max-width: 724px) {
+  .HP-content-wrapper {
+    padding: 40px 0px;
+  }
+
+  .HP-content-column {
+    width: 100%;
+    padding: 0px 0px 100px;
+    display: block;
+  }
+
+  .HP-content-column-content {
+    text-align: left;
+  }
+}
+
 /*
 ブロックの間はmoireグリーン
  */
@@ -237,8 +253,10 @@ HPブロック
 イベントブロック
  */
 .event_block_content {
-  text-align: center;
+  text-align: left;
   padding: 30px 0;
+  margin: 0 auto;
+  width: 550px;
 }
 
 .event_block_content span {
@@ -256,4 +274,17 @@ HPブロック
   object-fit: cover;
   object-position: top;
   height: 300px;
+}
+
+@media screen and (max-width: 550px){
+  .event_block_content{
+    padding: 30px 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .event_block_content{
+    padding: 30px 5px;
+  }
 }
