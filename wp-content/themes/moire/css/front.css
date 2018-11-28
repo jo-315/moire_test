@@ -69,6 +69,33 @@
   display: none;
 }
 
+@media screen and (max-width: 415px) {
+  .moire-title {
+    font-size: 90px;
+    width: 300px;
+    top: calc(50% - 80px);
+    left: calc(50% - 150px);  }
+
+  .moire-sub-title {
+    left: calc(50% - 200px);
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .moire-title {
+    font-size: 75px;
+    width: 200px;
+    top: calc(50% - 75px);
+    left: calc(50% - 100px);
+  }
+
+  .moire-sub-title {
+    left: calc(50% - 150px);
+    width: 300px;
+  }
+}
+
 /*
 スクロールしたら出てくる右側の部分
  */
