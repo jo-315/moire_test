@@ -1,5 +1,5 @@
 <?php // 最初のHOMEページ ?>
-<?php get_header('front'); //headerの読み込み ?>
+<?php get_header('front'); ?>
 
   <div class='front-page-wrapper'>
     <div class='front-page-head-wrapper'>
@@ -22,13 +22,23 @@
       <div class="right-top-column">
         <span>
           私たちmoireは、</br>
-          社会活動を「広報」という手段によって支援することで</br>
-          世の中を良い方向へ進めていきます。</br>
+          メンバーが本気で取り組んでいる活動を</br>
+          発信していく団体です。</br>
           </br>
 
-          そのために、</br>
-          イベントとHPを通して</br>
-          阪大生の社会活動の</br>
+          発信していく分野は多岐に渡り、</br>
+          それにより今まで知らなかった異分野との出会いを</br>
+          実現します。</br>
+          </br>
+
+          そして、最終的には社会活動に興味をもってもらうことで</br>
+          今以上に社会活動が活発な世の中にします。</br>
+          </br>
+
+          具体的な方法としては、</br>
+          阪大生をターゲットとして</br>
+          イベントとHPの運営を行うことで、</br>
+          阪大生の社会活動に対する</br>
           <span style='font-weight: bold;'>知る・関わる</span></br>
           を活発にします。
         </span>
@@ -58,12 +68,12 @@
           </div>
 
           <div class="HP-content-column-content">
-            ブログでは様々な分野について書くことで、社会活動に興味のない人にもmoireを知ってもらえるきっかけを作ります。
+            メンバーが本気で取り組んでいる活動についての記事を掲載し、発信していきます。
           </div>
 
           <div class="HP-content-column-button">
-            <a href='/category/blog/'>
-              ブログ一覧へ
+            <a href='/category/article/'>
+              記事一覧へ
             </a>
           </div>
         </div>
@@ -81,7 +91,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            各団体の情報を手軽に見れるHPを作成し、団体情報へのリーチを容易にし、団体情報のプラットホームを作ります。
+            社会活動を行う団体の情報を手軽に見れるようにし、団体情報へ関わることを容易にします。
           </div>
 
           <div class="HP-content-column-button">
@@ -104,7 +114,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            各団体の情報にプラスしてイベント情報も載せることで、より社会的な活動に参加しやすい環境を作ります。
+            各団体の情報にプラスしてイベント情報も載せることで、より社会活動に参加しやすい環境を作ります。
           </div>
 
           <div class="HP-content-column-button">
@@ -129,10 +139,9 @@
 
       <div class="event_block_content scrollFadein">
         <span>
-          定期的にイベントを行い各社会団体の活動を知ってもらいます。
-          さらにただ知ってもらうでけでなく、活動の楽しさ・良さをも知ってもらい、
+          社会団体の活動を知ることができるイベントを行います。
+          さらに、ただ知ってもらうでけでなく、活動の楽しさ・良さをも知ってもらい、
           社会団体に対する参加の敷居下げていきます。
-          このイベントは社会的活動に関心のない人たちをも大規模に巻き込んでいきます。
         </span>
       </div>
 

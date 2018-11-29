@@ -26,8 +26,7 @@ Content
   font-size: 17px;
 }
 
-.single-content h2,
-.related-post-title {
+.single-content h2 {
   font-weight: bold;
   background: linear-gradient(transparent 70%, #2fcdb4 70%);
 }
@@ -173,6 +172,8 @@ header
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 30px;
+  font-weight: bold;
+  background: linear-gradient(transparent 90%, #2fcdb4 70%);
 }
 
 .related-post-title span {

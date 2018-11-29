@@ -92,11 +92,19 @@ Content
 	.archive-content-wrap {
 		padding: 0 50px 70px;
 	}
+
+	.post-content-top {
+		padding-top: 70px;
+	}
 }
 
 @media screen and (max-width: 1070px) {
 	.archive-content-wrap {
 		padding: 0 30px 70px;
+	}
+
+	.post-content-top {
+		padding-top: 70px;
 	}
 }
 
@@ -104,11 +112,19 @@ Content
 	.archive-content-wrap {
 		padding: 0 5px 50px;
 	}
+
+	.post-content-top {
+		padding-top: 70px;
+	}
 }
 
 @media screen and (max-width: 380px) {
 	.archive-content-wrap {
 		padding: 0 0 35px;
+	}
+
+	.post-content-top {
+		padding-top: 70px;
 	}
 }
 
