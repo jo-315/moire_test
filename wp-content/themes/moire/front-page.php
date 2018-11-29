@@ -47,6 +47,29 @@
       <div class="HP-content-wrapper">
         <div class="HP-content-column scrollFadein">
           <div class="HP-content-column-header">
+            記事一覧
+          </div>
+
+          <div class="HP-content-column-logo">
+            <img
+              src="<?php echo get_stylesheet_directory_uri(); ?>/images/blog_logo.svg"
+              class="HP_logo"
+            >
+          </div>
+
+          <div class="HP-content-column-content">
+            ブログでは様々な分野について書くことで、社会活動に興味のない人にもmoireを知ってもらえるきっかけを作ります。
+          </div>
+
+          <div class="HP-content-column-button">
+            <a href='/category/blog/'>
+              ブログ一覧へ
+            </a>
+          </div>
+        </div>
+
+        <div class="HP-content-column scrollFadein">
+          <div class="HP-content-column-header">
             団体情報一覧
           </div>
 
@@ -90,29 +113,6 @@
             </a>
           </div>
 
-        </div>
-
-        <div class="HP-content-column scrollFadein">
-          <div class="HP-content-column-header">
-            ブログ
-          </div>
-
-          <div class="HP-content-column-logo">
-            <img
-              src="<?php echo get_stylesheet_directory_uri(); ?>/images/blog_logo.svg"
-              class="HP_logo"
-            >
-          </div>
-
-          <div class="HP-content-column-content">
-            ブログでは様々な分野について書くことで、社会活動に興味のない人にもmoireを知ってもらえるきっかけを作ります。
-          </div>
-
-          <div class="HP-content-column-button">
-            <a href='/category/blog/'>
-              ブログ一覧へ
-            </a>
-          </div>
         </div>
       </div>
     </div>

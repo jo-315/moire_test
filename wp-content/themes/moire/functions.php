@@ -88,7 +88,7 @@ function moire_scripts() {
   // ページごと
 	if(is_single()) : // 個別投稿
 		wp_enqueue_style( 'moire-single-style', get_template_directory_uri() . '/css/single.css');
-	elseif(is_category()) : // カテゴリ一覧
+	elseif(is_category() || is_tag()) : // カテゴリ一覧
 		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/archive.css');
 	elseif(is_front_page()) : // フロントページ
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));

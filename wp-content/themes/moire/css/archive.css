@@ -15,6 +15,60 @@
   content: " ";
 }
 
+/* パンくず */
+.child-category-item-wrap {
+	text-align: center;
+	overflow: auto;
+	height: 70px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.child-category-item-wrap ul{
+	margin: 0 70px;
+}
+
+.child-category-item-wrap ul li{
+	list-style: none;
+	width: calc(100% / 6);
+	float: left;
+	padding: 20px 0 5px;
+}
+
+.child-category-item-wrap ul li a{
+	text-decoration: none;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1000px) {
+	.child-category-item-wrap ul {
+		padding: 10px 0;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.child-category-item-wrap ul{
+		margin: 0 40px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.child-category-item-wrap ul{
+		margin: 0 20px;
+	}
+}
+
+@media screen and (max-width: 512px) {
+	.child-category-item-wrap {
+    height: 40px;
+		margin-bottom: 0px;
+	}
+
+	.child-category-item-wrap ul {
+		display: none;
+	}
+}
+
 /*
 Content
  */
@@ -23,34 +77,38 @@ Content
 }
 
 .archive-content-wrap {
-	padding: 70px 70px;
+	padding: 0 70px 70px;
   box-shadow: 0px 0px 3px 3px;
   position: relative;
   z-index: 2;
 	overflow: hidden;
 }
 
+.post-content-top {
+	padding-top: 70px;
+}
+
 @media screen and (max-width: 1230px) {
 	.archive-content-wrap {
-		padding: 70px 50px;
+		padding: 0 50px 70px;
 	}
 }
 
 @media screen and (max-width: 1070px) {
 	.archive-content-wrap {
-		padding: 70px 30px;
+		padding: 0 30px 70px;
 	}
 }
 
 @media screen and (max-width: 614px) {
 	.archive-content-wrap {
-		padding: 50px 5px;
+		padding: 0 5px 50px;
 	}
 }
 
 @media screen and (max-width: 380px) {
 	.archive-content-wrap {
-		padding: 35px 0px;
+		padding: 0 0 35px;
 	}
 }
 

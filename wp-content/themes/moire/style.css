@@ -1717,8 +1717,7 @@ object {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
-.site-header,
-.header-inner-top{
+.site-header {
 	position: relative;
 }
 
@@ -2254,7 +2253,7 @@ div.sharedaddy h3.sd-title:before {
      * Header
      -----------*/
 
-	.admin-bar .header-inner-top {
+	.admin-bar {
 		top: 32px;
 	}
 

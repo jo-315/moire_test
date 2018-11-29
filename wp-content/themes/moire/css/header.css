@@ -18,8 +18,8 @@
 
 .post-header-title span {
   color: #f6f6f6;
-  font-size: 60px;
-  font-family: 'klee',sans-serif;
+  font-size: 30px;
+  /* font-family: 'klee',sans-serif; */
   line-height: 200px;
 }
 
