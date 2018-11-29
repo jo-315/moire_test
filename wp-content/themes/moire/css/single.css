@@ -26,6 +26,13 @@ Content
   font-size: 17px;
 }
 
+/* 投稿ページのclassはここに追加 */
+
+.single-content p {
+  margin: 0 0 60px;
+  line-height: 35px;
+}
+
 .single-content h2 {
   font-weight: bold;
   background: linear-gradient(transparent 70%, #2fcdb4 70%);
@@ -54,6 +61,8 @@ Content
 .single-content h4 {
   font-size: 19px;
 }
+
+/* ここまで */
 
 @media screen and (max-width: 650px) {
   .single-content-area {
