@@ -202,6 +202,7 @@ HPブロック
 .HP-content-column-content {
   padding: 12px 30px;
   font-size: 16px;
+  height: 100px;
 }
 
 .HP-content-column-button {
@@ -217,6 +218,18 @@ HPブロック
   box-shadow: 2px 2px 4px #202223;
 }
 
+@media screen and (max-width: 1058px) {
+  .HP-content-column-content {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .HP-content-column-content {
+    height: 160px;
+  }
+}
+
 @media screen and (max-width: 724px) {
   .HP-content-wrapper {
     padding: 40px 0px;
@@ -230,6 +243,7 @@ HPブロック
 
   .HP-content-column-content {
     text-align: left;
+    height: auto;
   }
 }
 
