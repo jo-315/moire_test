@@ -67,35 +67,14 @@ add_action( 'widgets_init', 'moire_widgets_init' );
 ### Header ### -----------------------------------------------------------------
 */
 function moire_scripts() {
-	wp_enqueue_style( 'moire-style', get_stylesheet_uri());
-	wp_enqueue_style( 'moire-plugin-style', get_template_directory_uri() . '/css/plugin-style.css');
-	wp_enqueue_style( 'moire-widget-style', get_template_directory_uri() . '/css/widget.css');
-	wp_enqueue_style( 'moire-header-nav-style', get_template_directory_uri() . '/css/header_nav.css');
-	wp_enqueue_style( 'moire-footer-style', get_template_directory_uri() . '/css/footer.css');
-
-	// FontAwesomeの読み込み
-	wp_enqueue_style( 'moire-fontAwesome-style', get_template_directory_uri() . '/css/font-awesome.min.css');
-
 	// jqueryの読み込み
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'jquery-moire' ,get_template_directory_uri() . '/js/functions.js', array('jquery'));
 	wp_enqueue_script( 'jquery-twinkle-moire' ,get_template_directory_uri() . '/js/jquery.twinkle-0.8.0.min.js');
 
-	if(!is_front_page()) :
-		wp_enqueue_style( 'moire-header-style', get_template_directory_uri() . '/css/header.css');
-	endif;
-
-  // ページごと
-	if(is_single()) : // 個別投稿
-		wp_enqueue_style( 'moire-single-style', get_template_directory_uri() . '/css/single.css');
-	elseif(is_category() || is_tag()) : // カテゴリ一覧
-		wp_enqueue_style( 'moire-archive-style', get_template_directory_uri() . '/css/archive.css');
-	elseif(is_front_page()) : // フロントページ
+  if(is_front_page()) : // フロントページ
 		wp_enqueue_script( 'jquery-moire-front' ,get_template_directory_uri() . '/js/front.js', array('jquery'));
 		wp_enqueue_script( 'lazysize-moire' ,get_template_directory_uri() . '/js/lazysizes.min.js');
-		wp_enqueue_style( 'moire-front-style', get_template_directory_uri() . '/css/front.css');
-	elseif(is_page()) : // 固定ページ
-		wp_enqueue_style( 'moire-page-style', get_template_directory_uri() . '/css/page.css');
 	endif;
 }
 
@@ -106,6 +85,16 @@ function add_header_image() {
 	    background-image: url(' . esc_url( $header_image ) .');
 	  }';
 	wp_add_inline_style( 'moire-header-style', $custom_header_css );
+}
+
+// async / defer をつける
+if (!(is_admin() )) {
+	function add_defer_to_enqueue_script( $url ) {
+    if ( FALSE === strpos( $url, '.js' ) ) return $url;
+    if ( strpos( $url, 'jquery.min.js' ) ) return $url;
+    return "$url' defer charset='UTF-8";
+	}
+	add_filter( 'clean_url', 'add_defer_to_enqueue_script', 11, 1 );
 }
 
 // headerの不要タグを削除

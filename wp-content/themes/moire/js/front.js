@@ -41,7 +41,7 @@ jQuery(function($) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(add_first_circle())
-    }, 1000)
+    }, 300)
   }).then(() => {
     return $(".moire-title").fadeIn(4000)
   }).then(() => {
