@@ -62,8 +62,8 @@
 
           <div class="HP-content-column-logo">
             <img
-              src="<?php echo get_stylesheet_directory_uri(); ?>/images/blog_logo.svg"
-              class="HP_logo"
+              data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/blog_logo.svg"
+              class="HP_logo lazyload"
             >
           </div>
 
@@ -85,8 +85,8 @@
 
           <div class="HP-content-column-logo">
             <img
-              src="<?php echo get_stylesheet_directory_uri(); ?>/images/team_logo.svg"
-              class="HP_logo"
+              data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/team_logo.svg"
+              class="HP_logo lazyload"
             >
           </div>
 
@@ -108,8 +108,8 @@
 
           <div class="HP-content-column-logo">
             <img
-              src="<?php echo get_stylesheet_directory_uri(); ?>/images/event_logo.svg"
-              class="HP_logo"
+              data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/event_logo.svg"
+              class="HP_logo lazyload"
             >
           </div>
 
@@ -147,12 +147,12 @@
 
       <div class="event_block_img_wrap scrollFadein">
         <img
-          src="<?php echo get_stylesheet_directory_uri(); ?>/images/NICE.JPG"
-          class="event_block_img"
+          data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/NICE.JPG"
+          class="event_block_img lazyload"
         >
         <img
-          src="<?php echo get_stylesheet_directory_uri(); ?>/images/ASANTA.jpg"
-          class="event_block_img"
+          data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/ASANTA.jpg"
+          class="event_block_img lazyload"
         >
       </div>
     </div>
