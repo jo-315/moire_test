@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 415px) {
   .moire-title {
-    font-size: 60px;
+    font-size: 70px;
     width: 300px;
     top: calc(50% - 80px);
     left: calc(50% - 150px);  }
@@ -84,7 +84,6 @@
 
 @media screen and (max-width: 380px) {
   .moire-title {
-    font-size: 35px;
     width: 200px;
     top: calc(50% - 75px);
     left: calc(50% - 100px);
@@ -113,9 +112,17 @@
   box-shadow: -10px 0 10px -5px;
 }
 
-.right-top-column span {
+.right-top-column-content {
   font-size: 16px;
-  color: #202223;
+  color: #2fcdb4;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto 80px;
+}
+
+.mission-button-wrap {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .mission-button {
@@ -133,7 +140,9 @@
 }
 
 .mission-button a:hover {
-  background: #ffffff;
+  background: #2fcbb2;
+  color: #ffffff;
+  border: none;
   opacity: 1;
 }
 
@@ -147,6 +156,10 @@
     transition: 0.5s;
     padding: 120px 5px 0;
   }
+
+  .right-top-column-content {
+    width: 95%;
+  }
 }
 
 /*
@@ -159,26 +172,11 @@
    box-shadow: 3px 0px 5px 2px;
    z-index: 999;
  }
-
- .block_header {
-   background: #373735;
-   color: #ffffff;
-   text-align: center;
- }
-
- .block_header span {
-   font-size: 30px;
-   font-weight: bold;
-   letter-spacing: 10px;
-   display: inline-block;
-   margin: 10px 0;
- }
-
 /*
 HPブロック
  */
 .HP-content-wrapper {
-  padding: 40px 40px 30px;
+  padding: 100px 40px 100px;
   display: table;
 }
 
@@ -242,78 +240,6 @@ HPブロック
   }
 
   .HP-content-column-content {
-    text-align: left;
     height: auto;
-  }
-}
-
-/*
-ブロックの間はmoireグリーン
- */
-
-.between_block {
-  background: #2fcbb2;
-  height: 100px;
-  position: relative;
-  overflow: hidden;
-}
-
-.between_block_effect {
-  width: 100%;
-  height: 100%;
-}
-
-/*
-イベントブロック
- */
-.event_block_content {
-  text-align: left;
-  padding: 30px 0;
-  margin: 0 auto;
-  width: 550px;
-}
-
-.event_block_content span {
-  font-size: 16px;
-  line-height: 35px;
-}
-
-.event_block_img_wrap {
-  height: 300px;
-}
-
-.event_block_img {
-  width: 50%;
-  float: left;
-  object-fit: cover;
-  object-position: top;
-  height: 300px;
-}
-
-@media screen and (max-width: 550px){
-  .event_block_content{
-    padding: 30px 20px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 450px){
-  .event_block_img {
-    width: 100%;
-  }
-
-  .event_block_img:first-child {
-    height: 130px;
-  }
-
-  .event_block_img:nth-child(2) {
-    height: 170px;
-    object-position: center;
-  }
-}
-
-@media screen and (max-width: 380px){
-  .event_block_content{
-    padding: 30px 5px;
   }
 }

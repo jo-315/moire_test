@@ -1,4 +1,3 @@
-<?php // 最初のHOMEページ ?>
 <?php get_header('front'); ?>
 
   <div class='front-page-wrapper'>
@@ -12,7 +11,7 @@
               </span>
 
               <span class="moire-sub-title">
-                阪大生と社会活動を繋げる広報団体
+                社会貢献活動に繋ぐWebメディア
               </span>
             </div>
           </div>
@@ -20,44 +19,31 @@
       </div>
 
       <div class="right-top-column">
-        <span>
-          私たちmoireは、</br>
-          メンバーが本気で取り組んでいる活動を</br>
-          発信していく団体です。</br>
-          </br>
+        <div class="right-top-column-content">
+          <span>
+            私たちmoireのMissionは、<span class='font-bold'>社会貢献活動の促進</span>です。</br>
+            </br>
 
-          発信していく分野は多岐に渡り、</br>
-          それにより今まで知らなかった異分野との出会いを</br>
-          実現します。</br>
-          </br>
+            このMission達成のために私たちは、お金を目的にしない活動 <span class='font-bold'>「No Money Action」</span> をHPで発信していきます。</br>
+            </br>
 
-          そして、最終的には社会活動に興味をもってもらうことで</br>
-          今以上に社会活動が活発な世の中にします。</br>
-          </br>
+            No Money Action の中で社会貢献活動についても発信することで、社会貢献活動に関心のない人を社会貢献活動に繋いでいきます。
+          </span>
+        </div>
 
-          具体的な方法としては、</br>
-          阪大生をターゲットとして</br>
-          イベントとHPの運営を行うことで、</br>
-          阪大生の社会活動に対する</br>
-          <span style='font-weight: bold;'>知る・関わる</span></br>
-          を活発にします。
-        </span>
-
-        <div class="mission-button">
-          <a href="/about-us">moireの基本理念</a>
+        <div class="mission-button-wrap">
+          <div class="mission-button">
+            <a href="/about-us">moireの基本理念</a>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="block-wrapper">
-      <div class="block_header">
-        <span>1.HP</span>
-      </div>
-
       <div class="HP-content-wrapper">
         <div class="HP-content-column scrollFadein">
           <div class="HP-content-column-header">
-            記事一覧
+            No Money Action
           </div>
 
           <div class="HP-content-column-logo">
@@ -68,12 +54,12 @@
           </div>
 
           <div class="HP-content-column-content">
-            メンバーが本気で取り組んでいる活動についての記事を掲載し、発信していきます。
+            No Money Action についての記事を掲載し、発信していきます。
           </div>
 
           <div class="HP-content-column-button">
             <a href='/category/article/'>
-              記事一覧へ
+              No Money Action へ
             </a>
           </div>
         </div>
@@ -91,7 +77,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            社会活動を行う団体の情報を手軽に見れるようにし、団体情報へ関わることを容易にします。
+            社会貢献活動を行う団体の情報を手軽に見れるようにし、団体へ関わることを容易にします。
           </div>
 
           <div class="HP-content-column-button">
@@ -114,7 +100,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            各団体の情報にプラスしてイベント情報も載せることで、より社会活動に参加しやすい環境を作ります。
+            社会貢献活動についてのイベントも発信することで、より社会貢献活動に参加しやすい環境を作ります。
           </div>
 
           <div class="HP-content-column-button">
@@ -124,36 +110,6 @@
           </div>
 
         </div>
-      </div>
-    </div>
-
-    <div class="between_block">
-      <div class="between_block_effect">
-      </div>
-    </div>
-
-    <div class="block-wrapper">
-      <div class="block_header">
-        <span>2.イベント</span>
-      </div>
-
-      <div class="event_block_content scrollFadein">
-        <span>
-          社会団体の活動を知ることができるイベントを行います。
-          さらに、ただ知ってもらうでけでなく、活動の楽しさ・良さをも知ってもらい、
-          社会団体に対する参加の敷居下げていきます。
-        </span>
-      </div>
-
-      <div class="event_block_img_wrap scrollFadein">
-        <img
-          data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/NICE.JPG"
-          class="event_block_img lazyload"
-        >
-        <img
-          data-src="<?php echo get_stylesheet_directory_uri(); ?>/images/ASANTA.jpg"
-          class="event_block_img lazyload"
-        >
       </div>
     </div>
   </div>

@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="sns-block-desc">
-			日々、社会団体およびそのイベントを中心に更新しています。こちらもチェック！！
+			日々、社会貢献活動を中心に更新しています。こちらもチェック！！
 		</div>
 
 		<div class="sns-block-content">
@@ -50,26 +50,7 @@
 				</div>
 
 				<div class="sns-block-content-column-content">
-					<div
-						class="fb-page"
-						data-href="https://www.facebook.com/moire12"
-						data-tabs="timeline"
-						data-height="400px"
-						data-small-header="true"
-						data-adapt-container-width="true"
-						data-hide-cover="false"
-						data-show-facepile="true"
-					>
-						<blockquote
-							cite="https://www.facebook.com/moire12"
-							class="fb-xfbml-parse-ignore"
-						>
-							<a href="https://www.facebook.com/moire12">
-								moire 〜阪大生と社会活動を繋げる広報団体〜
-							</a>
-						</blockquote>
-					</div>
-				</div>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmoire12&tabs=timeline&width=340&height=400px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=206449786804698" width="340" height="400px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>				</div>
 			</div>
 		</div>
 	</div>
@@ -111,10 +92,10 @@
 					<div class="footer-moire-desc">
 						<div class="footer-moire-desc-header">
 							moire</br>
-							阪大生と社会活動を繋げる広報団体
+							社会貢献活動に繋ぐWebメディア
 						</div>
 						<div class="footer-moire-desc-body">
-							イベントとwebサイトを通して阪大生の社会活動を知る・関わるを支援する。
+							Webメディアとして No Money Action を発信することで社会貢献活動に関心のない人を社会貢献活動に繋いでいきます
 						</div>
 					</div>
 				</div>

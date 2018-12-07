@@ -9,9 +9,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <style>
-  .scrollFadein{opacity:0;transform:translateY(20px)}.scrollFadein{opacity:0;transform:translateY(40px)}.content-effect-wrapper{width:100%;height:100%;overflow:hidden;position:relative}.about_content_block{width:100%;background:#ffffff;text-align:center;font-size:17px;padding:50px 10px}@media screen and (max-width:550px){.about_content_block{padding:10px}}.member_content_wrap{width:900px;margin:0 auto;overflow:auto}.member_content{width:50%;float:left;border-bottom:solid 0.5px #2fcbb2;text-align:left;padding:0 10px}.profile_img{width:100px;float:left}.profile_text{width:calc(100% - 120px);float:left;font-size:15px;margin-left:20px}.profile_text_title{text-align:center;font-weight:bold;font-size:17px;margin-bottom:10px}@media screen and (max-width:900px){.member_content_wrap{width:95%}}@media screen and (max-width:626px){.member_content{width:100%}}
-  </style>
   <link rel="preload" href=<?php echo get_stylesheet_uri() ?> as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href=<?php echo get_stylesheet_uri() ?>></noscript>
   <link rel="preload" href=<?php echo (get_template_directory_uri() . '/css/page.css') ?> as="style" onload="this.onload=null;this.rel='stylesheet'">

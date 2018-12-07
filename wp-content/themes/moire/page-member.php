@@ -9,7 +9,7 @@ blog,event,orgで同じもの
 get_header('member');
 ?>
 
-<div class="about_content_block">
+<div class="page_content_block">
   <div class="member_content_wrap">
     <div class="member_content">
       <div class="profile_text_title">

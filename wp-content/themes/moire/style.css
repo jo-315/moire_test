@@ -2671,6 +2671,10 @@ body {
   background: #2fcdb4;
 }
 
+.font-bold {
+	font-weight: bold;
+}
+
 /* 404 Not Found */
 .no_page_content_block {
   width: 100%;
@@ -2799,13 +2803,19 @@ topのナビゲーション
 	height: 80px;
 }
 
-@media screen and (max-width: 931px) {
+@media screen and (max-width: 1010px) {
   .header-main-navigation-wrap {
 		padding-right: 5px;
 	}
 
 	.header-main-navigation-items-wrap {
 		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.header-main-navigation-item .header-main-navigation-item--main {
+	  padding: 27px 8px 5px;
 	}
 }
 

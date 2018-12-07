@@ -9,32 +9,34 @@ blog,event,orgで同じもの
 get_header('about-us');
 ?>
 
-  <div class="about_content_block mission_block">
-    <div class="mission_title">
-      <h1>moireのMISSION</h1>
-    </div>
-    <div class="mission_content_wrap">
-      <div class="about_sub_title mission_sub_title--1">
-        <h2>社会活動を発信していくことで活発にする</h2>
+  <div class="page_content_block">
+    <div class="page_content--text">
+      <div class="about_content_block--title">
+        <h1>moireのMISSION</h1>
       </div>
-      <div class="mission_content">
-moireは、「社会をよくする事を目標としている活動」を総じて<strong>‘社会活動’</strong>と捉えています。そして社会活動がより活発になることで、世の中は少しづつ今より良い方向へと進んで行くと信じています。
+      <div class="about_content_wrap">
+        <div class="mission-wrap">
+          <span>社会貢献活動の促進</span>
+        </div>
       </div>
 
-      <div class="about_sub_title mission_sub_title--2">
-        <h2>どうやって社会活動を活発にするのか</h2>
+      <div class="about_content_block--title">
+        <h1>moireの活動</h1>
       </div>
-      <div class="mission_content">
-        <div style="text-align: center; font-weight: bold">
-          社会活動をもっと知ってもらう。</br>
-          社会活動に対する固い・面白くないというイメージを変え参加の敷居を下げる。
+      <div class="about_content_wrap">
+        <div class="activity-desc">
+          <span>Webメディアの運営を通して、HPを訪れた人を社会貢献活動に繋ぐ</span>
         </div>
-        </br>
-        この二つを実現すれば、自ずと社会活動は活発になると考えています。</br>
-        </br>
-        そのためには、ただ社会活動を発信していくだけではなく別の活動も発信していくことで、もともとは社会活動に興味のなかった人にもアプローチしていくことが必要だと考えています。</br>
-        </br>
-        moireは、社会活動ではない活動についても発信していくことで異分野への出会いを実現します。そしてその先に、社会活動の今以上の活発化を見ています。
+
+        <div class="activity_content">
+          社会貢献活動の促進のため、今まで社会貢献活動に関心のなかった人たちに関心を持ってもらうことが重要です。</br>
+          </br>
+          moireはその達成のために、Webメディアの運営を行います。そしてそのコンセプトは<strong>「異分野に出会える場」</strong>です。</br>
+          </br>
+          具体的には、社会貢献活動を含めた、お金以外を目的とした活動<strong>「no money action」</strong>を発信していきます。</br>
+          </br>
+          no money action の中で社会貢献活動についても発信していき、no money actionに関心はあるが社会貢献活動には関心のない人を、<strong>社会貢献活動に繋いでいくこと</strong>をWebメディアの目的とします。
+        </div>
       </div>
     </div>
   </div>
@@ -44,7 +46,74 @@ moireは、「社会をよくする事を目標としている活動」を総じ
     </div>
   </div>
 
-  <div class="about_content_block desc_block">
+  <div class="page_content_block">
+    <div class="page_content--text">
+      <div class="about_content_block--title">
+        <h1>moireが生み出すもの</h1>
+      </div>
+      <div class="about_content_wrap">
+        <div class="activity-desc">
+          <span>我々のミッションが達成し、社会貢献活動が活発になること</span>
+        </div>
+
+        <div class="activity_content">
+          さらにWebを見てくださった方に</br>
+          </br>
+          ・今まで知らなかった活動・思想・団体との出会い</br>
+          ・社会貢献活動に興味を持ち、実際に参加することで得られる経験や仲間</br>
+          ・社会貢献活動への参加という人生の転換点</br>
+          </br>
+          これらを生み出すために活動を行なっています。
+        </div>
+      </div>
+
+      <div class="about_content_block--title">
+        <h1>moireの特色</h1>
+      </div>
+      <div class="about_content_wrap">
+        <div class="activity-desc">
+          <span>今まで社会貢献活動に関心のなかった人達に関心を持ってもらうこと</span>
+        </div>
+
+        <div class="activity_content">
+          <span class='font-bold'>お金を目的としない活動（no money action）を対象に情報発信していること</span></br>
+          </br>
+          <span class='font-bold'>様々な活動を行っているライターが集まり、その活動を発信していること</span></br>
+          </br>
+          これが私たちmoireの特色です。</br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="between_content">
+    <div class="between_content_effect">
+    </div>
+  </div>
+
+  <div class="page_content_block">
+    <div class="page_content--text">
+      <div class="about_content_block--title">
+        <h1>今後の見通し</h1>
+      </div>
+      <div class="about_content_wrap">
+        <div class="activity-desc">
+          <span>毎日の更新が可能な団体</span>
+        </div>
+
+        <div class="activity_content">
+          2021年3月までの期間で、毎日記事を更新し、皆さんに新しい情報を届けられる団体になることを目指します。</br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="between_content">
+    <div class="between_content_effect">
+    </div>
+  </div>
+
+  <div class="page_content_block desc_block">
     <div class="desc_title">
       <h1>団体概要</h1>
     </div>

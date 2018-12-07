@@ -27,7 +27,7 @@
         </li>
         <li class='header-main-navigation-item header-main-navigation-item--article'>
           <a href="/category/article/" class="header-main-navigation-item--main">
-            記事一覧
+            No Money Action
           </a>
           <div class="header-main-navigation-child">
             <ul>
