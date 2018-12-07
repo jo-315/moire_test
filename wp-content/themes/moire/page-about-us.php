@@ -105,6 +105,12 @@ get_header('about-us');
           2021年3月までの期間で、毎日記事を更新し、皆さんに新しい情報を届けられる団体になることを目指します。</br>
         </div>
       </div>
+
+      <div>
+        こちらがmoireの事業計画書になります。
+        </br>
+        <a href='https://moire.xsrv.jp/about_moire.pdf' target='_blank'>miore事業計画書</a>
+      </div>
     </div>
   </div>
 
