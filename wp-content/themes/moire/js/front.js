@@ -50,7 +50,7 @@ jQuery(function($) {
       }
     }
 
-    $(".content-effect").twinkle(options);
+    // $(".content-effect").twinkle(options);
   }
 
   return new Promise((resolve, reject) => {

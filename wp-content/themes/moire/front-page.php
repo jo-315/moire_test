@@ -21,6 +21,9 @@
       <div class="right-top-column">
         <div class="right-top-column-content">
           <span>
+            <div class='right-top-column-content-title'>
+            moire(モアレ)
+            </div>
             私たちmoireのMissionは、<span class='font-bold'>社会貢献活動の促進</span>です。</br>
             </br>
 

@@ -120,6 +120,14 @@
   margin: 0 auto 80px;
 }
 
+.right-top-column-content-title {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .mission-button-wrap {
   text-align: center;
   margin: 0 auto;

@@ -32,7 +32,7 @@
       <div class="content-effect-wrapper">
         <div id="content-effect">
           <div class="post-header-title">
-          <span>moireとは</span>
+          <span>moire(モアレ)とは</span>
         </div>
       </div>
     </div>
