@@ -44,15 +44,9 @@
         <div id="content-effect">
           <div class="post-header-title">
 
-            <?php if ($sub_cat_name === $current_cat_name) { ?>
-              <span>
-                <?php echo $sub_cat_name . 'の' . $cat_name?>
-              </span>
-            <?php } else { ?>
-              <span>
-                <?php echo $cat_name?>
-              </span>
-            <?php } ?>
+            <span>
+              <?php echo $cat_name?>
+            </span>
 
         </div>
       </div>
