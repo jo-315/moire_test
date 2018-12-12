@@ -11,22 +11,19 @@ get_header('recruit');
 
 <div class="page_content_block">
   <div class="recruit_title">
-    <h1>共に活動してくれるメンバーを募集しています。</h1>
+    <h1>理念達成のために、共に活動してくれるメンバーを募集しています。</h1>
   </div>
   <div class="recruit_content_wrap">
     <div class="recruit_content">
       <div class="about_sub_title recruit_sub_title--1">
-         <h2>HPでの情報発信</h2>
+         <h2>ライター</h2>
       </div>
 
-      <h3>現在行っている活動を、</br>moireを通して共に発信していきませんか？</h3>
+      <h3>現在行っている皆さんの no money action を、共に発信していきませんか？</h3>
       <div class="recruit_text">
-        団体情報一覧・イベント一覧・ブログに記事を載せて、共に情報を発信していただける方を探しています。</br>
+        ご自身の no money action についての記事を書いていただき、共に情報を発信していただける方を探しています。</br>
         </br>
-        書いて下さる内容は、ご自身の日々の活動など、
-        もっと多くの人に知って欲しい・おすすめしたいということを書いていただきたいです。</br>
-        </br>
-        僕たちは、色々な分野の記事を載せていくことで、HPを訪れた方が訪れる前は知らなかった分野に興味を持っていただける場にしたいと考えています。</br>
+        書いていただく内容は社会貢献活動に関係していない内容でも構いません。皆さんの記事でこのHPを訪れてくれた方が、他の方の社会貢献活動に興味を持ってもらうことも、目的の一つとしています。</br>
       </div>
 
       <div class="recruit_detail">
@@ -36,7 +33,7 @@ get_header('recruit');
               活動内容
             </li>
             <li>
-              皆様が、もっと多くの人に発信したい考えている記事を書いていただきます。
+              ご自身の no money action を書いていただきます。
             </li>
           </ul>
           <ul>
@@ -44,14 +41,36 @@ get_header('recruit');
               活動の流れ
             </li>
             <li>
-              下記のお問い合わせよりご連絡ください。その後一度直接あってお話しさせていただいたのち、実際に記事を書いていただきます。</br>
+              下記のお問い合わせよりご連絡ください。その後、一度メール等で打ち合わせさせていただいたのち、実際に記事を書いていただきます。</br>
               </br>
-              記事の期限は自由です。その期限までに書いていただき、送っていただいたらまた次の期限を決めていただきます。以降はその繰り返しとなります。
+              記事作成の期限は自由です。その期限までに書いていただき、完成したものを送っていただいたら、また次の期限を決めていただきます。以降はその繰り返しとなります。</br>
+              </br>
+              より詳しく要項を知りたい場合は、下のマニュアルの参照をお願いします。</br>
+              </br>
+              <div class="align-center">
+                <a href="https://moire.xsrv.jp/moire_writter_manual.pdf" target="_blank" rel="noreferrer">moireライターマニュアル.pdf</a>
+              </div>
+              </br>
+              事業計画書はこちらになります。</br>
+              </br>
+              <div class="align-center">
+                <a href='https://moire.xsrv.jp/about_moire.pdf' target='_blank' rel="noreferrer">miore事業計画書</a>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              応募する
+            </li>
+            <li>
+              <div class='align-center'>
+                こちらよりお願いします。</br>
+                <a href=/contact-us/>お問い合わせ</a>
+              </div>
             </li>
           </ul>
         </table>
       </div>
-      <a href=/contact-us/>お問い合わせ</a>
     </div>
   </div>
 </div>
@@ -65,16 +84,14 @@ get_header('recruit');
   <div class="recruit_content_wrap">
     <div class="recruit_content">
       <div class="about_sub_title recruit_sub_title--1">
-        <h2>学生団体・NPO・NGO団体の支援</h2>
+        <h2>運営メンバー</h2>
       </div>
 
-      <h3>学生団体・NPO・NGOといった団体の支援を共に行いませんか？</h3>
+      <h3>記事作成以外の活動でmoireの理念達成を共に目指しませんか？</h3>
       <div class="recruit_text">
-        moireは、HPに学生団体・NPO・NGOといった団体の情報及びそのイベントについて掲載することでその団体を知る・関わるを容易にしたいと考えています。</br>
+        記事作成以外にも、団体の運営という部分でメンバーの募集を行っています。</br>
         </br>
-        面白そうな団体や、面白い活動を行なっている方のお話を聞いてきたり実際にその活動に参加し、その様子を記事にして欲しいです。
-        </br>
-        団体の支援には色々な形があると思いますが、広報という方法で支援していける方を探しています。
+        ライターとして no money action を書いたら面白そうな人の採用がメインとなります。
       </div>
 
       <div class="recruit_detail">
@@ -84,7 +101,12 @@ get_header('recruit');
               活動内容
             </li>
             <li>
-              学生団体・NPO・NGOといった団体やそれらの活動に参加されている方についての記事の作成
+              ・渉外</br>
+              新規ライターの採用のための活動を行っていただきます。</br>
+              </br>
+              ・SNS運営</br>
+              </br>
+              ・イベント運営（現状は未着手ですが、今後は取り組んでいきたいと考えています。）
             </li>
           </ul>
           <ul>
@@ -97,9 +119,20 @@ get_header('recruit');
               実際にどのように活動を進めていくかは、最初の面談で決めましょう！
             </li>
           </ul>
+          <ul>
+            <li>
+              応募する
+            </li>
+            <li>
+              <div class='align-center'>
+                こちらよりお願いします。</br>
+                <a href=/contact-us/>お問い合わせ</a>
+              </div>
+            </li>
+          </ul>
+
         </table>
       </div>
-      <a href=/contact-us/>お問い合わせ</a>
     </div>
   </div>
 </div>
