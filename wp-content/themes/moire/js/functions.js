@@ -18,25 +18,49 @@ jQuery(function($) {
 
 jQuery(function($) {
   add_circle = function() {
-    const options = {
-    	widthRatio: Math.random(),
-    	heightRatio: Math.random(),
-      delay: 10,
-      gap: 10,
-    	effect: "drops-css",
-    	effectOptions: {
-    		radius: 200,
-        width: Math.random() * 10,
-    		duration: 1e3 + Math.random() * 1e3,
-    		color: '#f6f6f6',
-        opacity: 0.3
-    	}
+    let options
+    if (window.matchMedia( "(min-width: 480px)" ).matches) {
+      options = {
+      	widthRatio: Math.random(),
+      	heightRatio: Math.random(),
+        delay: 0,
+        gap: 0,
+      	effect: "drops-css",
+      	effectOptions: {
+      		radius: 200,
+          width: Math.random() * 10,
+      		duration: 1e3 + Math.random() * 1e3,
+      		color: '#f6f6f6',
+          opacity: 0.3
+      	}
+      }
+    } else {
+      options = {
+      	widthRatio: Math.random(),
+      	heightRatio: Math.random(),
+        delay: 0,
+        gap: 0,
+      	effect: "drops-css",
+      	effectOptions: {
+      		radius: 100,
+          width: Math.random() * 10,
+      		duration: 1e3 + Math.random() * 1e3,
+      		color: '#f6f6f6',
+          opacity: 0.3
+      	}
+      }
     }
   	$("#content-effect").twinkle(options);
   	$(".between_content_effect").twinkle(options);
   }
 
-  // setInterval(add_circle, 1000);
+  if (window.matchMedia( "(min-width: 480px)" ).matches) {
+    add_circle
+    setInterval(add_circle, 2000);
+  } else {
+    add_circle
+    setInterval(add_circle, 4000);
+  }
 });
 
 /*
