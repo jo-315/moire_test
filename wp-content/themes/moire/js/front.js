@@ -9,7 +9,7 @@ jQuery(function($) {
     	effectOptions: {
         radius: 400,
     		duration: 3e3,
-    		color: '#f6f6f6',
+    		color: '#ffffff',
         opacity: 0.3
     	}
     }
@@ -27,7 +27,7 @@ jQuery(function($) {
         radius: 200,
         width: Math.random() * 10,
         duration: 1e3 + Math.random() * 1e3,
-        color: '#f6f6f6',
+        color: '#ffffff',
         opacity: 0.3
       }
     }

@@ -9,9 +9,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <style>
-  .content-effect-wrapper{width:100%;height:100%;overflow:hidden;position:relative}.about_content_block{width:100%;background:#ffffff;text-align:center;font-size:17px;padding:50px 10px}.about_content_block h1{font-family:'klee',sans-serif}.about_sub_title{width:550px;margin:0 auto;border-bottom:solid #2fcbb2}.about_sub_title h2{font-weight:bold;margin:0}@media screen and (max-width:550px){.about_content_block{padding:10px}.about_sub_title{width:96%}}.recruit_title{margin-bottom:50px}.recruit_title h1{font-family:"Hiragino Kaku Gothic ProN","メイリオ",sans-serif;font-size:24px}.recruit_content{width:550px;margin:0 auto}.recruit_text{font-size:17px;text-align:left}@media screen and (max-width:550px){.recruit_content{width:96%}}
-  </style>
   <link rel="preload" href=<?php echo get_stylesheet_uri() ?> as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href=<?php echo get_stylesheet_uri() ?>></noscript>
   <link rel="preload" href=<?php echo (get_template_directory_uri() . '/css/page.css') ?> as="style" onload="this.onload=null;this.rel='stylesheet'">

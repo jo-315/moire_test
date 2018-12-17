@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-.scrollFadein {
-  opacity : 0;
-  transform: translateY(40px);
-  transition: all 3s;
-}
-
 /*
 最初の要素
  */

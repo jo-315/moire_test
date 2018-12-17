@@ -9,9 +9,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <style>
-  .content-effect-wrapper{width:100%;height:100%;overflow:hidden;position:relative}.about_content_block{width:100%;background:#ffffff;text-align:center;font-size:17px;padding:50px 10px}@media screen and (max-width:550px){.about_content_block{padding:10px}}.wpcf7-form .wpcf7-text,.wpcf7-form .wpcf7-textarea{border:solid 0.5px #2fcbb2;width:600px}@media screen and (max-width:600px){.wpcf7-form .wpcf7-text,.wpcf7-form .wpcf7-textarea{width:96%}}
-  </style>
   <link rel="preload" href=<?php echo get_stylesheet_uri() ?> as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href=<?php echo get_stylesheet_uri() ?>></noscript>
   <link rel="preload" href=<?php echo (get_template_directory_uri() . '/css/page.css') ?> as="style" onload="this.onload=null;this.rel='stylesheet'">

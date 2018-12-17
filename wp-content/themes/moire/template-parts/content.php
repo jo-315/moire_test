@@ -4,7 +4,7 @@
 */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-post scrollFadein' ); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'blog-post' ); ?>>
 	<header class="entry-header">
 		<div class="entry-header-top">
 		</div>

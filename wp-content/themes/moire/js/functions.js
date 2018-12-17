@@ -25,12 +25,12 @@ jQuery(function($) {
       	heightRatio: Math.random(),
         delay: 0,
         gap: 0,
-      	effect: "drops-css",
+      	effect: "drop-css",
       	effectOptions: {
       		radius: 200,
-          width: Math.random() * 10,
-      		duration: 1e3 + Math.random() * 1e3,
-      		color: '#f6f6f6',
+          width: 1 + Math.random() * 5,
+      		duration: 2e3 + Math.random() * 1e3,
+      		color: '#ffffff',
           opacity: 0.3
       	}
       }
@@ -40,12 +40,12 @@ jQuery(function($) {
       	heightRatio: Math.random(),
         delay: 0,
         gap: 0,
-      	effect: "drops-css",
+      	effect: "drop-css",
       	effectOptions: {
       		radius: 100,
-          width: Math.random() * 10,
-      		duration: 1e3 + Math.random() * 1e3,
-      		color: '#f6f6f6',
+          width: 1 + Math.random() * 2,
+      		duration: 1.5e3 + Math.random() * 1e3,
+      		color: '#ffffff',
           opacity: 0.3
       	}
       }
@@ -55,38 +55,13 @@ jQuery(function($) {
   }
 
   if (window.matchMedia( "(min-width: 480px)" ).matches) {
-    add_circle
-    setInterval(add_circle, 2000);
+    add_circle()
+    // setInterval(add_circle, 2000);
   } else {
-    add_circle
-    setInterval(add_circle, 4000);
+    add_circle()
+    // setInterval(add_circle, 3000);
   }
 });
-
-/*
-Content
- */
-jQuery(function($) {
-  $(window).scroll(function (){
-    $('.scrollFadein').each(function(){
-        var targetElement = $(this).offset().top;
-        var scroll = $(window).scrollTop();
-        var windowHeight = $(window).height();
-        if (window.matchMedia( "(min-width: 480px)" ).matches) {
-          if (scroll > targetElement - windowHeight + 200){
-              $(this).css('opacity','1');
-              $(this).css('transform','translateY(0)');
-          }
-        } else {
-          if (scroll > targetElement - windowHeight - 200){
-              $(this).css('opacity','1');
-              $(this).css('transform','translateY(0)');
-          }
-        }
-    });
-  });
-});
-
 
 /*
 ### Footer

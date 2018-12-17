@@ -9,9 +9,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <style>
-  .scrollFadein{opacity:0;transform:translateY(20px)}@charset "utf-8";.scrollFadein{opacity:0;transform:translateY(40px)}.content-effect-wrapper{width:100%;height:100%;overflow:hidden;position:relative}
-  </style>
   <link rel="preload" href=<?php echo get_stylesheet_uri() ?> as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href=<?php echo get_stylesheet_uri() ?>></noscript>
   <script>

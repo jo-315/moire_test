@@ -19,11 +19,14 @@ archive
  }
 
  /* パンくず */
+ .child-category-space {
+  height: 250px !important;
+ }
+
  .child-category-item-wrap {
  	text-align: center;
  	overflow: auto;
- 	height: 70px;
- 	margin-bottom: 50px;
+ 	height: 50px;
  	position: relative;
  }
 
@@ -35,12 +38,17 @@ archive
  	list-style: none;
  	width: calc(100% / 6);
  	float: left;
- 	padding: 20px 0 5px;
+ 	padding: 5px 0;
  }
 
  .child-category-item-wrap ul li a{
  	text-decoration: none;
  	font-size: 17px;
+  color: #ffffff;
+ }
+
+ .child-category-item-wrap ul li:hover a{
+  color: #D0324B;
  }
 
  @media screen and (max-width: 1000px) {
@@ -76,54 +84,34 @@ archive
  Content
   */
  .archive-content-wrap {
- 	padding: 0 70px 70px;
-   box-shadow: 0px 0px 3px 3px;
-   position: relative;
-   z-index: 2;
+ 	padding: 30px 70px 70px;
+  box-shadow: 0px 0px 3px 3px;
+  position: relative;
+  z-index: 2;
  	overflow: hidden;
- }
-
- .post-content-top {
- 	padding-top: 70px;
  }
 
  @media screen and (max-width: 1230px) {
  	.archive-content-wrap {
- 		padding: 0 50px 70px;
- 	}
-
- 	.post-content-top {
- 		padding-top: 70px;
+ 		padding: 30px 50px 70px;
  	}
  }
 
  @media screen and (max-width: 1070px) {
  	.archive-content-wrap {
- 		padding: 0 30px 70px;
- 	}
-
- 	.post-content-top {
- 		padding-top: 70px;
+ 		padding: 30px 30px 70px;
  	}
  }
 
  @media screen and (max-width: 614px) {
  	.archive-content-wrap {
- 		padding: 0 5px 50px;
- 	}
-
- 	.post-content-top {
- 		padding-top: 70px;
+ 		padding: 30px 5px 50px;
  	}
  }
 
  @media screen and (max-width: 380px) {
  	.archive-content-wrap {
- 		padding: 0 0 35px;
- 	}
-
- 	.post-content-top {
- 		padding-top: 70px;
+ 		padding: 5px 0 35px;
  	}
  }
 
@@ -334,15 +322,6 @@ archive
  		height: 150px;
  	}
  }
-
- /*
- else
-  */
-  .scrollFadein {
-    opacity : 0;
-    transform: translateY(20px);
-    transition: all 2s;
-  }
 
 /*
 single

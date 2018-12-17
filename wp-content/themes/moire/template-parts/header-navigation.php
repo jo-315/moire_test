@@ -20,13 +20,13 @@
   <div class="header-main-navigation-wrap">
     <nav class="header-main-navigation">
       <ul class='header-main-navigation-items-wrap'>
-        <li class='header-main-navigation-item'>
-          <a href="/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/">
             HOME
           </a>
         </li>
-        <li class='header-main-navigation-item header-main-navigation-item--article'>
-          <a href="/category/article/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/category/article/">
             No Money Action
           </a>
           <div class="header-main-navigation-child">
@@ -64,18 +64,18 @@
             </ul>
           </div>
         </li>
-        <li class='header-main-navigation-item'>
-          <a href="/category/organization/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/category/organization/">
             団体一覧
           </a>
         </li>
-        <li class='header-main-navigation-item'>
-          <a href="/category/event/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/category/event/">
             イベント一覧
           </a>
         </li>
-        <li class='header-main-navigation-item'>
-          <a href="/about-us/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/about-us/">
             ABOUT US
           </a>
           <div class="header-main-navigation-child">
@@ -98,8 +98,8 @@
             </ul>
           </div>
         </li>
-        <li class='header-main-navigation-item'>
-          <a href="/contact-us/" class="header-main-navigation-item--main">
+        <li>
+          <a href="/contact-us/">
             お問い合わせ
           </a>
         </li>

@@ -44,7 +44,7 @@
 
     <div class="block-wrapper">
       <div class="HP-content-wrapper">
-        <div class="HP-content-column scrollFadein">
+        <div class="HP-content-column">
           <div class="HP-content-column-header">
             No Money Action
           </div>
@@ -67,7 +67,7 @@
           </div>
         </div>
 
-        <div class="HP-content-column scrollFadein">
+        <div class="HP-content-column">
           <div class="HP-content-column-header">
             団体情報一覧
           </div>
@@ -90,7 +90,7 @@
           </div>
         </div>
 
-        <div class="HP-content-column scrollFadein">
+        <div class="HP-content-column">
           <div class="HP-content-column-header">
             イベント情報一覧
           </div>

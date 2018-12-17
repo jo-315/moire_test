@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="sns-block-content">
-			<div class="sns-block-content-column scrollFadein">
+			<div class="sns-block-content-column">
 				<div class="sns-block-content-column-top">
 				</div>
 
@@ -41,7 +41,7 @@
 				</div>
 			</div>
 
-			<div class="sns-block-content-column scrollFadein">
+			<div class="sns-block-content-column">
 				<div class="sns-block-content-column-top">
 				</div>
 
