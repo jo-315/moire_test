@@ -90,11 +90,6 @@
                   MEMBER
                 </a>
               </li>
-              <li>
-                <a href="/recruit">
-                  メンバー募集
-                </a>
-              </li>
             </ul>
           </div>
         </li>
@@ -102,6 +97,20 @@
           <a href="/contact-us/">
             お問い合わせ
           </a>
+          <div class="header-main-navigation-child">
+            <ul>
+              <li>
+                <a href="/contact-us/">
+                  お問い合わせ
+                </a>
+              </li>
+              <li>
+                <a href="/recruit">
+                  メンバー募集
+                </a>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
     </nav>

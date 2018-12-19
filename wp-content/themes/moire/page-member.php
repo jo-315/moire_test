@@ -111,6 +111,26 @@ get_header('member');
         </div>
       </div>
     </div>
+
+    <div class="member_content">
+      <div class="profile_text_title">
+        <span>ライター　　今西 雄飛</span>
+      </div>
+
+      <div class="member_img">
+        <img
+          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_imanishi.png"
+          class="profile_img"
+        />
+      </div>
+
+      <div class="profile_text">
+        <div class="profile_text_content">
+          1番心惹かれた国はカンボジア🇰🇭</br>
+          現在はカンボジア農村部で日本語を通して子供たちの職業選択肢の幅を広げる取り組みを行っています。
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
