@@ -195,6 +195,26 @@ About Us
   height: 130px;
 }
 
+.profile_text_content-button-wrap {
+  text-align: center;
+  margin: 10px 0;
+  height: 25px;
+}
+
+.profile_text_content-button {
+  color: #D0324B;
+  font-weight: bold;
+  border: solid 1px #D0324B;
+  padding: 5px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.profile_text_content-button:hover {
+  opacity: 0.5;
+  color: #D0324B;
+}
+
 .profile_text {
   width: calc(100% - 120px);
   float: left;
@@ -224,11 +244,15 @@ About Us
     width: 100%;
     margin: 0 0 20px;
     border-bottom: solid 2px #2fcbb2;
-    min-height: 200px;
   }
 
   .profile_text_content {
     height: auto;
   }
+}
 
+@media screen and (max-width: 580px) {
+  .member_content {
+    min-height: 200px;
+  }
 }

@@ -29,6 +29,9 @@ get_header('member');
           二回生の冬からはBaseconnect Incでエンジニアインターンに参加。
           現在はmoireやNICEの活動を行いつつインターンしてます。
         </div>
+        <div class="profile_text_content-button-wrap">
+          <a href='/author/kenjo' class="profile_text_content-button">記事一覧</a>
+        </div>
       </div>
     </div>
 
@@ -50,6 +53,8 @@ get_header('member');
           「自分の目でリアルなアフリカを見て、多くの人にリアルな情報を届ける」がモットー。
           アフリカ大好きな大学2回生です！
         </div>
+        <div class="profile_text_content-button-wrap">
+        </div>
       </div>
     </div>
 
@@ -67,8 +72,10 @@ get_header('member');
 
       <div class="profile_text">
         <div class="profile_text_content">
-          中の人は日本人です。現在ロシアのサンクト=ペテルブルクに留学中。普通の大学3年生。太陽の光を浴びたいが最近の口癖。よろしくお願いいたします。</br>
-        </br>
+          中の人は日本人です。現在ロシアのサンクト=ペテルブルクに留学中。普通の大学3年生。太陽の光を浴びたいが最近の口癖。よろしくお願いいたします。
+        </div>
+        <div class="profile_text_content-button-wrap">
+          <a href='/author/natalie' class="profile_text_content-button">記事一覧</a>
         </div>
       </div>
     </div>
@@ -88,6 +95,9 @@ get_header('member');
       <div class="profile_text">
         <div class="profile_text_content">
           犬を愛する旅行好きな中国語学習者。ただ今中国にて修行中です。老後は犬とともに暮らしたい。
+        </div>
+        <div class="profile_text_content-button-wrap">
+          <a href='/author/shoka' class="profile_text_content-button">記事一覧</a>
         </div>
       </div>
     </div>
@@ -109,6 +119,9 @@ get_header('member');
           ドイツに留学中</br>
           本場ドイツでビールを飲むも普通に「苦っ」と言ってしまう。ただ、Radler という飲みやすいビールに出会い救われる。
         </div>
+        <div class="profile_text_content-button-wrap">
+          <a href='/author/taro' class="profile_text_content-button">記事一覧</a>
+        </div>
       </div>
     </div>
 
@@ -128,6 +141,8 @@ get_header('member');
         <div class="profile_text_content">
           1番心惹かれた国はカンボジア🇰🇭</br>
           現在はカンボジア農村部で日本語を通して子供たちの職業選択肢の幅を広げる取り組みを行っています。
+        </div>
+        <div class="profile_text_content-button-wrap">
         </div>
       </div>
     </div>
