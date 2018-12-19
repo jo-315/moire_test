@@ -173,16 +173,26 @@ About Us
 }
 
 .member_content {
-  width: 50%;
+  width: calc(50% - 40px);
   float: left;
   border-bottom: solid 0.5px #2fcbb2;
   text-align: left;
-  padding: 0 10px;
+  margin: 0 20px 40px;
+}
+
+.member_img {
+  margin-bottom: 5px;
+  overflow: auto;
+  float: left;
 }
 
 .profile_img {
   width: 100px;
   float: left;
+}
+
+.profile_text_content {
+  height: 130px;
 }
 
 .profile_text {
@@ -203,10 +213,22 @@ About Us
   .member_content_wrap {
     width: 95%;
   }
+
+  .profile_text_content {
+    height: 200px;
+  }
 }
 
-@media screen and (max-width: 626px) {
+@media screen and (max-width: 800px) {
   .member_content {
     width: 100%;
+    margin: 0 0 20px;
+    border-bottom: solid 2px #2fcbb2;
+    min-height: 200px;
   }
+
+  .profile_text_content {
+    height: auto;
+  }
+
 }
