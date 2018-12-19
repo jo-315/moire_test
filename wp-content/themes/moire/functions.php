@@ -127,17 +127,16 @@ function moire_posted_date() {
 	}
 
 // 日付の出力調整
-	$time_string = sprintf(
-		$time_string,
-		esc_attr( get_the_date( 'c' ) ),
-		esc_html( get_the_date() ),
-		esc_attr( get_the_modified_date( 'c' ) ),
-		esc_html( get_the_modified_date() ),
-		null,
-		null
-	);
+$time_string = sprintf( $time_string,
+	esc_attr( get_the_date( DATE_W3C ) ),
+	esc_html( get_the_date('Y年 F d日') ),
+	esc_attr( get_the_modified_date( DATE_W3C ) ),
+	esc_html( get_the_modified_date('Y年 F d日') ),
+	null,
+	null
+);
 
-	echo '<span class="posted-on">' . $time_string . '</span>'; // WPCS: XSS OK.
+	echo '<span class="posted-on">'. $time_string . '</span>'; // WPCS: XSS OK.
 }
 
 // Get the first image from post
@@ -158,11 +157,64 @@ function moire_category() {
 	$categories_list = get_the_category_list( ' ', '' );
 	if ( $categories_list ) {
 		printf(
-			'<div class="cat-links-wrap">%1$s</span>',
+			'<div class="cat-links-wrap">%1$s</div>',
 			$categories_list
 		);
 	}
 }
+
+/**
+ * author
+ */
+if ( ! function_exists( 'moire_theme_posted_by' ) ) :
+	/**
+	 * Prints HTML with meta information for the current author.
+	 */
+	function moire_theme_posted_by() {
+		$name = get_the_author_meta('user_nicename');
+		if ( $name == 'moire' ) { return; };
+		$path = 'https://moire.xsrv.jp/wp-content/uploads/profile/profile_'. $name . '.png';
+		$byline = (
+			'<span class="author vcard">' . esc_html( get_the_author() ) . '</span>'
+		);
+
+		echo '<img src="'. $path .'"><span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+
+	}
+endif;
+
+if ( ! function_exists( 'moire_theme_posted_by_no_name' ) ) :
+	/**
+	 * Prints HTML with meta information for the current author.
+	 */
+	function moire_theme_posted_by_no_name() {
+		$name = get_the_author_meta('user_nicename');
+		if ( $name == 'moire' ) { return; };
+		$path = 'https://moire.xsrv.jp/wp-content/uploads/profile/profile_'. $name . '.png';
+		echo '<img src="'. $path .'">'; // WPCS: XSS OK.
+	}
+endif;
+
+if ( ! function_exists( 'moire_theme_posted_by_with_link' ) ) :
+	/**
+	 * Prints HTML with meta information for the current author.
+	 */
+	function moire_theme_single_posted() {
+		$name = get_the_author_meta('user_nicename');
+		if ( $name == 'moire' ) { return; };
+
+		$author = get_the_author();
+		$path = 'https://moire.xsrv.jp/wp-content/uploads/profile/profile_'. $name . '.png';
+		$byline = (
+			'<span class="author vcard">' . esc_html( $author ) . '</span>'
+		);
+
+		echo '<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '"><img src="'. $path .'"><span class="byline"> ' . $byline . '</span></a>'; // WPCS: XSS OK.
+
+	}
+endif;
+
+
 
 /**
  * Post thumbnail

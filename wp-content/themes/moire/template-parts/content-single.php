@@ -6,10 +6,21 @@
 	<header>
 		<div class="single-title-wrap">
 			<?php
-			moire_posted_date();
 			the_title( '<h1 class="single-title">', '</h1>' );
-			moire_category();
 			?>
+
+			<div class="single-cat-wrap">
+				<?php moire_category(); ?>
+			</div>
+
+      <div class="single-title-meta">
+				<div class="single-author">
+					<?php	moire_theme_single_posted(); ?>
+				</div>
+
+				<?php moire_posted_date(); ?>
+			</div>
+
 		</div>
 	</header>
 

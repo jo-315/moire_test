@@ -18,7 +18,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_kenjo.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_kenjo.png"
           class="profile_img"
         />
       </div>
@@ -39,7 +39,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_hide.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_hide.png"
           class="profile_img"
         />
       </div>
@@ -60,7 +60,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_sakie.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_natalie.png"
           class="profile_img"
         />
       </div>
@@ -80,7 +80,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_miyata.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_shoka.png"
           class="profile_img"
         />
       </div>
@@ -99,7 +99,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_taro.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_taro.png"
           class="profile_img"
         />
       </div>
@@ -119,7 +119,7 @@ get_header('member');
 
       <div class="member_img">
         <img
-          src="http://moire.xsrv.jp/wp-content/uploads/2018/12/profile_imanishi.png"
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_imanishi.png"
           class="profile_img"
         />
       </div>

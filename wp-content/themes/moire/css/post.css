@@ -111,7 +111,7 @@ archive
 
  @media screen and (max-width: 380px) {
  	.archive-content-wrap {
- 		padding: 5px 0 35px;
+ 		padding: 30px 0 35px;
  	}
  }
 
@@ -123,10 +123,19 @@ archive
  	background: #ffffff;
  	float: left;
  	width: calc((100% - 240px) / 3);
- 	height: 490px;
+ 	height: 250px;
  	margin: 0 40px 50px;
- 	box-shadow: 3px 3px 3px 1px;
  	position: relative;
+ }
+
+ .archive-site-main > article.article::after,
+ .blog-post::after {
+   content: '';
+   position: absolute;
+   left: 25%;
+   bottom: 0;
+   width: 50%;
+   border-bottom: solid 1px #2fcdb4;
  }
 
  .blog-post:hover {
@@ -143,11 +152,6 @@ archive
  	left: 0;
  }
 
- .entry-header-top {
- 	height: 20px;
-   background: #2fcdb4
- }
-
  @media screen and (max-width: 1230px) {
  	.archive-site-main > article.article,
  	.blog-post {
@@ -156,25 +160,10 @@ archive
  	}
  }
 
- @media screen and (max-width: 1070px) {
- 	.archive-site-main > article.article,
- 	.blog-post {
- 		height: 435px;
- 	}
- }
-
- @media screen and (max-width: 1020px) {
- 	.archive-site-main > article.article,
- 	.blog-post {
- 		height: 460px;
- 	}
- }
-
  @media screen and (max-width: 890px) {
  	.archive-site-main > article.article,
  	.blog-post {
  		width: calc((100% - 80px) / 2);
- 		height: 480px;
  	}
  }
 
@@ -186,11 +175,18 @@ archive
  	}
  }
 
+ @media screen and (max-width: 610px) {
+ 	.archive-site-main > article.article,
+ 	.blog-post {
+    height: 300px;
+  }
+}
+
  @media screen and (max-width: 524px) {
  	.archive-site-main > article.article,
  	.blog-post {
  		width: 400px;
- 		height: 350px;
+ 		height: 320px;
  		margin: 0 auto 30px;
  		float: none;
  	}
@@ -200,7 +196,7 @@ archive
  	.archive-site-main > article.article,
  	.blog-post {
  		width: 340px;
- 		height: 370px;
+ 		height: 340px;
  	}
 
  }
@@ -209,7 +205,7 @@ archive
  	.archive-site-main > article.article,
  	.blog-post {
  		width: 290px;
- 		height: 340px;
+ 		height: 300px;
  	}
  }
 
@@ -242,7 +238,10 @@ archive
 
  .archive-content-inner-wrap {
  	text-align: center;
- 	padding: 20px 20px 0;
+ }
+
+ .archive-content-inner-wrap .byline {
+   display: block;
  }
 
  @media screen and (max-width: 950px) {
@@ -263,16 +262,10 @@ archive
  	}
  }
 
- /*
- ## 投稿日
-  */
-
- .entry-header .posted-on {
- 	color: #aaaaaa;
- 	font-size: 15px;
- 	padding-bottom: 10px;
- 	display: block;
- }
+.archive-content-desc {
+  margin: 5px 0;
+  overflow: auto;
+}
 
  /*
  Tag
@@ -280,12 +273,27 @@ archive
  .archive-item-tag {
  	text-align: center;
  	margin-top: 5px;
+  float: left;
  }
 
  .archive-item-tag span {
  	margin: 0 5px;
-   color: #2fcdb4
+   color: #D0324B
  }
+
+ /*
+ author
+  */
+.archive-item-author-wrap {
+  overflow: auto;
+  float: right;
+}
+
+.archive-item-author-wrap img {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
 
  /*
  Image
@@ -294,21 +302,13 @@ archive
  .post-thumbnail-wrap {
  	text-align: center;
  	width: 100%;
- 	height: 300px;
- 	position: absolute;
- 	bottom: 0;
+ 	height: 100px;
  }
 
  .post-thumbnail-wrap img {
- 	width: 100%;
-   object-fit: cover;
+	 width: 100%;
    height: 100%;
- }
-
- @media screen and (max-width: 1070px) {
- 	.post-thumbnail-wrap {
- 		height: 250px;
- 	}
+   object-fit: cover;
  }
 
  @media screen and (max-width: 524px) {
@@ -387,8 +387,6 @@ single
    font-size: 19px;
  }
 
- /* ここまで */
-
  @media screen and (max-width: 650px) {
    .single-content-area {
      width: 100%;
@@ -401,19 +399,45 @@ single
   */
  .single-title-wrap {
    text-align: center;
- }
-
- .single-title-wrap .posted-on {
-   font-size: 16px;
-   color: #aaaaaa;
+   overflow: auto;
  }
 
  .single-title {
    margin: 10px 0;
  }
 
+ .single-title-meta {
+   float: left;
+   font-size: 14px;
+   margin-top: 20px;
+ }
+
+ .single-title-meta .posted-on {
+   color: #aaaaaa;
+ }
+
+/* author */
+.single-author a {
+  text-decoration: none;
+}
+
+.single-author img {
+  width: 50px;
+}
+
+.single-author .byline {
+  display: inline;
+}
+
+.single-author:hover .byline{
+  color: #D0324B;
+}
+
+
+ /* category */
  .cat-links-wrap {
    font-size: 18px;
+   overflow: auto;
  }
 
  .cat-links-wrap a {
