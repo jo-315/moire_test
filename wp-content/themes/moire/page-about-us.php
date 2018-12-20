@@ -109,7 +109,7 @@ get_header('about-us');
       <div>
         こちらがmoireの事業計画書になります。
         </br>
-        <a href='https://moire.xsrv.jp/about_moire.pdf' target='_blank'>miore事業計画書</a>
+        <a href='https://moire.xsrv.jp/about_moire_02.pdf' target='_blank'>miore事業計画書</a>
       </div>
     </div>
   </div>

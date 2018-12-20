@@ -8,10 +8,6 @@
   padding: 50px 10px;
 }
 
-.page_content_block h1 {
-  font-family: 'klee',sans-serif;
-}
-
 .page_content_block h3 {
   border-bottom: solid 2px #D0324B;
 }
@@ -22,6 +18,15 @@
 }
 
 @media screen and (max-width: 650px) {
+  .page_content_block h1 {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  .about_content_wrap {
+    margin: 30px 0 70px;
+  }
+
   .page_content--text {
     width: 100%;
     padding: 0 20px;
@@ -88,6 +93,13 @@ About Us
 .desc_table--key {
   background: #2fcbb2;
   color: #f6f6f6;
+}
+
+@media screen and (max-width: 650px) {
+  .mission-wrap span,
+  .activity-desc span {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -198,7 +210,11 @@ About Us
 .profile_text_content-button-wrap {
   text-align: center;
   margin: 10px 0;
-  height: 25px;
+  height: 36px;
+}
+
+.profile_text_content-button-wrap a {
+  margin-right: 15px;
 }
 
 .profile_text_content-button {
@@ -208,11 +224,20 @@ About Us
   padding: 5px 15px;
   border-radius: 3px;
   text-decoration: none;
+  float: left;
 }
 
 .profile_text_content-button:hover {
   opacity: 0.5;
   color: #D0324B;
+}
+
+.profile-sns-social-wrap {
+  float: left;
+}
+
+.profile-sns-social-icon {
+  height: 38px;
 }
 
 .profile_text {
