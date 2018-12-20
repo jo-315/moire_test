@@ -461,6 +461,7 @@ single
  .related-post-item-wrap {
    list-style: none;
    width: 300px;
+   height: 250px;
    float: left;
    margin-bottom: 50px;
    box-shadow: 3px 3px 3px 1px;
@@ -473,6 +474,18 @@ single
 
  .related-post-item-wrap:nth-child(even){
    margin-left: 25px;
+ }
+
+ .related-post-item-wrap .entry-header{
+   padding-bottom: 5px;
+ }
+
+ .related-post-item-wrap .archive-item-tag {
+   margin-top: 0px;
+ }
+
+ .related-post-item-wrap .archive-item-author-wrap {
+   margin-right: 5px;
  }
 
  .related-post-item-wrap:hover {
@@ -494,7 +507,10 @@ single
  }
 
  .related-post-img-wrapper {
-   height: 150px;
+   height: 100px;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
  }
 
  .related-post-img-wrapper img {
@@ -502,28 +518,6 @@ single
    height: 100%;
    width: 100%;
    object-fit: cover;
- }
-
- .related-post-item-desc {
-   padding: 10px;
-   text-align: center;
- }
-
- .related-post-item-desc .posted{
-   color: #aaaaaa;
- }
-
- .related-post-item-desc .title-wrap {
-   height: 80px;
- }
-
- .related-post-item-desc .title-wrap .title{
-   font-size: 17px;
-   font-weight: bold;
- }
-
- .related-post-item-desc .tag{
-   color: #2fcdb4
  }
 
  .related-post-title {
@@ -545,7 +539,8 @@ single
 
  @media screen and (max-width: 650px) {
    .related-post-item-wrap {
-     width: calc((100% - 30px)/2)
+     width: calc((100% - 30px)/2);
+     height: 300px;
    }
 
    .related-post-item-wrap:nth-child(odd){
@@ -562,6 +557,7 @@ single
      float: none;
      margin: 0 auto 50px;
      width: 100%;
+     height: 250px;
    }
 
    .related-post-item-wrap:nth-child(odd){

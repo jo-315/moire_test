@@ -78,29 +78,38 @@ get_header('post');
 								<li class="related-post-item-wrap">
 									<div class="related-post-item-top">
 									</div>
-									<div class="related-post-item-desc">
-										<span class="posted"><?php moire_posted_date(); ?></span></br>
-										<div class="title-wrap">
-											<span class="title"><?php the_title(); ?></span></br>
-										</div>
-										<span class="tag">
+
+									<div class="entry-header">
+										<div class="archive-content-inner-wrap">
+											<div class="archive-content-desc">
+												<div class="archive-item-tag">
+													<?php
+														$tags = get_the_tags();
+														if ($tags) {
+															foreach($tags as $tag) {
+																echo '<span>' . $tag->name . '</span>';
+															}
+														}
+													?>
+												</div>
+												<div class="archive-item-author-wrap">
+													<?php
+														moire_theme_posted_by_no_name()
+													?>
+												</div>
+											</div>
+
 											<?php
-												$tags = get_the_tags();
-												if ($tags) {
-													foreach($tags as $tag) {
-														echo '<span>' . $tag->name . '</span>';
-													}
-												} else {
-													echo '<span>タグなし</span>';
-												}
+												the_title( '<h2 class="archive-item-title">', '</h2>' );
 											?>
-										</span>
+										</div>
 									</div>
+
 									<div class="related-post-img-wrapper">
 										<?php the_post_thumbnail('large'); ?>
 									</div>
-									<a href="<?php the_permalink(); ?>">
-									</a>
+
+									<a href="<?php the_permalink(); ?>"></a>
 								</li>
 
 						<?php endwhile; ?>
