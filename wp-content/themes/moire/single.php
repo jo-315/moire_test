@@ -30,6 +30,23 @@ get_header('post');
 
 				</main>
 
+				<div class="snsShareArea">
+					<!-- Twitter -->
+					<a class="btn--twitter" href="http://twitter.com/share?url=<?php the_permalink();?>&text=<?php echo get_the_title(); ?>&via=moire45522311&related=moire45522311" target="_blank" rel="nofollow">
+						Twitter
+					</a>
+
+					<!-- Facebook -->
+				  <a href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>&t=<?php echo get_the_title(); ?>" class="btn--facebook" target="_blank" rel="nofollow">
+					  Facebook
+					</a>
+
+				  <!-- Line -->
+			 	  <a class="btn--line" href="https://social-plugins.line.me/lineit/share?url=<?php the_permalink(); ?>" target="_blank" rel="nofollow">
+	 				  LINE
+					</a>
+				</div>
+
 				<div class="related-post-wrap">
 					<div class="related-post-title">
 						<span>関連記事</span>
