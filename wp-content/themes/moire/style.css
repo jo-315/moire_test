@@ -2702,6 +2702,20 @@ topのナビゲーション
 	.header-title-wrap {
 		width: calc(100% - 130px);
 	}
+
+	.header-logo-wrap  {
+		margin: 13px 0 0 10px;
+	}
+
+	.header-title-wrap a {
+    top: -2px;
+	}
+}
+
+@media screen and (max-width: 871px) {
+	.header-inner-top {
+		height: 70px;
+	}
 }
 
 /* navigation */
@@ -2821,10 +2835,10 @@ topのナビゲーション
 
 	.header-menu-toggle {
 		display: block;
-		height: 50px;
-		width: 60px;
+		height: 70px;
+		width: 80px;
 		float: right;
-    padding: 0 25px;
+    padding: 0 34px;
 	}
 
 	.header-main-navigation,
@@ -2843,7 +2857,7 @@ topのナビゲーション
 		top: 100%;
 		left: 0;
 		right: 0;
-		opacity: 0.9;
+		opacity: 1;
 		background: #464646;
 		height: auto;
 	}
@@ -2872,6 +2886,7 @@ topのナビゲーション
 		display: inline-block;
 		width: 100%;
 		text-align: left;
+		padding: 15px 0 10px 15px;
 	}
 
 	.header-main-navigation-child ul li {
@@ -2888,6 +2903,10 @@ topのナビゲーション
 		color: #fff;
 		font-size: 16px;
 		line-height: 10px;
+	}
+
+	.header-main-navigation-child ul li a {
+		margin-top: 10px;
 	}
 
 	.header-main-navigation-item .header-main-navigation-item--main {

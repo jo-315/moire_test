@@ -24,13 +24,16 @@
             <div class='right-top-column-content-title'>
             moire(モアレ)
             </div>
-            私たちmoireのMissionは、<span class='font-bold'>社会貢献活動の促進</span>です。</br>
-            </br>
+            <p>
+              私たちmoireのMissionは、<span class='font-bold'>社会貢献活動の促進</span>です。
+            </p>
+            <p>
+              このMission達成のために私たちは、お金を目的にしない活動 <span class='font-bold'>「No Money Action」</span> をHPで発信していきます。
+            </p>
 
-            このMission達成のために私たちは、お金を目的にしない活動 <span class='font-bold'>「No Money Action」</span> をHPで発信していきます。</br>
-            </br>
-
-            No Money Action の中で社会貢献活動についても発信することで、社会貢献活動に関心のない人を社会貢献活動に繋いでいきます。
+            <p>
+              No Money Action の中で社会貢献活動についても発信することで、社会貢献活動に関心のない人を社会貢献活動に繋いでいきます。
+            </p>
           </span>
         </div>
 
@@ -46,7 +49,9 @@
       <div class="HP-content-wrapper">
         <div class="HP-content-column">
           <div class="HP-content-column-header">
-            No Money Action
+            <span>
+              No Money Action
+            </span>
           </div>
 
           <div class="HP-content-column-logo">
@@ -69,7 +74,7 @@
 
         <div class="HP-content-column">
           <div class="HP-content-column-header">
-            団体情報一覧
+            <span>団体情報一覧</span>
           </div>
 
           <div class="HP-content-column-logo">
@@ -80,7 +85,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            社会貢献活動を行う団体の情報を手軽に見れるようにし、団体へ関わることを容易にします。
+            社会貢献活動を行う団体の情報を手軽に見れるようにし、団体の活動参加を容易にします。
           </div>
 
           <div class="HP-content-column-button">
@@ -92,7 +97,7 @@
 
         <div class="HP-content-column">
           <div class="HP-content-column-header">
-            イベント情報一覧
+            <span>イベント情報一覧</span>
           </div>
 
           <div class="HP-content-column-logo">
@@ -103,7 +108,7 @@
           </div>
 
           <div class="HP-content-column-content">
-            社会貢献活動についてのイベントも発信することで、より社会貢献活動に参加しやすい環境を作ります。
+            社会貢献活動のイベントも発信し、より社会貢献活動に参加しやすい環境を作ります。
           </div>
 
           <div class="HP-content-column-button">

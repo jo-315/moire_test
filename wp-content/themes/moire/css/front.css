@@ -100,7 +100,7 @@
   transition: 0.3s;
   overflow-x: hidden;
   text-align: center;
-  padding: 140px 5px 0;
+  padding: 90px 5px 0;
   line-height: 50px;
   height: 100vh;
   box-shadow: -10px 0 10px -5px;
@@ -116,7 +116,7 @@
 
 .right-top-column-content-title {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   text-align: center;
   font-size: 22px;
   font-weight: bold;
@@ -156,7 +156,7 @@
     top: 0;
     right: 0;
     transition: 0.5s;
-    padding: 120px 5px 0;
+    padding: 70px 5px 0;
   }
 
   .right-top-column-content {
@@ -178,14 +178,14 @@
 HPブロック
  */
 .HP-content-wrapper {
-  padding: 100px 40px 100px;
+  padding: 50px 100px 100px;
   display: table;
 }
 
 .HP-content-column {
   width: calc(100%/3);
   text-align: center;
-  padding: 0 5px;
+  padding: 0 40px;
   display: table-cell;
 }
 
@@ -195,14 +195,19 @@ HPブロック
   margin-bottom: 14px;
 }
 
+.HP-content-column-header span {
+  border-bottom: solid 3px #D0324B;
+  padding-bottom: 3px;
+}
+
 .HP_logo {
-  width: 150px;
+  width: 100px;
 }
 
 .HP-content-column-content {
   padding: 12px 30px;
   font-size: 16px;
-  height: 100px;
+  height: 120px;
 }
 
 .HP-content-column-button {
@@ -218,26 +223,40 @@ HPブロック
   box-shadow: 2px 2px 4px #202223;
 }
 
-@media screen and (max-width: 1058px) {
+.HP-content-column-button a:hover {
+  opacity: 0.5;
+  padding: 18px;
+}
+
+@media screen and (max-width: 1198px) {
   .HP-content-column-content {
-    height: 120px;
+    height: 150px;
+  }
+
+  .HP-content-column-content {
+    padding: 12px 20px;
   }
 }
 
-@media screen and (max-width: 868px) {
-  .HP-content-column-content {
-    height: 160px;
-  }
-}
-
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 994px) {
   .HP-content-wrapper {
-    padding: 40px 0px;
+    padding: 50px 60px 100px;
+  }
+
+  .HP-content-column {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .HP-content-wrapper {
+    padding: 40px 100px;
+    margin: 0 auto;
   }
 
   .HP-content-column {
     width: 100%;
-    padding: 0px 0px 100px;
+    padding: 0px 0px 80px;
     display: block;
   }
 
@@ -245,3 +264,8 @@ HPブロック
     height: auto;
   }
 }
+
+@media screen and (max-width: 476px) {
+  .HP-content-wrapper {
+    padding: 40px 10px;
+  }
