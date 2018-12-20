@@ -109,6 +109,11 @@
                   メンバー募集
                 </a>
               </li>
+              <li>
+                <a href="/article_contribution">
+                  寄稿のお願い
+                </a>
+              </li>
             </ul>
           </div>
         </li>
