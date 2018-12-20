@@ -40,5 +40,13 @@
 				)
 			);
 		?>
+
+		<div>
+			人気記事に反映されます。クリックお願いします！
+		</div>
+
+		<div class="single-author single-author-page-bottom">
+			<?php	moire_theme_single_posted(true); ?>
+		</div>
 	</div>
 </article>

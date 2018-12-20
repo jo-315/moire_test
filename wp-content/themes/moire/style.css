@@ -1964,7 +1964,28 @@ object {
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
+/* いいね機能 */
+.wp_ulike_likers_wrapper {
+	display: none !important;
+}
 
+.wp_ulike_general_class label:hover {
+	opacity: 0.6;
+	color: #D0324B;
+}
+
+.wpulike-success {
+  background-color: #2fcdb4 !important;
+	padding: 5px !important;
+}
+
+.wpulike-success::before {
+	display: none;
+}
+
+.wpulike-error {
+	display: none;
+}
 /*--------------------------------------------------------------
 ## Pirate Forms
 --------------------------------------------------------------*/

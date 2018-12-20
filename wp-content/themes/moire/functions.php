@@ -195,19 +195,26 @@ if ( ! function_exists( 'moire_theme_posted_by_no_name' ) ) :
 	}
 endif;
 
-if ( ! function_exists( 'moire_theme_posted_by_with_link' ) ) :
+if ( ! function_exists( 'moire_theme_single_posted' ) ) :
 	/**
 	 * Prints HTML with meta information for the current author.
 	 */
-	function moire_theme_single_posted() {
+	function moire_theme_single_posted($list = false) {
 		$name = get_the_author_meta('user_nicename');
 		if ( $name == 'moire' ) { return; };
 
+    $byline = '';
 		$author = get_the_author();
 		$path = 'https://moire.xsrv.jp/wp-content/uploads/profile/profile_'. $name . '.png';
-		$byline = (
-			'<span class="author vcard">' . esc_html( $author ) . '</span>'
-		);
+		if ($list) {
+			$byline = (
+				'<span class="author vcard">' . esc_html( $author ) . 'の記事一覧</span>'
+			);
+		} else {
+			$byline = (
+				'<span class="author vcard">' . esc_html( $author ) . '</span>'
+			);
+		};
 
 		echo '<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '"><img src="'. $path .'"><span class="byline"> ' . $byline . '</span></a>'; // WPCS: XSS OK.
 
