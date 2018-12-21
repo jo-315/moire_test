@@ -226,6 +226,31 @@ get_header('member');
         </div>
       </div>
     </div>
+
+    <div class="member_content">
+      <div class="profile_text_title">
+        <span>デザイナー　　じゅき</span>
+      </div>
+
+      <div class="member_img">
+        <img
+          src="https://moire.xsrv.jp/wp-content/uploads/profile/profile_zyuki.png"
+          class="profile_img"
+        />
+      </div>
+
+      <div class="profile_text">
+        <div class="profile_text_content">
+          ロゴとかアイキャッチ作りのお手伝い</br>
+          基礎心理学とか認知心理学を勉強中</br>
+          カラオケの十八番はキミシダイ列車</br>
+          ハワイにいきたいが最近の口癖
+        </div>
+
+        <div class="profile_text_content-button-wrap">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
