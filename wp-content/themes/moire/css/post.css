@@ -361,6 +361,7 @@ single
  .single-content h2 {
    font-weight: bold;
    background: linear-gradient(transparent 70%, #2fcdb4 70%);
+   text-transform: none;
  }
 
  .single-content h3, h4 {
@@ -368,6 +369,7 @@ single
    position: relative;
    padding-left: 35px;/*アイコン分のスペース*/
    line-height: 1.4;
+   text-transform: none;
  }
 
  .single-content h3:before, h4:before {
