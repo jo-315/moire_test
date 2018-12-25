@@ -223,6 +223,17 @@ get_header('member');
               class="profile-sns-social-icon"
             />
           </a>
+          <a
+            href="https://www.instagram.com/yuhimanishi/"
+            target="_blank"
+            class="sns-social-wrap profile-sns-social-wrap "
+          >
+            <img
+              src="https://moire.xsrv.jp/wp-content/uploads/IG_Glyph_Fill.psd-8.png"
+              alt="instagram"
+              class="profile-sns-social-icon"
+            />
+          </a>
         </div>
       </div>
     </div>
