@@ -233,6 +233,10 @@ About Us
   margin-right: 15px;
 }
 
+.profile_text_content-button-wrap a:visited {
+  color: #D0324B;
+}
+
 .profile_text_content-button {
   color: #D0324B;
   font-weight: bold;
