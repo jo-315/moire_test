@@ -53,7 +53,7 @@ get_header('recruit');
             事業計画書はこちらになります。</br>
             </br>
             <div class="align-center">
-              <a href='https://moire.xsrv.jp/about_moire.pdf' target='_blank' rel="noreferrer">miore事業計画書</a>
+              <a href='https://moire.xsrv.jp/about_moire_02.pdf' target='_blank' rel="noreferrer">miore事業計画書</a>
             </div>
           </li>
         </ul>

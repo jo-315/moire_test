@@ -121,6 +121,7 @@ get_header('member');
           現在は反抗期の妹とペットのホルスタインに悩まされてます。
         </div>
         <div class="profile_text_content-button-wrap">
+          <a href='/author/yonta' class="profile_text_content-button">記事一覧</a>
         </div>
       </div>
     </div>
