@@ -42,7 +42,7 @@
 		?>
 
 		<div>
-			人気記事に反映されます。クリックお願いします！
+			人気記事ランキングに反映されます。クリックお願いします！
 		</div>
 
 		<div class="single-author single-author-page-bottom">
