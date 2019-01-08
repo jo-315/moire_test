@@ -25,7 +25,7 @@
       <div class="content-effect-wrapper">
         <div id="content-effect">
           <div class="post-header-title">
-          <span>メンバー</span>
+          <span>寄稿者一覧</span>
         </div>
       </div>
     </div>

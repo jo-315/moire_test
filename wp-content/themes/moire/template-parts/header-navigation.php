@@ -90,6 +90,11 @@
                   MEMBER
                 </a>
               </li>
+              <li>
+                <a href="/contributor">
+                  寄稿者一覧
+                </a>
+              </li>
             </ul>
           </div>
         </li>

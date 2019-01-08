@@ -47,7 +47,68 @@
 
     <div class="block-wrapper">
       <div class="HP-content-wrapper">
-        <div class="popular_article_wrap_title">
+        <div class="HP-content-wrap-title new_article_wrap_title">
+          <h2>新着記事</h2>
+        </div>
+
+        <div class="popular_article">
+          <?php
+            $args = array(
+              'posts_per_page' => 3 // 表示件数の指定
+            );
+            $posts = get_posts( $args );
+            foreach ( $posts as $post ): // ループの開始
+            setup_postdata( $post ); // 記事データの取得
+          ?>
+
+          <li class="HP-content-column popular_article-column">
+            <div class="popular_article_img">
+              <?php the_post_thumbnail('large'); ?>
+            </div>
+
+            <div class="popular_article_content">
+              <div class="popular_article-desc">
+                <div class="popular_article-tag">
+                  <?php
+                    $tags = get_the_tags();
+                    if ($tags) {
+                      foreach($tags as $tag) {
+                        echo '<span>' . $tag->name . '</span>';
+                      }
+                    }
+                  ?>
+                </div>
+                <div class="popular_article-wrap">
+                  <?php
+                    moire_theme_posted_by_no_name()
+                  ?>
+                </div>
+              </div>
+
+              <?php
+                the_title( '<h3 class="archive-item-title">', '</h3>' );
+              ?>
+            </div>
+
+
+            <a href="<?php the_permalink(); ?>"></a>
+          </li>
+
+          <?php
+            endforeach;
+            wp_reset_postdata();
+          ?>
+        </div>
+      </div>
+    </div>
+
+    <div class="between_content">
+      <div class="between_content_effect">
+      </div>
+    </div>
+    <div class="block-wrapper">
+      <div class="HP-content-wrapper">
+        <div class="HP-content-wrap-title popular_article_wrap_title">
           <h2>人気記事</h2>
           <p>
             各記事の最後に設置されたいいねボタンをクリックすることで結果が変動します。</br>
@@ -99,7 +160,7 @@
               </div>
 
               <?php
-                the_title( '<h2 class="archive-item-title">', '</h2>' );
+                the_title( '<h3 class="archive-item-title">', '</h3>' );
               ?>
             </div>
 
