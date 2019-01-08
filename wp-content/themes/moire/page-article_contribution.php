@@ -16,23 +16,23 @@ get_header('article_contribution');
   <div class="page_content--text">
   <h3>皆様が行っている No Money Action を発信させてください！</h3>
   <div class="recruit_text">
-    私たちmoireの目標は<strong>『社会貢献活動の促進』</strong>です。</br>
+    私たちmoireの目標は『社会貢献活動の促進』です。</br>
     </br>
-    そしてその活動として、HPを通して<span class="font-bold">『お金を必要としない活動（No Money Action）』</span>を発信しています。</br>
+    そしてその活動として、HPを通して『お金を必要としない活動（No Money Action）』を発信しています。</br>
     </br>
-    どうして<strong>社会貢献活動</strong>ではなく、<strong>No Monye Action</strong>という広い概念で情報発信しているかというと、<strong>moire</strong>は社会貢献活動に興味のない人に対して情報発信を行い、興味を持ってもらいたいと考えているからです。</br>
+    どうして社会貢献活動ではなく、No Monye Actionという広い概念で情報発信しているかというと、moireは社会貢献活動に興味のない人に対して情報発信を行い、興味を持ってもらいたいと考えているからです。</br>
     </br>
-    <strong>No Money Action</strong>の記事に興味を持ちmoireのHPに訪れた方が、このHPで<strong>社会貢献活動</strong>にも興味を持ってもらえたらと思い、社会貢献活動だけでなく、<strong>お金を目的としない活動全般</strong>について情報発信を行っています。</br>
+    No Money Actionの記事に興味を持ちmoireのHPに訪れた方が、このHPで社会貢献活動にも興味を持ってもらえたらと思い、社会貢献活動だけでなく、お金を目的としない活動全般について情報発信を行っています。</br>
     </br>
-    そのため、社会貢献活動をはじめ、<strong>No Money Action</strong>の記事を一つでも多く発信していきたいと考えております。</br>
+    そのため、社会貢献活動をはじめ、No Money Actionの記事を一つでも多く発信していきたいと考えております。</br>
     </br>
-    皆様の記事一つ一つが、moireの目標<strong>『社会貢献活動の促進』</strong>の達成に欠かせないものだと考えております。</br>
+    皆様の記事一つ一つが、moireの目標『社会貢献活動の促進』の達成に欠かせないものだと考えております。</br>
     </br>
     また、皆様にとっては、ご自身の活動を発信していける場だと考えていただければ幸いです。</br>
     </br>
     私たちの目標達成及び、皆様の情報発信につながればと考えております。ご協力いただけたら、この上ないです。</br>
     </br>
-    また、<span class="font-bold">「寄稿」</span>では単発での執筆をお願いしていますが、継続的な執筆においては、ライターとして募集しております。</br>
+    また、「寄稿」では単発での執筆をお願いしていますが、継続的な執筆においては、ライターとして募集しております。</br>
     <div>
       <a href="/recruit">ライターについて</a>
     </div>
@@ -45,7 +45,7 @@ get_header('article_contribution');
             活動内容
           </li>
           <li>
-            皆様の<strong>No Money Action</strong>を書いていただくようお願い致します。
+            皆様のNo Money Actionを書いていただくようお願い致します。
           </li>
         </ul>
         <ul>
