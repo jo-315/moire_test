@@ -348,20 +348,21 @@ single
 
  .single-content {
    padding: 40px 0;
-   font-size: 17px;
+   font-size: 16px;
  }
 
  /* 投稿ページのclassはここに追加 */
 
  .single-content p {
-   margin: 0 0 60px;
-   line-height: 35px;
+   margin: 0 0 45px;
+   line-height: 30px;
  }
 
  .single-content h2 {
    font-weight: bold;
    background: linear-gradient(transparent 70%, #2fcdb4 70%);
    text-transform: none;
+   margin-top: 70px;
  }
 
  .single-content h3, h4 {
@@ -370,6 +371,7 @@ single
    padding-left: 35px;/*アイコン分のスペース*/
    line-height: 1.4;
    text-transform: none;
+   margin-top: 60px;
  }
 
  .single-content h3:before, h4:before {
