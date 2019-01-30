@@ -192,20 +192,22 @@ About Us
   }
 }
 
-
 /* Member */
 .member_content_wrap {
   width: 900px;
   margin: 0 auto;
   overflow: auto;
+  text-align: left;
 }
 
 .member_content {
-  width: calc(50% - 40px);
-  float: left;
-  border-bottom: solid 0.5px #2fcbb2;
+  width: calc(49% - 40px);
+  display: inline-block;
+  border-top: solid 0.5px #2fcbb2;
   text-align: left;
-  margin: 0 20px 40px;
+  margin: 0 20px 20px;
+  padding-top: 20px;
+  vertical-align: top;
 }
 
 .member_img {
@@ -217,10 +219,6 @@ About Us
 .profile_img {
   width: 100px;
   float: left;
-}
-
-.profile_text_content {
-  height: 130px;
 }
 
 .profile_text_content-button-wrap {
@@ -278,21 +276,12 @@ About Us
   .member_content_wrap {
     width: 95%;
   }
-
-  .profile_text_content {
-    height: 200px;
-  }
 }
 
 @media screen and (max-width: 800px) {
   .member_content {
     width: 100%;
     margin: 0 0 20px;
-    border-bottom: solid 2px #2fcbb2;
-  }
-
-  .profile_text_content {
-    height: auto;
   }
 }
 
