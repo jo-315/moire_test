@@ -65,44 +65,6 @@
             ?>
 
           </div>
-
-          <?php if ($parent_cat_name === 'No Money Action' || $child_cat_name === 'No Money Action') {?>
-            <div class="child-category-item-wrap">
-              <ul>
-                <li>
-                  <a href="/international-cooperation">
-                    国際協力
-                  </a>
-                </li>
-                <li>
-                  <a href="/nature-conservation">
-                    自然保護
-                  </a>
-                </li>
-                <li>
-                  <a href="/regional-vitalization">
-                    地域活性
-                  </a>
-                </li>
-                <li>
-                  <a href="/study-abroad">
-                    留学
-                  </a>
-                </li>
-                <li>
-                  <a href="/intern">
-                    インターン
-                  </a>
-                </li>
-                <li>
-                  <a href="/other">
-                    その他
-                  </a>
-                </li>
-              </ul>
-            </div>
-          <?php } ?>
-
         </div>
       </div>
     </div>

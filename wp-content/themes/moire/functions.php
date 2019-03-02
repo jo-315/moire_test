@@ -216,7 +216,7 @@ if ( ! function_exists( 'moire_theme_single_posted' ) ) :
 			);
 		};
 
-		echo '<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '"><img src="'. $path .'"><span class="byline"> ' . $byline . '</span></a>'; // WPCS: XSS OK.
+		echo '<a class="url fn n" href="#"><img src="'. $path .'"><span class="byline"> ' . $byline . '</span></a>'; // WPCS: XSS OK.
 
 	}
 endif;

@@ -8,11 +8,6 @@
 			<?php
 			the_title( '<h1 class="single-title">', '</h1>' );
 			?>
-
-			<div class="single-cat-wrap">
-				<?php moire_category(); ?>
-			</div>
-
       <div class="single-title-meta">
 				<div class="single-author">
 					<?php	moire_theme_single_posted(); ?>
@@ -20,7 +15,6 @@
 
 				<?php moire_posted_date(); ?>
 			</div>
-
 		</div>
 	</header>
 
